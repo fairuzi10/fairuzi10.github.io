@@ -36,7 +36,8 @@
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
+    "push": "git push origin master:source"
   },
   "devDependencies": {
     "eslint": "^4.15.0",
