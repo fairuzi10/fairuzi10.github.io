@@ -1,0 +1,68 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-364aa0bab6667badf99d.js",
+      "component---src-pages-index-js-364aa0bab6667badf99d.js.map"
+    ],
+    "path---blog": [
+      "path---blog-4341ef206adfd14be55f.js",
+      "path---blog-4341ef206adfd14be55f.js.map"
+    ],
+    "component---src-templates-blog-list-js": [
+      "component---src-templates-blog-list-js-f7ae0527fa5840f6538e.js",
+      "component---src-templates-blog-list-js-f7ae0527fa5840f6538e.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-project-index-js": [
+      "component---src-pages-project-index-js-4a802ea063021b200a9e.js",
+      "component---src-pages-project-index-js-4a802ea063021b200a9e.js.map"
+    ],
+    "path---project": [
+      "path---project-a0e39f21c11f6a62c5ab.js",
+      "path---project-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-906f4c0785032e5cd29c.js",
+      "component---src-templates-blog-post-js-906f4c0785032e5cd29c.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-74ab7cd41f14958e8132.js",
+      "component---src-layouts-index-js-74ab7cd41f14958e8132.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-1969ca62a2f3c83b6eac.js",
+      "component---src-pages-404-js-1969ca62a2f3c83b6eac.js.map"
+    ],
+    "commons": [
+      "commons-a05b1fd7a9382b6fd3da.js",
+      "build-js-styles.css",
+      "commons-a05b1fd7a9382b6fd3da.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-80b162ee6e4f462419e1.js",
+      "build-js-styles.css",
+      "app-80b162ee6e4f462419e1.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---blog-halo-dunia": [
+      "path---blog-halo-dunia-7101938530f65b7bdfc1.js",
+      "path---blog-halo-dunia-7101938530f65b7bdfc1.js.map"
+    ]
+  }
+}
