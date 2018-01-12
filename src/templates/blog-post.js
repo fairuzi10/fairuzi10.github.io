@@ -9,7 +9,7 @@ export default ({ data }) => {
   return (
     <Reg>
       <h1>{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className="text-justify" dangerouslySetInnerHTML={{ __html: post.html }} />
       <hr />
       <div className="my-3">
         Posted on { post.frontmatter.date }
