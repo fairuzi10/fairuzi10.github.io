@@ -27,7 +27,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               id
               frontmatter {
                 title
-                date(formatString: "DD MMMM, YYYY")
+                date(formatString: "DD MMMM YYYY")
               }
               fields {
                 slug

@@ -1,6 +1,11 @@
 import React from 'react';
 import Reg from '../components/reg'
 import Comment from 'react-disqus-comments'
+import {
+  Row,
+  Col,
+} from 'reactstrap'
+
 import 'katex/dist/katex.min.css'
 import 'prismjs/themes/prism-okaidia.css';
 
@@ -8,12 +13,10 @@ export default ({ data }) => {
   const post = data.markdownRemark;
   return (
     <Reg>
+      { post.frontmatter.date }
+      <hr />
       <h1>{post.frontmatter.title}</h1>
       <div className="text-justify" dangerouslySetInnerHTML={{ __html: post.html }} />
-      <hr />
-      <div className="my-3">
-        Posted on { post.frontmatter.date }
-      </div>
       <hr />
       <Comment
         identifier={ post.fields.slug }
@@ -30,7 +33,7 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date(formatString: "DD MMMM, YYYY")
+        date(formatString: "DD MMMM YYYY")
       }
       fields {
         slug
