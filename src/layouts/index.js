@@ -16,10 +16,12 @@ const FullPage = styled.div`
 const TemplateWrapper = ({ children }) => (
   <FullPage>
     <Helmet
-      title='Fairuzi10 Blog'
+      title='Fairuzi10'
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita\
+mengenai hidup terutama pemgrograman kompetitif/OSN' },
+        { name: 'keywords', content: 'Muhammad Fairuzi Teguh OSN komputer informatika cerita meme proyek\
+belajar CP pemrograman kompetitif competitive programming' },
       ]}
       link={[
         { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css'},

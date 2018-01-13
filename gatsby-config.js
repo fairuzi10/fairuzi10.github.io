@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Fairuzi's Personal Website`,
     author: `Muhammad Fairuzi Teguh`,
   },
   plugins: [
