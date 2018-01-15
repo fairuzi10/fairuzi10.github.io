@@ -11,17 +11,17 @@ export default ({ index, pageCount }) => {
   return (
     <Pagination>
       <PaginationItem disabled={ index === 1 }>
-        <Link to={`blog${index-1 > 1? '/'+(index-1): ''}`} className="page-link">«</Link>
+        <Link to={`/blog${index-1 > 1? '/'+(index-1): ''}`} className="page-link">«</Link>
       </PaginationItem>
       {page.map((val) => (
         <PaginationItem key={val} disabled={val === index}>
-          <Link to={`blog${val > 1? '/'+val: ''}`} className="page-link">
+          <Link to={`/blog${val > 1? '/'+val: ''}`} className="page-link">
             {val}
           </Link>
         </PaginationItem>
       ))}
       <PaginationItem disabled={ index === pageCount }>
-        <Link to={`blog/${index+1}`} className="page-link">»</Link>
+        <Link to={`/blog/${index+1}`} className="page-link">»</Link>
       </PaginationItem>
     </Pagination>
   )

@@ -18,7 +18,7 @@ const IndexPage = ({ pathContext }) => {
           {group.map(({ node }) => (
             <div key={node.id}>
               <div>{node.frontmatter.date}</div>
-              <h1><Link  to={ `blog${node.fields.slug}` } className="blog-link">
+              <h1><Link  to={ `/blog${node.fields.slug}` } className="blog-link">
                 {node.frontmatter.title}
               </Link></h1>
               <div>{node.excerpt}</div>
