@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Mid from '../components/mid'
 
 const NotFoundPage = () => (
@@ -6,6 +6,6 @@ const NotFoundPage = () => (
     <h1>Halaman yang Anda Tuju Tidak Ditemukan</h1>
     <h5>Sama seperti jodoh saya.</h5>
   </Mid>
-);
+)
 
-export default NotFoundPage;
+export default NotFoundPage

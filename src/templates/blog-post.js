@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Reg from '../components/reg'
 import Comment from 'react-disqus-comments'
 import {
@@ -7,10 +7,10 @@ import {
 } from 'reactstrap'
 
 import 'katex/dist/katex.min.css'
-import 'prismjs/themes/prism-okaidia.css';
+import 'prismjs/themes/prism-okaidia.css'
 
 export default ({ data }) => {
-  const post = data.markdownRemark;
+  const post = data.markdownRemark
   return (
     <Reg>
       { post.frontmatter.date }
@@ -24,8 +24,8 @@ export default ({ data }) => {
         shortname="fairuzi10-github-io"
       />
     </Reg>
-  );
-};
+  )
+}
 
 export const query = graphql`
   query BlogPostQuery($slug: String!) {
@@ -40,4 +40,4 @@ export const query = graphql`
       }
     }
   }
-`;
+`

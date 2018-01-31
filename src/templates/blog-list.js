@@ -9,7 +9,7 @@ import {
 } from '../components/stretch'
  
 const IndexPage = ({ pathContext }) => {
-  const { group, index, pageCount } = pathContext;
+  const { group, index, pageCount } = pathContext
 
   return (
     <Reg>
@@ -31,6 +31,6 @@ const IndexPage = ({ pathContext }) => {
         </Row>
       </StretchContainer>
     </Reg>
-  );
-};
-export default IndexPage;
+  )
+}
+export default IndexPage
