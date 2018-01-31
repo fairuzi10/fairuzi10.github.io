@@ -2,12 +2,20 @@
   font-family: 'Arvo';
 }
 
-.blog-link {
+.black-link {
   color: black;
 }
 
-.blog-link:hover {
+.black-link:hover {
   color: black;
+}
+
+.grey-link {
+  color: #777;
+}
+
+.grey-link:hover {
+  color: #777;
 }
 
 .gatsby-resp-image-link + em {
