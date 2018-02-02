@@ -25,3 +25,9 @@
   color: rgba(0,0,0,.5);
   font-style: normal;
 }
+
+blockquote {
+  background: #f8f9fa;
+  border-left: 0.3em solid #e5e5e5;
+  padding: 1em;
+}
