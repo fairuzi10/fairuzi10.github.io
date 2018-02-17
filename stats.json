@@ -1,12 +1,16 @@
 {
   "assetsByChunkName": {
+    "component---src-layouts-no-layout-js": [
+      "component---src-layouts-no-layout-js-9c947139545573f80365.js",
+      "component---src-layouts-no-layout-js-9c947139545573f80365.js.map"
+    ],
     "component---src-pages-privacy-policy-js": [
       "component---src-pages-privacy-policy-js-98071c435dd63665a3f1.js",
       "component---src-pages-privacy-policy-js-98071c435dd63665a3f1.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-b143493cfb629259fab8.js",
-      "component---src-pages-index-js-b143493cfb629259fab8.js.map"
+      "component---src-pages-index-js-7c857de9322dd3871ca2.js",
+      "component---src-pages-index-js-7c857de9322dd3871ca2.js.map"
     ],
     "path---blog-liburan-musim-hujan-2018": [
       "path---blog-liburan-musim-hujan-2018-875b7f36f5080c2c55d4.js",
@@ -16,13 +20,17 @@
       "path---blog-98142cebf3c1a27dd743.js",
       "path---blog-98142cebf3c1a27dd743.js.map"
     ],
+    "path---cv": [
+      "path---cv-a0e39f21c11f6a62c5ab.js",
+      "path---cv-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-templates-blog-list-js": [
       "component---src-templates-blog-list-js-7a91d87202c010ea2169.js",
       "component---src-templates-blog-list-js-7a91d87202c010ea2169.js.map"
     ],
     "path---": [
-      "path----557518bd178906f8d58a.js",
-      "path----557518bd178906f8d58a.js.map"
+      "path----131f9aef94525eeb6ecd.js",
+      "path----131f9aef94525eeb6ecd.js.map"
     ],
     "component---src-pages-project-index-js": [
       "component---src-pages-project-index-js-4a802ea063021b200a9e.js",
@@ -44,6 +52,10 @@
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-cv-index-js": [
+      "component---src-pages-cv-index-js-05f73ff58456f4f8a2ec.js",
+      "component---src-pages-cv-index-js-05f73ff58456f4f8a2ec.js.map"
+    ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-1969ca62a2f3c83b6eac.js",
       "component---src-pages-404-js-1969ca62a2f3c83b6eac.js.map"
@@ -59,9 +71,9 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-5809b4a6b915bfdf5b9d.js",
+      "app-0486b7a36da1e987f389.js",
       "build-js-styles.css",
-      "app-5809b4a6b915bfdf5b9d.js.map",
+      "app-0486b7a36da1e987f389.js.map",
       "build-js-styles.css.map"
     ],
     "path---privacy-policy": [
