@@ -1,0 +1,33 @@
+body {
+  font-family: 'Arvo';
+}
+
+.display-3 {
+  padding: 0 0 2rem 0;
+}
+
+.flex {
+  flex: 1;
+}
+
+.j-red {
+  background-color: #ff6b6b;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.socmed {
+  text-decoration: none;
+  color: inherit;
+  margin: 2rem;
+}
+
+.socmed:hover{
+  color: inherit;
+}
+
+#profpic {
+  border-radius: 50%;
+  border: 2px solid rgb(33, 37, 41);
+}

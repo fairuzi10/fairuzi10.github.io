@@ -23,6 +23,7 @@
     "gatsby-transformer-remark": "^1.7.26",
     "prismjs": "^1.9.0",
     "react-disqus-comments": "^1.1.1",
+    "react-fullpage": "^0.1.18",
     "reactstrap": "^5.0.0-alpha.4",
     "semantic-ui-css": "^2.2.12",
     "styled-components": "^2.4.0"

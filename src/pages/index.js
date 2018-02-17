@@ -12,5 +12,6 @@ export default () => (
       tutorial karena saya pelupa, dan proyek-proyek yang tentunya tidak berguna.</h5>
     <Link to='/blog/'><Button color="primary" className='m-2'>Blog</Button></Link>
     <Link to='/project/'><Button color="primary" className='m-2'>Project</Button></Link>
+    <Link to='/cv/'><Button color="primary" className='m-2'>CV</Button></Link>
   </Mid> 
 )
