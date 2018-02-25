@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 import {
   Button,
 } from 'reactstrap'
@@ -7,6 +8,12 @@ import Mid from '../components/mid.js'
 
 export default () => (
   <Mid>
+    <Helmet
+      meta={[
+        { name: 'description', content: 'Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita\
+mengenai hidup seperti kehidupan perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika.' },
+      ]}
+    />
     <h1>Selamat Datang di Website Fairuzi10</h1>
     <h5 className="my-4">Website ini merupakan kumpulan dari cerita-cerita saya yang nirfaedah, 
       tutorial karena saya pelupa, dan proyek-proyek yang tentunya tidak berguna.</h5>

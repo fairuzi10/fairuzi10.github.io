@@ -1,6 +1,7 @@
 import React from 'react'
 import Reg from '../components/reg'
 import Comment from 'react-disqus-comments'
+import Helmet from 'react-helmet'
 import {
   Row,
   Col,
@@ -13,6 +14,12 @@ export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Reg>
+      <Helmet
+        title={'Fairuzi10 | ' + post.frontmatter.title}
+        meta={[
+          { name: 'description', content: post.frontmatter.description },
+        ]}
+      />
       { post.frontmatter.date }
       <hr />
       <h1>{post.frontmatter.title}</h1>
@@ -34,6 +41,7 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "DD MMMM YYYY")
+        description
       }
       fields {
         slug

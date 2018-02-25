@@ -49,8 +49,13 @@ class CV extends React.Component {
     return (
       <div>
         <Helmet
+          title='Fairuzi10 | CV'
           script={[
               { defer: true, src: 'https://use.fontawesome.com/releases/v5.0.6/js/all.js'},
+          ]}
+          meta={[
+            { name: 'description', content: 'Curriculum Vitae Muhammad Fairuzi Teguh yang difokuskan \
+ke bidang ilmu komputer.' }
           ]}
         />
         <SectionsContainer {...options} activeSection={current}>

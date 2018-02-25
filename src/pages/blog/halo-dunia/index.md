@@ -1,6 +1,7 @@
 ---
 title: Halo Dunia
 date: '2018-01-12'
+description: Proses pembuatan website ini yang menggunakan GatsbyJS (React) dan mengapa saya membuat website ini.
 ---
 
 Akhirnya setelah berhari-hari website ini jadi juga :grin:. Padahal mau dipublish tanggal 10 tapi karena malas jadi tanggal 12 deh :cry:.

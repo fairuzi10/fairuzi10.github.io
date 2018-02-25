@@ -1,6 +1,7 @@
 ---
 title: Masuk Universitas Indonesia melalui Jalur Olimpiade
 date: "2018-01-15"
+description: Pengalaman saya diterima Universitas Indonesia (UI) melalui jalur olimpiade (prestasi). Berisikan informasi-informasi tentang jalur olimpiade yang saya ketahui pada PTN-PTN di Indonesia.
 ---
 
 Post kedua bukan sekadar wacana yeay :laughing:.

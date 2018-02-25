@@ -28,11 +28,11 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               frontmatter {
                 title
                 date(formatString: "DD MMMM YYYY")
+                description
               }
               fields {
                 slug
               }
-              excerpt
             }
           }
         }
