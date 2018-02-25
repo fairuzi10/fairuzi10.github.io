@@ -12,13 +12,21 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-images`,
-          `gatsby-remark-responsive-iframe`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           `gatsby-remark-katex`,
           `gatsby-remark-prismjs`,
           {
-            resolve: 'gatsby-remark-emojis',
+            resolve: `gatsby-remark-embed-video`,
+            options: {
+              width: 800,
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              // height: 400 // Optional: Overrides optional.ratio
+            }
+          },
+          `gatsby-remark-responsive-iframe`,
+          {
+            resolve: `gatsby-remark-emojis`,
             options: {
               // Deactivate the plugin globally (default: true)
               active : true,
