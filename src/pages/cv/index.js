@@ -143,7 +143,7 @@ ke bidang ilmu komputer.' }
             <a className="socmed" href="https://www.facebook.com/profile.php?id=100008425810381"><i className="fab fa-facebook-square fa-3x"></i></a>
             <a className="socmed" href="https://www.linkedin.com/in/m-fairuzi-teguh/"><i className="fab fa-linkedin fa-3x"></i></a>
             <a className="socmed" href="https://github.com/fairuzi10"><i className="fab fa-github-square fa-3x"></i></a>
-            <a className="socmed" href="https://fairuzi10.github.io"><i className="fab fa-chrome fa-3x"></i></a>
+            <a className="socmed" href="/"><i className="fab fa-chrome fa-3x"></i></a>
           </Wrapper>
         </SectionsContainer>
       </div>
