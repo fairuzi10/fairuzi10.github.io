@@ -49,7 +49,7 @@ class CV extends React.Component {
     return (
       <div>
         <Helmet
-          title='Fairuzi10 | CV'
+          title='Curriculum Vitae'
           script={[
               { defer: true, src: 'https://use.fontawesome.com/releases/v5.0.6/js/all.js'},
           ]}

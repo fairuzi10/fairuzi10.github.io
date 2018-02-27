@@ -15,7 +15,7 @@ export default ({ data }) => {
   return (
     <Reg>
       <Helmet
-        title={'Fairuzi10 | ' + post.frontmatter.title}
+        title={post.frontmatter.title}
         meta={[
           { name: 'description', content: post.frontmatter.description },
         ]}

@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 export default () => (
   <Mid>
     <Helmet
-      title="Fairuzi10 | Project"
+      title="Project"
     />
     <h1 className="display-4">Coming Soon</h1>
   </Mid>
