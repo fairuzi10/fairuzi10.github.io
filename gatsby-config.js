@@ -12,7 +12,6 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-images`,
-          `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           `gatsby-remark-katex`,
           `gatsby-remark-prismjs`,
