@@ -24,7 +24,7 @@ export default ({ data }) => (
     <hr />
     <Comment
       identifier='dynamic-programming'
-      url="http://fairuzi10.github.io/oskp/dynamic-programming"
+      url="http://fairuzi10.github.io/project/oskp/dynamic-programming/"
       shortname="fairuzi10-github-io"
     />
   </Reg>
