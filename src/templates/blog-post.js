@@ -2,10 +2,6 @@ import React from 'react'
 import Reg from '../components/reg'
 import Comment from 'react-disqus-comments'
 import Helmet from 'react-helmet'
-import {
-  Row,
-  Col,
-} from 'reactstrap'
 
 import 'katex/dist/katex.min.css'
 import 'prismjs/themes/prism-okaidia.css'
