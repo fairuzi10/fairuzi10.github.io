@@ -20,7 +20,8 @@ belajar Olimpiade Sains Nasional (OSN) Komputer/Informatika' },
       dalam OSN komputer/informatika tingkat kota maupun provinsi.
     </div>
     <br />
-    <Link to='/project/oskp/dynamic-programming/'>Dynamic Programming</Link>
+    <Link to='dynamic-programming/'>Dynamic Programming</Link><br />
+    <Link to='persamaan-linear-diophantine/'>Persamaan Linear Diophantine</Link><br />
     <hr />
     <Comment
       identifier='oskp'
