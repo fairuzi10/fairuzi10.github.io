@@ -1,11 +1,11 @@
 import React from 'react'
-import Mid from '../components/mid'
+import Wrapper from '../components/wrapper'
 
 const NotFoundPage = () => (
-  <Mid>
+  <Wrapper mid>
     <h1>Halaman yang Anda Tuju Tidak Ditemukan</h1>
     <h5>Sama seperti jodoh saya.</h5>
-  </Mid>
+  </Wrapper>
 )
 
 export default NotFoundPage

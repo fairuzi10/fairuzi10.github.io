@@ -4,10 +4,10 @@ import Helmet from 'react-helmet'
 import {
   Button,
 } from 'reactstrap'
-import Mid from '../components/mid.js'
+import Wrapper from '../components/wrapper.js'
 
 export default () => (
-  <Mid>
+  <Wrapper mid>
     <Helmet
       meta={[
         { name: 'description', content: 'Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita\
@@ -20,5 +20,5 @@ mengenai hidup seperti kehidupan perkuliahan di Universitas Indonesia (UI) serta
     <Link to='/blog/'><Button color="primary" className='m-2'>Blog</Button></Link>
     <Link to='/project/'><Button color="primary" className='m-2'>Project</Button></Link>
     <Link to='/cv/'><Button color="primary" className='m-2'>CV</Button></Link>
-  </Mid> 
+  </Wrapper> 
 )

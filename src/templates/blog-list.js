@@ -1,14 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Pagination from '../components/pagination'
-import Reg from '../components/reg'
+import Wrapper from '../components/wrapper'
 import Helmet from 'react-helmet'
 
 const IndexPage = ({ pathContext }) => {
   const { group, index, pageCount } = pathContext
 
   return (
-    <Reg>
+    <Wrapper single>
       <Helmet
         title='Blog'
         meta={[
@@ -29,7 +29,7 @@ const IndexPage = ({ pathContext }) => {
       <div className="d-flex justify-content-center">
         <Pagination index={index} pageCount={pageCount} />
       </div>
-    </Reg>
+    </Wrapper>
   )
 }
 export default IndexPage

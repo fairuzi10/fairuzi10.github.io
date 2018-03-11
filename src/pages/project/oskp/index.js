@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Reg from '../../../components/reg'
+import Wrapper from '../../../components/wrapper'
 import Comment from 'react-disqus-comments'
 import Helmet from 'react-helmet'
 
 export default ({ data }) => (
-  <Reg>
+  <Wrapper single>
     <Helmet
       title='OSKP'
       meta={[
@@ -28,5 +28,5 @@ belajar Olimpiade Sains Nasional (OSN) Komputer/Informatika' },
       url="http://fairuzi10.github.io/oskp"
       shortname="fairuzi10-github-io"
     />
-  </Reg>
+  </Wrapper>
 )

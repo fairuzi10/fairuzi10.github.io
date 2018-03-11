@@ -1,5 +1,5 @@
 import React from 'react'
-import Reg from '../components/reg'
+import Wrapper from '../components/wrapper'
 import Comment from 'react-disqus-comments'
 import Helmet from 'react-helmet'
 
@@ -9,7 +9,7 @@ import 'prismjs/themes/prism-okaidia.css'
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
-    <Reg>
+    <Wrapper single>
       <Helmet
         title={post.frontmatter.title}
         meta={[
@@ -26,7 +26,7 @@ export default ({ data }) => {
         url="http://fairuzi10.github.io/blog{ post.fields.slug }"
         shortname="fairuzi10-github-io"
       />
-    </Reg>
+    </Wrapper>
   )
 }
 

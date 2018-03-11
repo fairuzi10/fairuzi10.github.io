@@ -1,10 +1,10 @@
 import React from 'react'
-import Reg from '../../../../components/reg'
+import Wrapper from '../../../../components/wrapper'
 import Comment from 'react-disqus-comments'
 import Helmet from 'react-helmet'
 
 export default ({ data }) => (
-  <Reg>
+  <Wrapper single>
     <Helmet
       title='Persamaan Linear Diophantine'
       meta={[
@@ -17,12 +17,12 @@ export default ({ data }) => (
       operator div dan mod terlebih dahulu.
     </div>
     <br />
-    <iframe frameBorder="0" src="https://drive.google.com/file/d/1PHjhflT1l5FvNNK9ejS_SZ6BrS1bTgkK/preview" width="100%" height="600"></iframe>
+    <iframe frameBorder="0" src="https://drive.google.com/file/d/1PHjhflT1l5FvNNK9ejS_SZ6BrS1bTgkK/preview" width="100%" height="550"></iframe>
     <hr />
     <Comment
       identifier='persamaan-linear-diophantine'
       url="http://fairuzi10.github.io/project/oskp/persamaan-linear-diophantine/"
       shortname="fairuzi10-github-io"
     />
-  </Reg>
+  </Wrapper>
 )

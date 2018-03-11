@@ -1,10 +1,10 @@
 import React from 'react'
-import Reg from '../../../../components/reg'
+import Wrapper from '../../../../components/wrapper'
 import Comment from 'react-disqus-comments'
 import Helmet from 'react-helmet'
 
 export default ({ data }) => (
-  <Reg>
+  <Wrapper single>
     <Helmet
       title='Dynamic Programming'
       meta={[
@@ -20,12 +20,12 @@ export default ({ data }) => (
       slide <a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/55/lessons/23/">dynamic programming di TLX</a> terlebih dahulu.
     </div>
     <br />
-    <iframe frameBorder="0" src="https://drive.google.com/file/d/1VRDV6y-IBvsks6FVN544nQ1y4mDghgiu/preview" width="100%" height="600"></iframe>
+    <iframe frameBorder="0" src="https://drive.google.com/file/d/1VRDV6y-IBvsks6FVN544nQ1y4mDghgiu/preview" width="100%" height="550"></iframe>
     <hr />
     <Comment
       identifier='dynamic-programming'
       url="http://fairuzi10.github.io/project/oskp/dynamic-programming/"
       shortname="fairuzi10-github-io"
     />
-  </Reg>
+  </Wrapper>
 )
