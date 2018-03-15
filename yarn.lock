@@ -358,6 +358,13 @@ aws4@^1.2.1, aws4@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
+axios@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
+  dependencies:
+    follow-redirects "^1.3.0"
+    is-buffer "^1.1.5"
+
 babel-cli@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-cli/-/babel-cli-6.26.0.tgz#502ab54874d7db88ad00b887a06383ce03d002f1"
@@ -2201,6 +2208,12 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
 
+copy-to-clipboard@^3:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.0.8.tgz#f4e82f4a8830dce4666b7eb8ded0c9bcc313aba9"
+  dependencies:
+    toggle-selection "^1.0.3"
+
 copyfiles@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/copyfiles/-/copyfiles-1.2.0.tgz#a8da3ac41aa2220ae29bd3c58b6984294f2c593c"
@@ -3706,6 +3719,12 @@ flat@^2.0.1:
 flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
+
+follow-redirects@^1.3.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.4.1.tgz#d8120f4518190f55aac65bb6fc7b85fcd666d6aa"
+  dependencies:
+    debug "^3.1.0"
 
 for-each@^0.3.2:
   version "0.3.2"
@@ -5836,6 +5855,12 @@ liftoff@^2.2.0:
 linked-list@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/linked-list/-/linked-list-0.1.0.tgz#798b0ff97d1b92a4fd08480f55aea4e9d49d37bf"
+
+linkify-it@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-2.0.3.tgz#d94a4648f9b1c179d64fa97291268bdb6ce9434f"
+  dependencies:
+    uc.micro "^1.0.1"
 
 load-bmfont@^1.2.3:
   version "1.3.0"
@@ -8120,6 +8145,13 @@ rc@^1.0.1, rc@^1.1.2, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-copy-to-clipboard@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/react-copy-to-clipboard/-/react-copy-to-clipboard-5.0.1.tgz#8eae107bb400be73132ed3b6a7b4fb156090208e"
+  dependencies:
+    copy-to-clipboard "^3"
+    prop-types "^15.5.8"
+
 react-deep-force-update@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-2.1.1.tgz#8ea4263cd6455a050b37445b3f08fd839d86e909"
@@ -8164,6 +8196,12 @@ react-dom@^15.6.0:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
+react-dotdotdot@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/react-dotdotdot/-/react-dotdotdot-1.2.3.tgz#45bb264153cee73471f55c51c8d1542f4880a34f"
+  dependencies:
+    object.pick "^1.3.0"
+
 react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
@@ -8193,6 +8231,14 @@ react-hot-loader@^3.0.0-beta.6:
     react-proxy "^3.0.0-alpha.0"
     redbox-react "^1.3.6"
     source-map "^0.6.1"
+
+react-linkify@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/react-linkify/-/react-linkify-0.2.2.tgz#55b99b1cc7244446a0f9bdebbe13b2c30f789e65"
+  dependencies:
+    linkify-it "^2.0.3"
+    prop-types "^15.5.8"
+    tlds "^1.57.0"
 
 react-popper@^0.7.2:
   version "0.7.5"
@@ -9984,6 +10030,10 @@ tinycolor2@^1.1.2:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
 
+tlds@^1.57.0:
+  version "1.199.0"
+  resolved "https://registry.yarnpkg.com/tlds/-/tlds-1.199.0.tgz#a4fc8c3058216488a80aaaebb427925007e55217"
+
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -10042,6 +10092,10 @@ to-regex@^3.0.1:
     define-property "^0.2.5"
     extend-shallow "^2.0.1"
     regex-not "^1.0.0"
+
+toggle-selection@^1.0.3:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/toggle-selection/-/toggle-selection-1.0.6.tgz#6e45b1263f2017fa0acc7d89d78b15b8bf77da32"
 
 topo@2.x.x:
   version "2.0.2"
@@ -10137,6 +10191,10 @@ typedarray@^0.0.6:
 ua-parser-js@^0.7.9:
   version "0.7.17"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.17.tgz#e9ec5f9498b9ec910e7ae3ac626a805c4d09ecac"
+
+uc.micro@^1.0.1:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.5.tgz#0c65f15f815aa08b560a61ce8b4db7ffc3f45376"
 
 uglify-js@^2.6, uglify-js@^2.6.1:
   version "2.8.29"

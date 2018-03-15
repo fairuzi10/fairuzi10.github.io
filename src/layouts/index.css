@@ -3,19 +3,19 @@
 }
 
 .black-link {
-  color: black;
+  color: black!important;
 }
 
 .black-link:hover {
-  color: black;
+  color: black!important;
 }
 
 .grey-link {
-  color: #777;
+  color: #777!important;
 }
 
 .grey-link:hover {
-  color: #777;
+  color: #777!important;
 }
 
 .gatsby-resp-image-link + em {
