@@ -19,6 +19,7 @@ import {
   Button,
   FormFeedback,
   Alert,
+  Tooltip,
 } from 'reactstrap'
 
 const MessageContainer = styled.div`
@@ -215,6 +216,46 @@ class DeleteLink extends React.Component {
   }
 }
 
+class CopyLink extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      clicked: false,
+    }
+
+    this.toggle = this.toggle.bind(this)
+    this.handleClick = this.handleClick.bind(this)
+  }
+
+  toggle() {
+    this.setState({
+      clicked: !this.state.clicked,
+    })
+  }
+
+  handleClick(event) {
+    this.toggle()
+    setTimeout(this.toggle, 500)
+  }
+
+  render() {
+    return (
+      <span>
+        <CopyToClipboard text={this.props.message.text} 
+            id={`salin-${this.props.message.pk}`} >
+          <StyledLink onClick={this.handleClick}>
+            salin
+          </StyledLink>
+        </CopyToClipboard>
+        <Tooltip  placement="bottom" isOpen={this.state.clicked} 
+            target={`salin-${this.props.message.pk}`} >
+          copied!
+        </Tooltip>
+      </span>
+    )
+  }
+}
+
 class ListPesan extends React.Component {
   render() {
     const messages = this.props.messages
@@ -224,9 +265,7 @@ class ListPesan extends React.Component {
           <div className='text-right'>
             <DeleteLink pk={message.pk} searchMessage={this.props.searchMessage}
               password={this.props.password}/>
-            <CopyToClipboard text={message.text}>
-              <StyledLink>salin</StyledLink>
-            </CopyToClipboard>
+            <CopyLink message={message} />
           </div>
           <Linkify>
             <Dotdotdot clamp={8}>
@@ -309,11 +348,13 @@ class Index extends React.Component {
         <div className='text-center'>
           <h1 className='display-4'>Saved Messages</h1>
           <div className="text-muted">
-          Kirim pesanmu untuk dibaca di komputer lain nanti. <br />
-          Contoh: https://www.ideone.com/xjX4Tx, https://docs.google.com/xXxXx...<br />
+            Kirim pesanmu untuk dibaca di komputer lain nanti. <br />
+            Contoh: https://www.ideone.com/xjX4Tx, https://docs.google.com/xXxXx...<br />
           </div>
           <br />
         </div>
+        <div>
+      </div>
         <Row>
           {
             this.state.error && (
