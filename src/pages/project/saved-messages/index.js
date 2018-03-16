@@ -184,6 +184,18 @@ class DeleteLink extends React.Component {
     }
 
     this.deleteMessage = this.deleteMessage.bind(this)
+    this.deleteError = this.deleteError.bind(this)
+  }
+
+  deleteError(error, data) {
+    let pesan = null
+    if (error.response.status === 404) {
+      this.props.searchMessage(data)
+      this.props.alertError('Pesan telah dihapus sebelumnya. Daftar pesan telah diperbarui.')
+    }
+    else {
+      this.props.alertError()
+    }
   }
 
   deleteMessage() {
@@ -203,7 +215,7 @@ class DeleteLink extends React.Component {
           loading: false,
         })
       })
-      .catch(this.props.alertError)
+      .catch((error) => {this.deleteError(error, data)})
   }
   
   render() {
@@ -263,8 +275,10 @@ class ListPesan extends React.Component {
       messages.map((message) => (
         <MessageContainer key={message.pk}>
           <div className='text-right'>
-            <DeleteLink pk={message.pk} searchMessage={this.props.searchMessage}
-              password={this.props.password}/>
+            <DeleteLink pk={message.pk} 
+              searchMessage={this.props.searchMessage}
+              password={this.props.password}
+              alertError={this.props.alertError} />
             <CopyLink message={message} />
           </div>
           <Linkify>
@@ -294,7 +308,7 @@ class Index extends React.Component {
     this.state = {
       password: '',
       messages: null,
-      error: false,
+      error: '',
     }
 
     this.searchMessage = this.searchMessage.bind(this)
@@ -319,15 +333,16 @@ class Index extends React.Component {
     )
   }
 
-  alertError() {
+  alertError(pesan) {
+    const message = pesan || 'Maaf, terjadi kesalahan. Silakan beri tahu admin agar segera diperbaiki.'
     this.setState({
-      error: true,
+      error: message,
     })
   }
 
   ignoreError() {
     this.setState({
-      error: false,
+      error: '',
     })
   }
 
@@ -357,10 +372,10 @@ class Index extends React.Component {
       </div>
         <Row>
           {
-            this.state.error && (
+            this.state.error !== '' && (
               <Col sm="12">
-                <Alert color="danger" isOpen={this.state.error} toggle={this.ignoreError}>
-                  Maaf, terjadi kesalahan. Silakan beri tahu admin agar segera diperbaiki.
+                <Alert color="danger" isOpen={this.state.error !== ''} toggle={this.ignoreError}>
+                  {this.state.error}
                 </Alert>
               </Col>
             )
