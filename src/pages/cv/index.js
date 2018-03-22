@@ -3,7 +3,7 @@ import { SectionsContainer, Section, Header } from 'react-fullpage'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import foto from './asset/foto.jpg'
-import toki_logo from './asset/toki-logo.png'
+import lara_logo from './asset/lara.png'
 import f10web from './asset/f10web.png'
 import './style.css'
 
@@ -115,25 +115,24 @@ ke bidang ilmu komputer.' }
             <div className="row justify-content-center">
               <div className="text-left col-10 col-md-8">
                 <div className="row j-green">
-                  <div className="col-12 col-lg-2 text-center">
+                  <div className="col-12 col-lg-2 text-center d-flex align-items-center justify-content-center">
                     <img src={f10web} />
                   </div>
                   <div className="col">
                     <a href="http://fairuzi10.github.io" className="proj-title">fairuzi10.github.io</a><br />
-                    My personal website built with GatsbyJS (React). In development for using Djago REST backend.
+                    My personal website built with GatsbyJS (React + GraphQL) and Djago REST backend.
                   </div>
                 </div>
                 <div className="row j-green">
-                  <div className="col-12 col-lg-2 text-center">
-                    <img src={toki_logo} />
+                  <div className="col-12 col-lg-2 text-center d-flex align-items-center justify-content-center">
+                    <img src={lara_logo} />
                   </div>
                   <div className="col">
-                    <a href="http://olimpiade-komputer.ia-toki.org" className="proj-title">olimpiade-komputer.ia-toki.org</a><br />
-                    A website built with Jekyll containing resources for learning informatics olympiad. Focused on SEO and analytics.
+                    <span className="proj-title">LARA</span><br />
+                    A line bot used for reminder built with PHP. You can add it as friend with id @yni1319d.
                   </div>
                 </div>
               </div>
-              <h5>And many other projects mainly related to competitive programming</h5>
             </div>
           </Wrapper>
           <Wrapper color="#9b59b6">
