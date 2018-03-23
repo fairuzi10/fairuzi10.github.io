@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-layouts-no-layout-js": [
-      "component---src-layouts-no-layout-js-8be31fcb8acdb492f3dc.js",
-      "component---src-layouts-no-layout-js-8be31fcb8acdb492f3dc.js.map"
+      "component---src-layouts-no-layout-js-2785f91a39dc26b007af.js",
+      "component---src-layouts-no-layout-js-2785f91a39dc26b007af.js.map"
     ],
     "component---src-pages-privacy-policy-js": [
       "component---src-pages-privacy-policy-js-43fb05510e7a681aa863.js",
@@ -25,8 +25,8 @@
       "path---project-saved-messages-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---blog": [
-      "path---blog-ea200cb96af8d5d878d4.js",
-      "path---blog-ea200cb96af8d5d878d4.js.map"
+      "path---blog-e4b3c90045dbabd0af05.js",
+      "path---blog-e4b3c90045dbabd0af05.js.map"
     ],
     "path---cv": [
       "path---cv-a0e39f21c11f6a62c5ab.js",
@@ -69,8 +69,8 @@
       "component---src-pages-project-oskp-dynamic-programming-index-js-eb99604921f05ab20630.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-2eb9cf555639028d48f9.js",
-      "component---src-layouts-index-js-2eb9cf555639028d48f9.js.map"
+      "component---src-layouts-index-js-8ed0e4c39c32e57b0563.js",
+      "component---src-layouts-index-js-8ed0e4c39c32e57b0563.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -95,13 +95,13 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-project-saved-messages-index-js": [
-      "component---src-pages-project-saved-messages-index-js-3d1c6809c1477de6339b.js",
-      "component---src-pages-project-saved-messages-index-js-3d1c6809c1477de6339b.js.map"
+      "component---src-pages-project-saved-messages-index-js-41199180a790b962f8d2.js",
+      "component---src-pages-project-saved-messages-index-js-41199180a790b962f8d2.js.map"
     ],
     "app": [
-      "app-4967cd09451ef2ca743a.js",
+      "app-f2990bee85277542b4e4.js",
       "build-js-styles.css",
-      "app-4967cd09451ef2ca743a.js.map",
+      "app-f2990bee85277542b4e4.js.map",
       "build-js-styles.css.map"
     ],
     "path---privacy-policy": [

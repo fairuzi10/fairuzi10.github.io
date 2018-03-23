@@ -1,2 +1,0 @@
-webpackJsonp([49683490770531],{328:function(a,i){a.exports={pathContext:{group:[{node:{id:"/home/fairuzi/projects/fairuzi10.github.io/src/pages/blog/halo-dunia/index.md absPath of file >>> MarkdownRemark",frontmatter:{title:"Halo Dunia",date:"12 January 2018"},fields:{slug:"/halo-dunia/"},excerpt:"Akhirnya setelah berhari-hari website ini jadi juga  . Padahal mau dipublish tanggal 10 tapi karena malas jadi tanggal 12 deh  .  Oke…"}}],pathPrefix:"blog",first:!0,last:!0,index:1,pageCount:1}}}});
-//# sourceMappingURL=path---blog-c2e964dd0c4ad2f0073c.js.map
