@@ -5,7 +5,6 @@ import Wrapper from '../../../components/wrapper'
 import axios from 'axios'
 import loader from './asset/loader.svg'
 import loaderBig from './asset/loader-big.svg'
-import copyLogo from './asset/copy.svg'
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 import Dotdotdot from 'react-dotdotdot'
 import Linkify from 'react-linkify'
@@ -80,7 +79,7 @@ class FormPesan extends React.Component {
       data.password = this.state.password
     }
     myAxios.post('create/', data)
-      .then((response) => {
+      .then(() => {
         this.props.searchMessage(data)
       })
       .then(() => {
@@ -207,7 +206,7 @@ class DeleteLink extends React.Component {
       data.password = this.props.password
     }
     myAxios.delete(`delete/${this.props.pk}/`, {data: data})
-      .then((response) => {
+      .then(() => {
         this.props.searchMessage(data)
       })
       .then(() => {
@@ -294,10 +293,10 @@ class ListPesan extends React.Component {
       </div> 
     )
     return (
-    <div className='mt-3'>
-      <h3 className="text-center">Pesan Tersimpan</h3>
-      {content}
-    </div>
+      <div className='mt-3'>
+        <h3 className="text-center">Pesan Tersimpan</h3>
+        {content}
+      </div>
     )
   }
 }
