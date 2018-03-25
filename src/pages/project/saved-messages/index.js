@@ -327,13 +327,17 @@ class Index extends React.Component {
             })
           })
           .then(resolve)
-          .catch(this.alertError)
+          .catch((error) => {
+            if (error.response.status === 503) this.searchMessage(data)
+            else this.alertError(error)
+          })
       }.bind(this)
     )
   }
 
-  alertError(pesan) {
+  alertError(error, pesan) {
     const message = pesan || 'Maaf, terjadi kesalahan. Silakan beri tahu admin agar segera diperbaiki.'
+    console.log(message)
     this.setState({
       error: message,
     })
