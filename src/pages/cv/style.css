@@ -52,6 +52,7 @@ body {
 #profpic {
   border-radius: 50%;
   border: 2px solid rgb(33, 37, 41);
+  max-height: 17em;
 }
 
 .proj-title {
