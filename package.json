@@ -30,6 +30,7 @@
     "react-fullpage": "^0.1.18",
     "react-linkify": "^0.2.2",
     "reactstrap": "^5.0.0-alpha.4",
+    "rehype-react": "^3.0.2",
     "semantic-ui-css": "^2.2.12",
     "styled-components": "^2.4.0"
   },

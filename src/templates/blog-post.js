@@ -2,6 +2,7 @@ import React from 'react'
 import Wrapper from '../components/wrapper'
 import Comment from 'react-disqus-comments'
 import Helmet from 'react-helmet'
+import renderAst from '../components/rehype'
 
 import 'katex/dist/katex.min.css'
 import 'prismjs/themes/prism-okaidia.css'
@@ -19,7 +20,9 @@ export default ({ data }) => {
       { post.frontmatter.date }
       <hr />
       <h1>{post.frontmatter.title}</h1>
-      <div className="text-justify" dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className="text-justify">
+        { renderAst(post.htmlAst) }
+      </div>
       <hr />
       <Comment
         identifier={ post.fields.slug }
@@ -33,7 +36,7 @@ export default ({ data }) => {
 export const query = graphql`
   query BlogPostQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+      htmlAst
       frontmatter {
         title
         date(formatString: "DD MMMM YYYY")
