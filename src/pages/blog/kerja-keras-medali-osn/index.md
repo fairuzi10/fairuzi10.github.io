@@ -44,6 +44,8 @@ Kembali ke pertanyaan awal, apakah kerja keras cukup untuk meraih medali OSN? Te
     </div>
 </div>
 
-Oke, cukup promosinya. Jawaban yang serius adalah, seharusnya iya. Saya rasa, asalkan kamu memiliki komputer, internet, dan tentunya semangat yang membara, insyaAllah medali OSN bisa diraih. Mungkin akan ada pemikiran "Bagaimana jika tidak memiliki komputer dan internet? Bukankah sama saja kondisinya seperti komik tadi?" Ya, itu benar. Tapi berdasarkan pengalaman, sebagian besar siswa yang gagal pada OSN disebabkan kurangnya kerja keras mereka sendiri, bukan karena tidak memiliki sarana di atas. Akhir kata, selamat belajar dan berjuang menjadi yang terbaik!
+Oke, cukup promosinya. Jawaban yang serius adalah, seharusnya iya. Saya rasa, asalkan kamu memiliki komputer, internet, dan tentunya semangat yang membara, insyaAllah medali OSN bisa diraih. Mungkin akan ada pemikiran "Bagaimana jika tidak memiliki komputer dan internet? Bukankah sama saja kondisinya seperti komik tadi?" Ya, itu benar. Tapi berdasarkan pengalaman, sebagian besar siswa yang gagal pada OSN disebabkan kurangnya kerja keras mereka sendiri, bukan karena tidak memiliki sarana di atas. Sebagai tambahan, silakan tonton video TED yang cukup baik berkaitan tentang tekad berikut ini. Akhir kata, selamat belajar dan berjuang menjadi yang terbaik!
+
+<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/lang/id/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 ![](bad-good-code.png)
