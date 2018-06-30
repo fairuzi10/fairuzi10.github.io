@@ -215,7 +215,7 @@ class DeleteLink extends React.Component {
       })
       .catch((error) => {this.deleteError(error, data)})
   }
-  
+
   render() {
     return (
       <StyledLink onClick={this.deleteMessage}
@@ -289,7 +289,7 @@ class ListPesan extends React.Component {
     ): (
       <div className='text-center'>
         <img src={loaderBig} />
-      </div> 
+      </div>
     )
     return (
       <div className='mt-3'>
