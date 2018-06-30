@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import styled from 'styled-components'
+import styled from 'react-emotion'
 import Wrapper from '../../../components/wrapper'
 import axios from 'axios'
 import loader from './asset/loader.svg'
@@ -72,7 +72,7 @@ class FormPesan extends React.Component {
     this.setState({
       loading: true,
     })
-    let data = { 
+    let data = {
       text: this.state.text
     }
     if (this.state.password !== '') {
@@ -94,7 +94,7 @@ class FormPesan extends React.Component {
       .catch(this.props.alertError)
     event.preventDefault()
   }
-  
+
   render() {
     return (
       <div className='mt-2'>
@@ -103,12 +103,12 @@ class FormPesan extends React.Component {
           <FormGroup>
             <Label>Pesan Anda</Label>
             <Input type="textarea" name="text" rows="6" 
-                onChange={this.handleTextChange} onBlur={this.handleTextChange} 
-                valid={this.state.valid}
-                value={this.state.text}/>
-              { !this.state.valid &&
-                <FormFeedback>Pesan tidak boleh kosong!</FormFeedback>
-              }
+              onChange={this.handleTextChange} onBlur={this.handleTextChange} 
+              valid={this.state.valid}
+              value={this.state.text}/>
+            { !this.state.valid &&
+              <FormFeedback>Pesan tidak boleh kosong!</FormFeedback>
+            }
           </FormGroup>
           <FormGroup>
             <Label>Password</Label>
@@ -116,8 +116,8 @@ class FormPesan extends React.Component {
               onChange={this.handlePasswordChange}
               value={this.state.password}/>
           </FormGroup>
-            <Button color='primary' disabled={!this.state.valid || this.state.loading}>
-              Kirim {this.state.loading && <img src={loader} />}</Button>
+          <Button color='primary' disabled={!this.state.valid || this.state.loading}>
+            Kirim {this.state.loading && <img src={loader} />}</Button>
         </Form>
       </div>
     )
@@ -187,7 +187,6 @@ class DeleteLink extends React.Component {
   }
 
   deleteError(error, data) {
-    let pesan = null
     if (error.response.status === 404) {
       this.props.searchMessage(data)
       this.props.alertError('Pesan telah dihapus sebelumnya. Daftar pesan telah diperbarui.')
@@ -220,7 +219,7 @@ class DeleteLink extends React.Component {
   render() {
     return (
       <StyledLink onClick={this.deleteMessage}
-          disabled={this.state.loading}>
+        disabled={this.state.loading}>
         hapus
       </StyledLink>
     )
@@ -244,7 +243,7 @@ class CopyLink extends React.Component {
     })
   }
 
-  handleClick(event) {
+  handleClick() {
     this.toggle()
     setTimeout(this.toggle, 500)
   }
@@ -253,13 +252,13 @@ class CopyLink extends React.Component {
     return (
       <span>
         <CopyToClipboard text={this.props.message.text} 
-            id={`salin-${this.props.message.pk}`} >
+          id={`salin-${this.props.message.pk}`} >
           <StyledLink onClick={this.handleClick}>
             salin
           </StyledLink>
         </CopyToClipboard>
         <Tooltip  placement="bottom" isOpen={this.state.clicked} 
-            target={`salin-${this.props.message.pk}`} >
+          target={`salin-${this.props.message.pk}`} >
           copied!
         </Tooltip>
       </span>
@@ -337,7 +336,6 @@ class Index extends React.Component {
 
   alertError(error, pesan) {
     const message = pesan || 'Maaf, terjadi kesalahan. Silakan beri tahu admin agar segera diperbaiki.'
-    console.log(message)
     this.setState({
       error: message,
     })
@@ -372,7 +370,7 @@ class Index extends React.Component {
           <br />
         </div>
         <div>
-      </div>
+        </div>
         <Row>
           {
             this.state.error !== '' && (

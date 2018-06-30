@@ -5,10 +5,14 @@
   "author": "Muhammad Fairuzi Teguh <mfairuzit@gmail.com>",
   "dependencies": {
     "axios": "^0.18.0",
+    "emotion": "^9.2.4",
+    "emotion-server": "^9.2.4",
+    "fullpage-react": "^3.0.33",
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
     "gatsby-paginate": "^1.0.9",
     "gatsby-plugin-catch-links": "^1.0.14",
+    "gatsby-plugin-emotion": "^1.1.17",
     "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-google-analytics": "^1.0.15",
     "gatsby-plugin-react-helmet": "^1.0.8",
@@ -27,11 +31,10 @@
     "react-copy-to-clipboard": "^5.0.1",
     "react-disqus-comments": "^1.1.1",
     "react-dotdotdot": "^1.2.3",
-    "react-fullpage": "^0.1.18",
+    "react-emotion": "^9.2.4",
     "react-linkify": "^0.2.2",
     "reactstrap": "^5.0.0-alpha.4",
-    "semantic-ui-css": "^2.2.12",
-    "styled-components": "^2.4.0"
+    "semantic-ui-css": "^2.2.12"
   },
   "keywords": [
     "gatsby"
