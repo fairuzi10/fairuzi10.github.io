@@ -318,9 +318,16 @@ class Index extends React.Component {
     // get data from server and save it (also password)
     return new Promise(
       function (resolve) {
-        // just a workaround to wake server up
-        myAxios.post('', 'faiz')
-          .then(() => {
+        myAxios.post('', data)
+          .then((response) => {
+            this.setState({
+              messages: response.data,
+              password: data.password
+            })
+          })
+          .then(resolve)
+          .catch(() => {
+            // just a workaround to wake server up
             myAxios.post('', data)
               .then((response) => {
                 this.setState({
