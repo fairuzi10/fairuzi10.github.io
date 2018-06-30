@@ -1,9 +1,5 @@
 {
   "assetsByChunkName": {
-    "path---blog-teknik-nyampah-brute-force": [
-      "path---blog-teknik-nyampah-brute-force-08636354efd03b199ba8.js",
-      "path---blog-teknik-nyampah-brute-force-08636354efd03b199ba8.js.map"
-    ],
     "component---src-layouts-no-layout-js": [
       "component---src-layouts-no-layout-js-8be31fcb8acdb492f3dc.js",
       "component---src-layouts-no-layout-js-8be31fcb8acdb492f3dc.js.map"
@@ -29,8 +25,8 @@
       "path---project-saved-messages-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---blog": [
-      "path---blog-214b14d1c74abed720e4.js",
-      "path---blog-214b14d1c74abed720e4.js.map"
+      "path---blog-9081ec82574dd354c6ea.js",
+      "path---blog-9081ec82574dd354c6ea.js.map"
     ],
     "path---cv": [
       "path---cv-a0e39f21c11f6a62c5ab.js",
@@ -107,9 +103,9 @@
       "component---src-pages-project-saved-messages-index-js-646999c8dc2b0cffe05a.js.map"
     ],
     "app": [
-      "app-d127b781595861fa1864.js",
+      "app-a87d3445c7735b6bf0ed.js",
       "build-js-styles.css",
-      "app-d127b781595861fa1864.js.map",
+      "app-a87d3445c7735b6bf0ed.js.map",
       "build-js-styles.css.map"
     ],
     "path---privacy-policy": [
