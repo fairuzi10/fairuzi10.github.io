@@ -9,8 +9,8 @@
       "component---src-pages-privacy-policy-js-43fb05510e7a681aa863.js.map"
     ],
     "path---blog-nyampah-osn-komputer": [
-      "path---blog-nyampah-osn-komputer-2c92bf76ba8eec58d306.js",
-      "path---blog-nyampah-osn-komputer-2c92bf76ba8eec58d306.js.map"
+      "path---blog-nyampah-osn-komputer-8f18be95424b55845e8c.js",
+      "path---blog-nyampah-osn-komputer-8f18be95424b55845e8c.js.map"
     ],
     "path---project-oskp": [
       "path---project-oskp-a0e39f21c11f6a62c5ab.js",
@@ -29,8 +29,8 @@
       "path---project-saved-messages-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---blog": [
-      "path---blog-3f492c1550bca5e33e39.js",
-      "path---blog-3f492c1550bca5e33e39.js.map"
+      "path---blog-b5c7a8a61a70477af3e5.js",
+      "path---blog-b5c7a8a61a70477af3e5.js.map"
     ],
     "path---cv": [
       "path---cv-a0e39f21c11f6a62c5ab.js",
@@ -84,6 +84,10 @@
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---blog-cara-mencari-kata-yang-baku-sesuai-puebi": [
+      "path---blog-cara-mencari-kata-yang-baku-sesuai-puebi-a65a09f65b3dac50dc9d.js",
+      "path---blog-cara-mencari-kata-yang-baku-sesuai-puebi-a65a09f65b3dac50dc9d.js.map"
+    ],
     "component---src-pages-cv-index-js": [
       "component---src-pages-cv-index-js-d090b096f855a805c85e.js",
       "component---src-pages-cv-index-js-d090b096f855a805c85e.js.map"
@@ -107,9 +111,9 @@
       "component---src-pages-project-saved-messages-index-js-de8f1aa2315fac34e7b4.js.map"
     ],
     "app": [
-      "app-e60e676eadbcb093754e.js",
+      "app-b174b4b0c93904517820.js",
       "build-js-styles.css",
-      "app-e60e676eadbcb093754e.js.map",
+      "app-b174b4b0c93904517820.js.map",
       "build-js-styles.css.map"
     ],
     "path---privacy-policy": [
