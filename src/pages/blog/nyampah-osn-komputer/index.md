@@ -1,7 +1,7 @@
 ---
 title: Apakah Penting Nyampah pada OSN Komputer?
 date: "2018-07-01"
-description: Hal yang dapat membuatmu menjadi medalis namun sering dilupakan
+description: Hal yang dapat membuatmu menjadi medalis namun sering dilupakan.
 ---
 
 Beberapa hari lalu*, diadakan Try Out PJJ OSN Komputer yang terdiri dari 4 soal. Sayangnya, selain tidak semua peserta mengikuti try out tersebut, ada juga peserta yang mendapat nilai 0 pada suatu soal. Hal ini membuat saya berpikir ke belakang, bagaimana bisa seseorang benar-benar tidak mendapat nilai pada suatu soal. Setelah dipikir-pikir, tentu banyak siswa yang hanya belajar OSN dari TLX atau pelatihan. TLX sebenarnya merupakan sumber yang baik namun jika hanya belajar pada kelas pemrograman dan tidak mencoba mengerjakan soal-soal OSN terdahulu, tentu seseorang tidak akan terbiasa dengan sistem subtask. Selain itu, belakangan ini para pelatih OSN komputer banyak yang menggunakan VJudge yang biasanya tidak menggunakan subtask.
@@ -75,3 +75,11 @@ Lalu apa hanya teknik tersebut yang dapat digunakan untuk nyampah? Tentu tidak. 
 
 ## Tantangan
 Memiliki mental nyampah tentu juga tidak selalu mudah. Dapat melihat mana soal yang kamu dapat AC atau hanya dapat sampah merupakan sebuah skill yang harus kamu latih. Terlebih lagi scoreboard yang tidak dapat kamu lihat sebelum kontes selesai membuat soal-soal yang mudah menjadi samar. Hal ini pernah terjadi kepada saya saat mengerjakan [OSN 2016 1C. Pos Wisata Sungai](https://training.ia-toki.org/problemsets/53/problems/256/) yang saya sampah sehingga poinnya tidak maksimal. Padahal, setelah kontes berakhir dan saya tahu bahwa itu soal mudah, saya langsung tahu solusinya :pensive:. Namun sepertinya, memang tidak ada cara lain untuk mengetahui soal mana yang harus di-AC maupun disampah selain dengan banyak berlatih. Karena itu, silakan berlatih dan kembangkan nalurimu untuk mengetahui soal mana yang mudah dan mana yang susah! :smile:
+
+## Update
+Berikut ini review dari Zulfan yang berhasil mendapatkan perunggu pada OSN 2018 kemarin. Selamat! :smile:
+<div class="row justify-content-center">
+    <div class="col-9 col-lg-6">
+        <img src="zulfan.jpg"/>
+    </div>
+</div>
