@@ -29,8 +29,8 @@
       "path---project-saved-messages-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---blog": [
-      "path---blog-b5c7a8a61a70477af3e5.js",
-      "path---blog-b5c7a8a61a70477af3e5.js.map"
+      "path---blog-f9fe8cd2c7bf4ab2a59e.js",
+      "path---blog-f9fe8cd2c7bf4ab2a59e.js.map"
     ],
     "path---cv": [
       "path---cv-a0e39f21c11f6a62c5ab.js",
@@ -110,15 +110,23 @@
       "component---src-pages-project-saved-messages-index-js-de8f1aa2315fac34e7b4.js",
       "component---src-pages-project-saved-messages-index-js-de8f1aa2315fac34e7b4.js.map"
     ],
+    "path---blog-2": [
+      "path---blog-2-59c02d7f0e5db5f1df62.js",
+      "path---blog-2-59c02d7f0e5db5f1df62.js.map"
+    ],
     "app": [
-      "app-b174b4b0c93904517820.js",
+      "app-f085063d3531fb6b041c.js",
       "build-js-styles.css",
-      "app-b174b4b0c93904517820.js.map",
+      "app-f085063d3531fb6b041c.js.map",
       "build-js-styles.css.map"
     ],
     "path---privacy-policy": [
       "path---privacy-policy-a0e39f21c11f6a62c5ab.js",
       "path---privacy-policy-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---blog-pengalaman-mahasiswa-fasilkom": [
+      "path---blog-pengalaman-mahasiswa-fasilkom-375a63548ac5eb7b733a.js",
+      "path---blog-pengalaman-mahasiswa-fasilkom-375a63548ac5eb7b733a.js.map"
     ],
     "path---project-oskp-dynamic-programming": [
       "path---project-oskp-dynamic-programming-a0e39f21c11f6a62c5ab.js",
