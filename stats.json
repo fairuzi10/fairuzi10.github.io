@@ -8,6 +8,14 @@
       "component---src-pages-privacy-policy-js-43fb05510e7a681aa863.js",
       "component---src-pages-privacy-policy-js-43fb05510e7a681aa863.js.map"
     ],
+    "path---blog-tag-osn": [
+      "path---blog-tag-osn-909ac5ba981c0825a48d.js",
+      "path---blog-tag-osn-909ac5ba981c0825a48d.js.map"
+    ],
+    "component---src-pages-blog-tag-js": [
+      "component---src-pages-blog-tag-js-7059a5e245d7fa7ba11f.js",
+      "component---src-pages-blog-tag-js-7059a5e245d7fa7ba11f.js.map"
+    ],
     "path---blog-nyampah-osn-komputer": [
       "path---blog-nyampah-osn-komputer-8f18be95424b55845e8c.js",
       "path---blog-nyampah-osn-komputer-8f18be95424b55845e8c.js.map"
@@ -24,29 +32,41 @@
       "path---blog-liburan-musim-hujan-2018-ab976b3b966a6715d6ab.js",
       "path---blog-liburan-musim-hujan-2018-ab976b3b966a6715d6ab.js.map"
     ],
+    "path---blog-tag": [
+      "path---blog-tag-3d0e597c6bb3043f9cae.js",
+      "path---blog-tag-3d0e597c6bb3043f9cae.js.map"
+    ],
+    "path---blog-tag-software-development": [
+      "path---blog-tag-software-development-bd71ab5712e9ac2eb8d4.js",
+      "path---blog-tag-software-development-bd71ab5712e9ac2eb8d4.js.map"
+    ],
     "path---project-saved-messages": [
       "path---project-saved-messages-a0e39f21c11f6a62c5ab.js",
       "path---project-saved-messages-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---blog": [
-      "path---blog-f9fe8cd2c7bf4ab2a59e.js",
-      "path---blog-f9fe8cd2c7bf4ab2a59e.js.map"
+      "path---blog-929a3582ba5eb7ffe8ef.js",
+      "path---blog-929a3582ba5eb7ffe8ef.js.map"
     ],
     "path---cv": [
       "path---cv-a0e39f21c11f6a62c5ab.js",
       "path---cv-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-blog-list-js": [
-      "component---src-templates-blog-list-js-bf6675d72a96e389dddd.js",
-      "component---src-templates-blog-list-js-bf6675d72a96e389dddd.js.map"
+      "component---src-templates-blog-list-js-e3a30f1606c865214695.js",
+      "component---src-templates-blog-list-js-e3a30f1606c865214695.js.map"
     ],
     "path---": [
       "path----131f9aef94525eeb6ecd.js",
       "path----131f9aef94525eeb6ecd.js.map"
     ],
+    "path---blog-tag-ui": [
+      "path---blog-tag-ui-9f69a1cb884268896afb.js",
+      "path---blog-tag-ui-9f69a1cb884268896afb.js.map"
+    ],
     "component---src-pages-project-index-js": [
-      "component---src-pages-project-index-js-e6d5c782cf0bca542c14.js",
-      "component---src-pages-project-index-js-e6d5c782cf0bca542c14.js.map"
+      "component---src-pages-project-index-js-56419439e44ef543abce.js",
+      "component---src-pages-project-index-js-56419439e44ef543abce.js.map"
     ],
     "component---src-pages-project-oskp-index-js": [
       "component---src-pages-project-oskp-index-js-ff99a2b22865074cc2ca.js",
@@ -68,6 +88,10 @@
       "component---src-templates-blog-post-js-2824c324f15078aa447c.js",
       "component---src-templates-blog-post-js-2824c324f15078aa447c.js.map"
     ],
+    "path---blog-tag-coding": [
+      "path---blog-tag-coding-126e779895ab3a08095e.js",
+      "path---blog-tag-coding-126e779895ab3a08095e.js.map"
+    ],
     "component---src-pages-project-oskp-dynamic-programming-index-js": [
       "component---src-pages-project-oskp-dynamic-programming-index-js-eb99604921f05ab20630.js",
       "component---src-pages-project-oskp-dynamic-programming-index-js-eb99604921f05ab20630.js.map"
@@ -76,9 +100,17 @@
       "component---src-layouts-index-js-0b3c0e7cc9d25c6793b0.js",
       "component---src-layouts-index-js-0b3c0e7cc9d25c6793b0.js.map"
     ],
+    "path---blog-tag-my-life": [
+      "path---blog-tag-my-life-64f5e7079443b30083e4.js",
+      "path---blog-tag-my-life-64f5e7079443b30083e4.js.map"
+    ],
     "path---blog-kerja-keras-medali-osn": [
       "path---blog-kerja-keras-medali-osn-612d5820125b04ad05fa.js",
       "path---blog-kerja-keras-medali-osn-612d5820125b04ad05fa.js.map"
+    ],
+    "component---src-templates-blog-tag-js": [
+      "component---src-templates-blog-tag-js-dc2955ce34ae820805c9.js",
+      "component---src-templates-blog-tag-js-dc2955ce34ae820805c9.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -110,14 +142,18 @@
       "component---src-pages-project-saved-messages-index-js-de8f1aa2315fac34e7b4.js",
       "component---src-pages-project-saved-messages-index-js-de8f1aa2315fac34e7b4.js.map"
     ],
+    "path---blog-tag-slice-of-life": [
+      "path---blog-tag-slice-of-life-07b5facc5d0f21e34991.js",
+      "path---blog-tag-slice-of-life-07b5facc5d0f21e34991.js.map"
+    ],
     "path---blog-2": [
-      "path---blog-2-59c02d7f0e5db5f1df62.js",
-      "path---blog-2-59c02d7f0e5db5f1df62.js.map"
+      "path---blog-2-51ae595176f019ee329a.js",
+      "path---blog-2-51ae595176f019ee329a.js.map"
     ],
     "app": [
-      "app-f085063d3531fb6b041c.js",
+      "app-1d859d569040f451411a.js",
       "build-js-styles.css",
-      "app-f085063d3531fb6b041c.js.map",
+      "app-1d859d569040f451411a.js.map",
       "build-js-styles.css.map"
     ],
     "path---privacy-policy": [
@@ -140,9 +176,17 @@
       "path---blog-masuk-ui-jalur-olimpiade-f3ca9ec928db44b02c14.js",
       "path---blog-masuk-ui-jalur-olimpiade-f3ca9ec928db44b02c14.js.map"
     ],
+    "path---blog-tag-tips-and-trick": [
+      "path---blog-tag-tips-and-trick-1ea38a99443e052a3d48.js",
+      "path---blog-tag-tips-and-trick-1ea38a99443e052a3d48.js.map"
+    ],
     "component---src-pages-project-oskp-persamaan-linear-diophantine-index-js": [
       "component---src-pages-project-oskp-persamaan-linear-diophantine-index-js-b0600f9a353867370add.js",
       "component---src-pages-project-oskp-persamaan-linear-diophantine-index-js-b0600f9a353867370add.js.map"
+    ],
+    "path---blog-tag-competitive-programming": [
+      "path---blog-tag-competitive-programming-a994a2612621723073c4.js",
+      "path---blog-tag-competitive-programming-a994a2612621723073c4.js.map"
     ],
     "path---blog-halo-dunia": [
       "path---blog-halo-dunia-040d5f87f7436d511951.js",
