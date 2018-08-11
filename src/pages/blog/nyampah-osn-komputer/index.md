@@ -1,7 +1,8 @@
 ---
-title: Apakah Penting Nyampah pada OSN Komputer?
+title: "Apakah Penting Nyampah pada OSN Komputer?"
 date: "2018-07-01"
-description: Hal yang dapat membuatmu menjadi medalis namun sering dilupakan.
+description: "Hal yang dapat membuatmu menjadi medalis namun sering dilupakan."
+tags: ["Coding", "CompetitiveProgramming"]
 ---
 
 Beberapa hari lalu*, diadakan Try Out PJJ OSN Komputer yang terdiri dari 4 soal. Sayangnya, selain tidak semua peserta mengikuti try out tersebut, ada juga peserta yang mendapat nilai 0 pada suatu soal. Hal ini membuat saya berpikir ke belakang, bagaimana bisa seseorang benar-benar tidak mendapat nilai pada suatu soal. Setelah dipikir-pikir, tentu banyak siswa yang hanya belajar OSN dari TLX atau pelatihan. TLX sebenarnya merupakan sumber yang baik namun jika hanya belajar pada kelas pemrograman dan tidak mencoba mengerjakan soal-soal OSN terdahulu, tentu seseorang tidak akan terbiasa dengan sistem subtask. Selain itu, belakangan ini para pelatih OSN komputer banyak yang menggunakan VJudge yang biasanya tidak menggunakan subtask.

@@ -15,7 +15,7 @@ export default ({ children, single, mid }) => {
     <Stretch className={ mid? 'd-flex align-items-center text-center': '' }>
       <Container>
         <Row className='justify-content-center'>
-          <Col {...ColProps}> 
+          <Col {...ColProps}>
             { children }
           </Col>
         </Row>

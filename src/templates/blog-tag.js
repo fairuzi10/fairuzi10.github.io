@@ -1,8 +1,7 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import Pagination from '../components/pagination'
+import React from 'react';
+import Link from 'gatsby-link';
 import Wrapper from '../components/wrapper'
-import Helmet from 'react-helmet'
+import Pagination from '../components/pagination'
 
 const Post = ({ node }) => {
   const tags = node.frontmatter.tags.map(tag => (
@@ -23,24 +22,22 @@ const Post = ({ node }) => {
   )
 }
 
-const IndexPage = ({ pathContext }) => {
-  const { group, index, pageCount } = pathContext
+const Page = ({ pathContext }) => {
+  const { group, index, pageCount, additionalContext } = pathContext;
+  const { tag, totalCount } = additionalContext;
   const postList = group.map(({ node }) => <Post node={node} key={node.id}/>);
 
   return (
     <Wrapper single>
-      <Helmet
-        title='Blog'
-        meta={[
-          { name: 'description', content: 'Kumpulan cerita milik Muhammad Fairuzi Teguh tentang olimpiade\
-  komputer, Universitas Indonesia, dan lain sebagainya.' },
-        ]}
-      />
+      <h2>{totalCount} pos dilabeli dengan #{tag}</h2>
+      <h5>Lihat <Link to='/blog/tag'>semua label</Link></h5>
+      <hr className="my-5"/>
       {postList}
       <div className="d-flex justify-content-center">
         <Pagination index={index} pageCount={pageCount} />
       </div>
     </Wrapper>
-  )
-}
-export default IndexPage
+  );
+};
+
+export default Page;

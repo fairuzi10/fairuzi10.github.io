@@ -1,7 +1,8 @@
 ---
-title: TOKI Camp 2018
-date: '2018-02-25'
-description: Pengalaman saya mengikuti acara tahunan TOKI, TOKI Camp, yang diadakan di Wisma TOKI pada 2-4 Februari 2018.
+title: "TOKI Camp 2018"
+date: "2018-02-25"
+description: "Pengalaman saya mengikuti acara tahunan TOKI, TOKI Camp, yang diadakan di Wisma TOKI pada 2-4 Februari 2018."
+tags: ["MyLife"]
 ---
 
 Setelah mengumpulkan niat untuk menulis blog selama 3 minggu, akhirnya saya memutuskan untuk menulis pos ini :joy:.

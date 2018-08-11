@@ -1,7 +1,8 @@
 ---
-title: Liburan Musim Hujan 2018
-date: '2018-02-02'
-description: Kegiatan-kegiatan yang saya lakukan selama liburan bulan Januari 2018.
+title: "Liburan Musim Hujan 2018"
+date: "2018-02-02"
+description: "Kegiatan-kegiatan yang saya lakukan selama liburan bulan Januari 2018."
+tags: ["MyLife"]
 ---
 
 <blockquote class="blockquote">
