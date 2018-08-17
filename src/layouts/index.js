@@ -22,6 +22,9 @@ const TemplateWrapper = ({ children }) => (
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Arvo'},
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css'}
       ]}
+      meta={[
+        { name: 'google-site-verification', content: 'uu3IRN8Av5aq9r0lEKhIJjoLFIi1T8TFKymt0f-68bk' },
+      ]}
     />
     <StretchContainer>
       <Navbar/>
