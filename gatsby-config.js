@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Fairuzi's Personal Website`,
     author: `Muhammad Fairuzi Teguh`,
+    siteUrl: `https://fairuzi10.github.io`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +16,7 @@ module.exports = {
           `gatsby-remark-smartypants`,
           `gatsby-remark-katex`,
           `gatsby-remark-prismjs`,
+          `gatsby-plugin-sitemap`,
           {
             resolve: `gatsby-remark-embed-video`,
             options: {
@@ -76,6 +78,6 @@ module.exports = {
       options: {
         trackingId: "UA-112414390-1",
       },
-	},
-  ],
+    }
+  ]
 }

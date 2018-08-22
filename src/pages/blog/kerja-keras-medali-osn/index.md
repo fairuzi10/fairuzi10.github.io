@@ -2,7 +2,7 @@
 title: "Apakah Kerja Keras Cukup untuk Meraih Medali OSN?"
 date: "2018-06-07"
 description: "Rahasia sederhana yang dimiliki para medalis OSN namun jarang terungkap."
-tags: ["OSN", "CompetitiveProgramming", "SliceOfLife"]
+tags: ["OSN", "CompetitiveProgramming", "MyThought"]
 ---
 
 Tak terasa sudah lama saya tidak memperbaharui blog saya :sweat_smile:. Selama blog saya tidak update, tentu banyak hal yang saya lakukan di dunia nyata salah satunya mengajar OSN baik pada OSK, OSP, maupun OSN. Ketika saya mengajar, ada satu hal yang saya sadari menjadi pembeda antara calon juara dengan yang tidak.
