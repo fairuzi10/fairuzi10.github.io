@@ -145,9 +145,9 @@ const Slide4 = () => (
           desc=" My personal website built with GatsbyJS (React + GraphQL) 
           and Djago REST backend."
         />
-        <Project image={lara_logo} link="https://line.me/R/ti/p/%40yni1319d" name="LARA"
-          desc="A line bot used for reminder built with PHP. You can add it 
-          as friend with id @yni1319d."
+        <Project image={lara_logo} link="https://line.me/R/ti/p/%40yni1319d" name="Lara"
+          desc="A line reminder bot connected with Google Calendar API.
+          Used by Tarung (Fasilkom UI 2017) primarily for reminding assignments deadline."
         />
       </div>
     </div>
@@ -157,8 +157,8 @@ const Slide4 = () => (
 const Slide5 = () => (
   <Wrapper>
     <i className="fas fa-address-book fa-3x"></i>
-    <h1 className="display-4">Accounts</h1>
-    <h5>Want to know more about me?</h5>
+    <h1 className="display-4">Contacts</h1>
+    <h5>{'Let\'s keep in touch!'}</h5>
     <a className={socmed} href="https://www.facebook.com/profile.php?id=100008425810381"><i className="fab fa-facebook-square fa-3x"></i></a>
     <a className={socmed} href="https://www.linkedin.com/in/m-fairuzi-teguh/"><i className="fab fa-linkedin fa-3x"></i></a>
     <a className={socmed} href="https://github.com/fairuzi10"><i className="fab fa-github-square fa-3x"></i></a>
@@ -219,8 +219,7 @@ class CV extends React.Component {
             {
               name: 'description',
               content:
-                'Curriculum Vitae Muhammad Fairuzi Teguh yang difokuskan \
-ke bidang ilmu komputer.'
+                'My curriculum vitae which contains my work experience, achievements, projects and other things related to my computer science background.'
             }
           ]}
         />
