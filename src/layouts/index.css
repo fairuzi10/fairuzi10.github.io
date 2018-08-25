@@ -37,3 +37,19 @@ blockquote {
   border-left: 0.3em solid #e5e5e5;
   padding: 1em;
 }
+
+hr.section-divider {
+  margin: 3em 0;
+  border: 0;
+  text-align: center;
+}
+
+hr.section-divider:before {
+  content: '...';
+  font-size: 2em;
+  top: -1em;
+  position: relative;
+  letter-spacing: 1em;
+  margin-left: 1em;
+  color: rgb(33, 37, 41);
+}
