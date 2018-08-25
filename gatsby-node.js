@@ -62,7 +62,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
       let tags = [];
       posts.forEach(edge => {
-        tags = tags.concat(edge.node.frontmatter.tags)
+        // bug on frontmatter when hot reload
+        if (edge.node.frontmatter.tags) {
+          tags = tags.concat(edge.node.frontmatter.tags)
+        }
       })
       tags = uniq(tags)
 

@@ -8,6 +8,14 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages/blog`,
+        name: 'pages',
+      },
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -16,7 +24,6 @@ module.exports = {
           `gatsby-remark-smartypants`,
           `gatsby-remark-katex`,
           `gatsby-remark-prismjs`,
-          `gatsby-plugin-sitemap`,
           {
             resolve: `gatsby-remark-embed-video`,
             options: {
@@ -46,13 +53,6 @@ module.exports = {
             }
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/pages/blog`,
-        name: 'pages',
       },
     },
     {
