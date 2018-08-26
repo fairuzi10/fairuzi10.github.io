@@ -5,7 +5,7 @@ import Pagination from '../components/pagination'
 
 const Post = ({ node }) => {
   const tags = node.frontmatter.tags.map(tag => (
-    <Link to={`/blog/tag/${tag}/`} key={tag} className='mx-1'>#{tag}</Link>
+    <Link to={`/blog/tag/${tag}/`} key={tag} className='mx-1'>#{tag} </Link>
   ))
   return (
     <div key={node.id}>

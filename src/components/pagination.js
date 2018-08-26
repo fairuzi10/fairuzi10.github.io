@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { 
-  Pagination, 
+import {
+  Pagination,
   PaginationItem,
 } from 'reactstrap'
 

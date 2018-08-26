@@ -10,7 +10,7 @@ import {
   NavItem } from 'reactstrap'
 
 const NavbarWrapper = styled.div`
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
 `
 
 const LinkNav = ({to, children}) => (

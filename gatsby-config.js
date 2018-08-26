@@ -10,6 +10,19 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sitemap`,
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Fairuzi10`,
+        short_name: `Fairuzi10`,
+        start_url: `/`,
+        background_color: `white`,
+        theme_color: `#f8f9fa`,
+        display: `minimal-ui`,
+        icon: `src/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-offline`,
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages/blog`,
