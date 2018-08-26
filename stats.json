@@ -1,9 +1,5 @@
 {
   "assetsByChunkName": {
-    "component---src-layouts-no-layout-js": [
-      "component---src-layouts-no-layout-js-8be31fcb8acdb492f3dc.js",
-      "component---src-layouts-no-layout-js-8be31fcb8acdb492f3dc.js.map"
-    ],
     "component---src-pages-privacy-policy-js": [
       "component---src-pages-privacy-policy-js-43fb05510e7a681aa863.js",
       "component---src-pages-privacy-policy-js-43fb05510e7a681aa863.js.map"
@@ -25,8 +21,8 @@
       "path---project-oskp-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-63aed41ed391876f1006.js",
-      "component---src-pages-index-js-63aed41ed391876f1006.js.map"
+      "component---src-pages-index-js-8935edf2e39b0ed1f6fc.js",
+      "component---src-pages-index-js-8935edf2e39b0ed1f6fc.js.map"
     ],
     "path---blog-liburan-musim-hujan-2018": [
       "path---blog-liburan-musim-hujan-2018-ab976b3b966a6715d6ab.js",
@@ -48,17 +44,13 @@
       "path---blog-70899702cc17bf20066a.js",
       "path---blog-70899702cc17bf20066a.js.map"
     ],
-    "path---cv": [
-      "path---cv-a0e39f21c11f6a62c5ab.js",
-      "path---cv-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-templates-blog-list-js": [
-      "component---src-templates-blog-list-js-e3a30f1606c865214695.js",
-      "component---src-templates-blog-list-js-e3a30f1606c865214695.js.map"
+      "component---src-templates-blog-list-js-e5f2628e4d23c7756546.js",
+      "component---src-templates-blog-list-js-e5f2628e4d23c7756546.js.map"
     ],
     "path---": [
-      "path----131f9aef94525eeb6ecd.js",
-      "path----131f9aef94525eeb6ecd.js.map"
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
     ],
     "path---blog-tag-ui": [
       "path---blog-tag-ui-9f69a1cb884268896afb.js",
@@ -88,6 +80,10 @@
       "path---blog-toki-camp-2018-d16799f5b2acff046000.js",
       "path---blog-toki-camp-2018-d16799f5b2acff046000.js.map"
     ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
     "path---blog-mendapatkan-magang-bizzy": [
       "path---blog-mendapatkan-magang-bizzy-9ba580d8c4cb9a2d2c18.js",
       "path---blog-mendapatkan-magang-bizzy-9ba580d8c4cb9a2d2c18.js.map"
@@ -105,8 +101,8 @@
       "component---src-pages-project-oskp-dynamic-programming-index-js-eb99604921f05ab20630.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-a8817be97e013f299981.js",
-      "component---src-layouts-index-js-a8817be97e013f299981.js.map"
+      "component---src-layouts-index-js-e5e4f77d00860e391ae3.js",
+      "component---src-layouts-index-js-e5e4f77d00860e391ae3.js.map"
     ],
     "path---blog-tag-my-life": [
       "path---blog-tag-my-life-550df1b8e12586a22ac0.js",
@@ -117,8 +113,8 @@
       "path---blog-kerja-keras-medali-osn-612d5820125b04ad05fa.js.map"
     ],
     "component---src-templates-blog-tag-js": [
-      "component---src-templates-blog-tag-js-dc2955ce34ae820805c9.js",
-      "component---src-templates-blog-tag-js-dc2955ce34ae820805c9.js.map"
+      "component---src-templates-blog-tag-js-b5effee4356345aaa925.js",
+      "component---src-templates-blog-tag-js-b5effee4356345aaa925.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -127,10 +123,6 @@
     "path---blog-cara-mencari-kata-yang-baku-sesuai-puebi": [
       "path---blog-cara-mencari-kata-yang-baku-sesuai-puebi-a65a09f65b3dac50dc9d.js",
       "path---blog-cara-mencari-kata-yang-baku-sesuai-puebi-a65a09f65b3dac50dc9d.js.map"
-    ],
-    "component---src-pages-cv-index-js": [
-      "component---src-pages-cv-index-js-a9a14466914bf9c5097a.js",
-      "component---src-pages-cv-index-js-a9a14466914bf9c5097a.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-90a8d83ba320104cd637.js",
@@ -150,14 +142,18 @@
       "component---src-pages-project-saved-messages-index-js-a672508bb14a9696bcb9.js",
       "component---src-pages-project-saved-messages-index-js-a672508bb14a9696bcb9.js.map"
     ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---blog-2": [
       "path---blog-2-47cf53e77a51a028e3ae.js",
       "path---blog-2-47cf53e77a51a028e3ae.js.map"
     ],
     "app": [
-      "app-f6d1fb1d51eea1e4be84.js",
+      "app-f446977df0dba71b5a02.js",
       "build-js-styles.css",
-      "app-f6d1fb1d51eea1e4be84.js.map",
+      "app-f446977df0dba71b5a02.js.map",
       "build-js-styles.css.map"
     ],
     "path---privacy-policy": [
