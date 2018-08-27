@@ -56,3 +56,7 @@ hr.section-divider:before {
   margin-left: 1em;
   color: rgb(33, 37, 41);
 }
+
+.blog-post p {
+  text-align: justify;
+}

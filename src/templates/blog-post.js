@@ -19,9 +19,7 @@ export default ({ data }) => {
       { post.frontmatter.date }
       <hr />
       <h1>{post.frontmatter.title}</h1>
-      <div className="text-justify">
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </div>
+      <div dangerouslySetInnerHTML={{ __html: post.html }} className="blog-post" />
       <hr />
       <Comment
         identifier={ post.fields.slug }
