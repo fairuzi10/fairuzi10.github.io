@@ -6,7 +6,7 @@ tags: ["MyLife"]
 ---
 
 <blockquote class="blockquote">
-  <p class="mb-0">Setiap ada pertemuan, pasti ada perpisahan.</p>
+  <span class="mb-0">Setiap ada pertemuan, pasti ada perpisahan.</span>
   <footer class="blockquote-footer text-right">Anonymous</footer>
 </blockquote>
 
