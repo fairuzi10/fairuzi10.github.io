@@ -23,7 +23,7 @@ export default ({ data }) => {
       <hr />
       <Comment
         identifier={ post.fields.slug }
-        url="http://fairuzi10.github.io/blog{ post.fields.slug }"
+        url={"http://fairuzi10.github.io/blog" + post.fields.slug }
         shortname="fairuzi10-github-io"
       />
     </Wrapper>
