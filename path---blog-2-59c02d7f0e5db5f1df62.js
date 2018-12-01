@@ -1,2 +1,0 @@
-webpackJsonp([0xccc7515567d0],{413:function(a,e){a.exports={pathContext:{group:[{node:{id:"/home/fairuzi/projects/fairuzi10.github.io/src/pages/blog/halo-dunia/index.md absPath of file >>> MarkdownRemark",frontmatter:{title:"Halo Dunia",date:"12 January 2018",description:"Proses pembuatan website ini yang menggunakan GatsbyJS (React) dan mengapa saya membuat website ini."},fields:{slug:"/halo-dunia/"}}}],pathPrefix:"blog",first:!1,last:!0,index:2,pageCount:2,additionalContext:{}}}}});
-//# sourceMappingURL=path---blog-2-59c02d7f0e5db5f1df62.js.map
