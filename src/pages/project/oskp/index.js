@@ -25,7 +25,7 @@ belajar Olimpiade Sains Nasional (OSN) Komputer/Informatika' },
     <hr />
     <Comment
       identifier='oskp'
-      url="http://fairuzi10.github.io/oskp"
+      url="https://fairuzi10.github.io/project/oskp/"
       shortname="fairuzi10-github-io"
     />
   </Wrapper>
