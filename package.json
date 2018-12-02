@@ -5,6 +5,7 @@
   "author": "Muhammad Fairuzi Teguh <mfairuzit@gmail.com>",
   "dependencies": {
     "axios": "^0.18.0",
+    "disqus-react": "^1.0.5",
     "emotion": "^9.2.4",
     "emotion-server": "^9.2.4",
     "fullpage-react": "^3.0.33",
@@ -32,7 +33,6 @@
     "gatsby-transformer-remark": "^1.7.26",
     "prismjs": "^1.9.0",
     "react-copy-to-clipboard": "^5.0.1",
-    "react-disqus-comments": "^1.1.1",
     "react-dotdotdot": "^1.2.3",
     "react-emotion": "^9.2.4",
     "react-linkify": "^0.2.2",

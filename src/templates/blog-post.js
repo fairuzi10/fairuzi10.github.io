@@ -1,6 +1,6 @@
 import React from 'react'
 import Wrapper from '../components/wrapper'
-import Comment from 'react-disqus-comments'
+import { DiscussionEmbed } from 'disqus-react'
 import Helmet from 'react-helmet'
 
 import 'katex/dist/katex.min.css'
@@ -8,6 +8,11 @@ import 'prismjs/themes/prism-okaidia.css'
 
 export default ({ data }) => {
   const post = data.markdownRemark
+  const disqusConfig = {
+    url: 'http://fairuzi10.github.io/blog' + post.fields.slug,
+    identifier: 'blog' + post.fields.slug,
+    title: post.frontmatter.title,
+  }
   return (
     <Wrapper single>
       <Helmet
@@ -21,11 +26,7 @@ export default ({ data }) => {
       <h1>{post.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.html }} className="blog-post" />
       <hr />
-      <Comment
-        identifier={ post.fields.slug }
-        url={"http://fairuzi10.github.io/blog" + post.fields.slug }
-        shortname="fairuzi10-github-io"
-      />
+      <DiscussionEmbed shortname="fairuzi10-github-io" config={disqusConfig} />
     </Wrapper>
   )
 }
