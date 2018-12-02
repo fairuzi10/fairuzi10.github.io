@@ -13,14 +13,14 @@ const IndexPage = () => {
         ]}
       />
       <h2>
-        <Link  to='saved-messages/' className="black-link">
+        <Link to='/project/saved-messages/' className="black-link">
           Saved Messages
         </Link>
       </h2>
       <div>Simpan pesanmu untuk dilihat di komputer lain.</div>
       <hr className="my-4"/>
       <h2>
-        <Link  to='oskp/' className="black-link">
+        <Link  to='/project/oskp/' className="black-link">
           OSKP
         </Link>
       </h2>

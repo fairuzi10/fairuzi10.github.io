@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
+import { graphql } from 'gatsby'
 import Wrapper from '../../components/wrapper'
 
 const TagsPage = ({

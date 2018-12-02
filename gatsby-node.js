@@ -3,8 +3,8 @@ const path = require('path')
 const createPaginatedPages = require('gatsby-paginate');
 const uniq = require('lodash/uniq');
 
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode, basePath: `pages` })
     createNodeField({
@@ -15,8 +15,8 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   }
 }
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
   return new Promise((resolve, reject) => {
     graphql(`
       {
@@ -114,8 +114,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
 // Implement the Gatsby API “onCreatePage”. This is
 // called after every page is created.
-exports.onCreatePage = async ({ page, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
     if (page.path.match(/^\/cv/)) {

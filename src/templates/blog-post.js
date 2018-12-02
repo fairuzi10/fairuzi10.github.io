@@ -2,6 +2,7 @@ import React from 'react'
 import Wrapper from '../components/wrapper'
 import { DiscussionEmbed } from 'disqus-react'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
 import 'katex/dist/katex.min.css'
 import 'prismjs/themes/prism-okaidia.css'

@@ -22,8 +22,8 @@ const Post = ({ node }) => {
   )
 }
 
-const Page = ({ pathContext }) => {
-  const { group, index, pageCount, additionalContext } = pathContext;
+const Page = ({ pageContext }) => {
+  const { group, index, pageCount, additionalContext } = pageContext;
   const { tag, totalCount } = additionalContext;
   const postList = group.map(({ node }) => <Post node={node} key={node.id}/>);
 

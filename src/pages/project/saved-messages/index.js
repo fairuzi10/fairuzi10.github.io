@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 import Wrapper from '../../../components/wrapper'
 import axios from 'axios'
 import loader from './asset/loader.svg'

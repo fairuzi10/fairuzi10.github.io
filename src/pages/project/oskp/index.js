@@ -27,8 +27,8 @@ export default () => {
         dalam OSN komputer/informatika tingkat kota maupun provinsi.
       </div>
       <br />
-      <Link to='dynamic-programming/'>Dynamic Programming</Link><br />
-      <Link to='persamaan-linear-diophantine/'>Persamaan Linear Diophantine</Link><br />
+      <Link to='/project/oskp/dynamic-programming/'>Dynamic Programming</Link><br />
+      <Link to='/project/oskp/persamaan-linear-diophantine/'>Persamaan Linear Diophantine</Link><br />
       <hr />
       <DiscussionEmbed shortname="fairuzi10-github-io" config={disqusConfig} />
     </Wrapper>
