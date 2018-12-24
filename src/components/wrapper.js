@@ -9,6 +9,10 @@ import {
   Stretch,
 } from '../components/stretch'
 
+/**
+ * Single means one page only contains 1 column.
+ * Mid means one page only contains 1 column and should be positioned in the center
+ */
 export default ({ children, single, mid }) => {
   if (mid) single = true;
   const ColProps = single? { md: '10', lg: '9', xl: '8'}: {}

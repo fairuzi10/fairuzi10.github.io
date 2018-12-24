@@ -22,7 +22,7 @@ Setelah saya naik kereta, saya turun di Stasiun Pondok Cina. Walaupun judulnya k
 
 Di perjalanan, kami menghadapi macet yang luar biasa parah di Tol Cikampek karena ada pembangunan (MRT kayaknya) :sweat:. Di sepanjang perjalanan yang sangat lama itu, kami menceritakan banyak hal mulai dari kartu kuning Jokowi yang sedang hangat sejak tadi pagi, SIAK War, dan nilai A- Dhipta pada MPKO Tenis Meja (ya, tenis meja. Kamu tidak salah baca). Di sana saya mengetahui bahwa banyak anak TOKI yang kalah war :cry:, salah satunya Ridho yang baru mengisi pada H+1. Dia menceritakan pengalamannya mendapat posisi 62 dari 50 pada matkul Matematika Dasar 1 dan akhirnya dia mengirim pesan kepada Pembimbing Akademisnya (PA). Akhirnya, kapasitas kelas yang Dia pilih menjadi 65 padahal kelas lain hanya menjadi 55.
 
-![](ridho.png)
+![](meme/ridho.png)
 
 Topik pembicaraan kemudian hanya berputar-putar dengan protes karena timeline line dipenuhi kartu kuning serta tentunya menghina-hina Dhipta. Karena belum sholat Ashar, kami berhenti di rest area. Setelah sholat, namanya juga setan ya (baca: Dhipta) akhirnya kita makan dulu di KFC baru berjalan lagi sekitar pukul 6:20. Pada kali ini sudah tidak ada pembicaraan berarti mungkin karena sudah stress gara-gara macet :sleeping:. Untuk memecah keheningan akhirnya seorang sultan menyetel lagu lewat youtube dengan kuota sendiri. Salah satu lagu yang terputar adalah
 

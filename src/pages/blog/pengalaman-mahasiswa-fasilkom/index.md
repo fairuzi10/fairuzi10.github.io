@@ -30,7 +30,7 @@ Katanya, kantin Fasilkom adalah salah satu kantin termurah di UI. Saya sendiri s
 ### Homogen
 Ya, mahasiswa Fasilkom itu.... homogen. Ga macem-macem. Kalau kamu pergi ke fakultas lain, kamu akan melihat berbagai macam mahasiswa mulai dari penampilannya, sifatnya, dll. Mahasiswa Fasilkom? Paling wibu.
 
-![Fasilkom wibu](wibu.jpg)
+![Fasilkom wibu](meme/wibu.jpg)
 
 ### Mata Kuliah
 Mata kuliah Fasilkom kayak apa sih? Ya.. gitu. Mungkin perlu pos baru untuk menjelaskannya :stuck_out_tongue:. Yang cukup unik adalah kita bisa survive tanpa buku (setidaknya saya setahun ini) thanks to [Scele CS](https://scele.cs.ui.ac.id). Scele ini forum belajarnya anak Fasilkom yang salah satu fungsinya adalah tempat dikumpulkannya slide-slide dosen, jadi kalau dirasa cukup tidak perlu membeli buku ~~dan mencatat di kelas~~.

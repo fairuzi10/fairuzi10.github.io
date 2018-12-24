@@ -34,7 +34,7 @@ Nyaris semua perusahaan/startup yang saya tahu memiliki program internship yang 
 
 Membuat proyek ngoding cukup bermanfaat agar kamu tidak kaget saat magang yang kesehariannya diisi dengan ngoding seperti ini. Jika kamu sudah memiliki target tempatmu magang nanti, coba pelajari tech stack mereka. Jika tidak, coba saja gunakan apa pun yang menarik perhatianmu. Saya sendiri mencoba belajar Django dan React karena banyak website-website di Fasikom terutama buatan Ristek yang menggunakannya. Pada akhirnya, mungkin yang kamu tidak akan menggunakannya pada saat magang nanti namun setidaknya, kamu mengerti hal-hal dasar seperti Git, package manager, HTTP request, SQL, dll. Selain untuk belajar, proyek-proyek seperti ini dapat kamu masukkan ke CV saat kamu mendaftar nanti.
 
-![Proyek Ngoding Pribadi](side-project.png)
+![Proyek Ngoding Pribadi](meme/side-project.png)
 
 #### Jangan Menunda Mendaftar Magang
 

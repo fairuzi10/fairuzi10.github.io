@@ -9,6 +9,8 @@ module.exports = {
     `gatsby-plugin-emotion`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sitemap`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

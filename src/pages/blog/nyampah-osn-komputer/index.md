@@ -27,7 +27,7 @@ Mari ambil contoh soal [Belanja di Malioboro](https://training.ia-toki.org/probl
 ##### **5. Tidak ada nyampah di ACM ICPC**
 Jika kamu lanjut kuliah dan tertarik mengikuti lomba competitive programming, lomba "wajib" yang harus diikuti adalah ACM ICPC. Sistem ICPC ini tidak menggunakan subtask, hanya AC atau tidak sehingga praktis tidak ada nyampah. Kamu akan kangen nyampah pada masa ini :sob:.
 
-![](icpc.jpg)
+![](meme/icpc.jpg)
 
 ## Teknik Nyampah
 Oke nyampah penting, lalu struktur data atau algoritma apa yang dapat digunakan untuk nyampah? Biasanya, saat mengajar saya akan memberikan soal dengan teknik rekursif serta random yang dapat digunakan untuk mengais poin pada soal output only. Dengan dua teknik ini diharapkan kamu sudah aman dari mendapat 0 kecuali pada soal interaktif yang biasanya subtask-subtask awal dapat diperoleh dengan mudah hanya dengan memainkan game-nya.

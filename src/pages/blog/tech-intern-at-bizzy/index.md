@@ -50,7 +50,7 @@ Seperti yang disebutkan di atas, Bizzy menggunakan beberapa tech stack yang mant
 
 Di beberapa tempat, tugas yang diberikan kepadamu adalah produk-produk yang belum tentu dirilis/digunakan. Berbeda dengan itu, di sini, pekerjaan yang kamu lakukan akan benar-benar digunakan. Tentu mengasyikkan melihat kodingan yang kamu buat mencapai tahap demi tahap mulai dari coding, code review, QA, ready for deployment, hingga done.
 
-![company contributor](contributor.png)
+![company contributor](meme/contributor.png)
 
 #### Bisa Belajar Banyak
 
@@ -167,16 +167,16 @@ Dengan abstraksi ini, perubahan-perubahan baik fitur maupun bug fix yang pastiny
 
 Magang selama dua bulan di Bizzy tentu membuahkan beberapa pengalaman unik bagi saya. Berikut ini beberapa di antaranya.
 
-![SIAK War down](ferro-siak.png)
+![SIAK War down](meme/ferro-siak.png)
 *Ferro yang memiliki ide cemerlang*
 
-![KFC](kfc.png)
+![KFC](meme/kfc.png)
 *Jadi siapa yang ngebet ke KFC?*
 
-![Indra Bizzy Intern](indra-mentor.png)
+![Indra Bizzy Intern](meme/indra-mentor.png)
 *Indra dan tangan ajaibnya.*
 
-![Abstraction](abstraction.png)
+![Abstraction](meme/abstraction.png)
 *Menghilangkan kompleksitas.*
 
 <hr class="section-divider" />

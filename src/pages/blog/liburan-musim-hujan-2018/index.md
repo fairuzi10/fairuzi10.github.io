@@ -14,7 +14,7 @@ Setelah sebulan berlalu, kini telah sampailah saya pada penghujung liburan yang 
 
 ![](magang-nanya.png)
 
-![](magang-neraka.jpg)
+![](meme/magang-neraka.jpg)
 
 Saya menghabiskan liburan dengan gabut karena saya merasa kuliah cukup melelahkan terutama jika ada kegiatan sampai malam padahal masuk dari pagi, bahkan karena kombinasi kegiatan CP dan PMB, pernah dalam beberapa minggu tidak ada 'weekend' :weary:. Jadi mari kita lihat bagaimana saya membuang-buang waktu yang berharga di liburan kali ini :joy:.
 

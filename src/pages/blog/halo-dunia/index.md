@@ -11,11 +11,11 @@ Oke, kenapa aku buat website ini? Jadi di Facebook aku melihat Albert-kun share 
 
 Apa yang aku dapat setelah membuat web ini? Pada awalnya aku menganggap frontend dan backend itu sama saja (dalam artian aku ga prefer salah satunya). Setelah menyelesaikan web ini, aku benci frontend :triumph:.
 
-![Say no to TKinter](drake-toki.png)
+![Say no to TKinter](meme/drake-toki.png)
 *Keheranan Pak Fariz terhadap anak TOKI.*
 
 Kadang suka heran juga sama anak-anak yang nanya ke aku ngerjain TP GUI berapa lama, dikira hapal librarynya apa.
 
-![Mana saya tahu, saya kan TOKI](tidak-tahu-toki.png)
+![Mana saya tahu, saya kan TOKI](meme/tidak-tahu-toki.png)
 
 Oke sekian saja post kali ini, semoga akan ada post selanjutnya :joy:.

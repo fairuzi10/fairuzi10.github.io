@@ -43,6 +43,7 @@ export default class Example extends React.Component {
             <Nav className="ml-auto" navbar>
               <LinkNav to='/blog/'>Blog</LinkNav>
               <LinkNav to='/project/'>Project</LinkNav>
+              <LinkNav to='/meme/'>Meme</LinkNav>
             </Nav>
           </Collapse>
         </Navbar>

@@ -45,13 +45,12 @@ const Layout = ({ children }) => (
         color: #777!important;
       }
 
-      .gatsby-resp-image-link + em {
+      .gatsby-resp-image-wrapper + em {
         /* image caption  */
         display: block;
         text-align: center;
         color: rgba(0,0,0,.5);
         font-style: normal;
-        margin-top: -1em;
         margin-bottom: 1em;
       }
 

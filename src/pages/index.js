@@ -19,5 +19,6 @@ mengenai hidup seperti kehidupan perkuliahan di Universitas Indonesia (UI) serta
     saya yang nirfaedah, tutorial karena saya pelupa, dan proyek-proyek yang tentunya tidak berguna.</h5>
     <Link to='/blog/'><Button color="primary" className='m-2'>Blog</Button></Link>
     <Link to='/project/'><Button color="primary" className='m-2'>Project</Button></Link>
+    <Link to='/meme/'><Button color="primary" className='m-2'>Meme</Button></Link>
   </Wrapper>
 )
