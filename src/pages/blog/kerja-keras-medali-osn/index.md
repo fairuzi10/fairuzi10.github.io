@@ -3,6 +3,7 @@ title: "Apakah Kerja Keras Cukup untuk Meraih Medali OSN?"
 date: "2018-06-07"
 description: "Rahasia sederhana yang dimiliki para medalis OSN namun jarang terungkap."
 tags: ["OSN", "CompetitiveProgramming", "MyThought"]
+thumbnail: "kunjungan.png"
 ---
 
 Tak terasa sudah lama saya tidak memperbaharui blog saya :sweat_smile:. Selama blog saya tidak update, tentu banyak hal yang saya lakukan di dunia nyata salah satunya mengajar OSN baik pada OSK, OSP, maupun OSN. Ketika saya mengajar, ada satu hal yang saya sadari menjadi pembeda antara calon juara dengan yang tidak.
@@ -16,7 +17,7 @@ Sebelumnya, saya ingin flashback sebentar di saat saya mengikuti acara pelatihan
 Lalu apa hubungannya dengan OSN? Sebenarnya, jika kamu ingin menjadi medalis, sedikit saingannya! Tidak percaya? mari kita lihat data kunjungan [https://osn.toki.id](https://osn.toki.id) menjelang OSK.
 
 ![](kunjungan.png)
-*Kunjungan meningkat sangat tajam.*
+<div class="img-caption">Kunjungan meningkat sangat tajam.</div>
 
 Dari data tersebut, dapat dilihat bahwa banyak sekali peserta OSK yang deadliner! Alasannya tentu beragam, salah satu yang mungkin dan sangat disayangkan adalah baru diberitahu guru menjelang OSK. Artinya, untuk menjadi juara OSK sebenarnya lawanmu bukan saja sedikit (hanya beberapa siswa per sekolah), namun juga sedikit yang melakukan persiapan. Bagi saya, siswa-siswa deadliner ini tidak layak untuk lolos sehingga biasanya saya hanya mempertimbangkan siswa-siswa yang memiliki persiapan, mari kita sebut mereka sebagai "lawan sebenarnya". Dari mereka yang memiliki persiapan, berapa banyak yang telah mencoba soal-soal setidaknya 3 tahun ke belakang? Coba kamu data di daerahmu dan buktikan sendiri bahwa sainganmu sedikit :simple_smile:. Itu kan OSK, bagaimana dengan OSN? Tidak jauh berbeda! Mari lihat data dari [https://kawal-pjj.herokuapp.com](https://kawal-pjj.herokuapp.com).
 

@@ -3,12 +3,13 @@ title: Hari-hari sebagai Tech Intern di Bizzy
 date: "2018-08-27"
 description: Keseharian saya pada saat magang sebagai software development engineer di Bizzy.
 tags: ["MyLife", "SoftwareDevelopment"]
+thumbnail: "CTO-intern-bizzy.jpeg"
 ---
 
 Setelah saya [mendapatkan kesempatan magang di Bizzy](https://fairuzi10.github.io/blog/mendapatkan-magang-bizzy/), tibalah waktunya untuk saya memulai kehidupan sebagai tech intern di Bizzy. Saya mulai magang pada 25 Juni dan berakhir pada 24 Agustus yang lalu, jadi sekitar dua bulan.
 
 ![bizzy tech team](with-lead.jpg)
-*bersama para dev lead setelah presentasi akhir*
+<div class="img-caption">Bersama para dev lead setelah presentasi akhir.</div>
 
 ## Mengenal Bizzy
 
@@ -70,10 +71,10 @@ Sebelum magang, saya membayangkan akan bekerja dengan orang-orang yang serius, t
 Selain menjadi layaknya karyawan biasa, kami juga diberikan beberapa hal spesial sebagai intern. Dari tingkat Bizzy (bukan hanya tech), mereka mengadakan Bizzy Interns Day yang merupakan ajang para intern berkenalan, bercerita tentang internshipnya, dan berbincang-bincang dengan para C-level. Sebagai tech intern, kami tentu juga mendapat hal khusus dari bidang tech. Kami dapat belajar langsung dengan para pimpinan di bidangnya dan dapat ngobrol bersama Pak Norman (CTO) setiap dua minggu sekali. Saya rasa mereka sebenarnya tidak begitu mendapat keuntungan dengan melakukan hal ini karena toh hanya dua bulan kami di sana. Namun dari apa yang pernah Pak Norman sampaikan, sepertinya dia ingin membuat pengalaman internship kami ini menjadi pengalaman yang berharga dan tak terlupakan. Oh ya, Bizzy juga menawarkan beasiswa dengan kontrak kerja setelah kami lulus nanti (iya, lulus, ga DO kok).
 
 ![bizzy Norman Sasono](CTO-intern-bizzy.jpeg)
-*Bersama Pak Norman.*
+<div class="img-caption">Bersama Pak Norman.</div>
 
 ![bizzy interns day](bizzy-interns-day.jpeg)
-*Bizzy interns day.*
+<div class="img-caption">Bizzy interns day.</div>
 
 ## Apa yang Saya Pelajari Selama Magang
 
@@ -168,16 +169,16 @@ Dengan abstraksi ini, perubahan-perubahan baik fitur maupun bug fix yang pastiny
 Magang selama dua bulan di Bizzy tentu membuahkan beberapa pengalaman unik bagi saya. Berikut ini beberapa di antaranya.
 
 ![SIAK War down](meme/ferro-siak.png)
-*Ferro yang memiliki ide cemerlang*
+<div class="img-caption">Ferro yang memiliki ide cemerlang.</div>
 
 ![KFC](meme/kfc.png)
-*Jadi siapa yang ngebet ke KFC?*
+<div class="img-caption">Jadi siapa yang ngebet ke KFC?</div>
 
 ![Indra Bizzy Intern](meme/indra-mentor.png)
-*Indra dan tangan ajaibnya.*
+<div class="img-caption">Indra dan tangan ajaibnya.</div>
 
 ![Abstraction](meme/abstraction.png)
-*Menghilangkan kompleksitas.*
+<div class="img-caption">Menghilangkan kompleksitas.</div>
 
 <hr class="section-divider" />
 

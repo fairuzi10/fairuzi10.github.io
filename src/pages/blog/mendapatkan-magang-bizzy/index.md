@@ -3,6 +3,7 @@ title: Bagaimana Saya Mendapatkan Kesempatan Magang di Bizzy
 date: "2018-08-25"
 description: Perjalanan saya mendapatkan kesempatan magang sebagai software engineer yang pada akhirnya mengantarkan saya ke Bizzy.
 tags: ["MyLife"]
+thumbnail: "meme/side-project.png"
 ---
 
 Sejak dari awal berkuliah di Fasilkom, salah satu hal yang ingin saya wujudkan adalah magang di suatu perusahaan/start up sebagai software engineer. Magang sendiri merupakan kesempatan bagi mahasiswa yang ingin mencicipi rasanya kerja. Magang sebenarnya bukan suatu hal yang spesial karena Fasilkom sendiri mewajibkan mahasiswanya untuk magang pada semester akhir lebih tepatnya pada mata kuliah kerja praktek yang bernilai 3 SKS. Walau begitu, saya ingin mencoba magang lebih awal seperti pada tahun pertama karena banyak kakak tingkat saya juga melakukan hal yang sama :stuck_out_tongue:. Tentu banyak alasan mengapa saya ingin magang lebih awal seperti ~~tidak ingin seharian nonton anime saat liburan~~ ingin mencoba belajar hal baru, mendapat pengalaman yang tidak didapat di kuliah, mendapat koneksi baru, memperkaya CV, dan hal-hal lain. Oh iya, magang di awal ini tidak dapat diajukan sebagai bagian dari mata kuliah kerja praktek sehingga kewajiban untuk mengambil mata kuliah ini pada semester akhir tidak gugur :disappointed:.

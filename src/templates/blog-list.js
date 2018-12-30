@@ -5,20 +5,30 @@ import Wrapper from '../components/wrapper'
 import Helmet from 'react-helmet'
 
 const Post = ({ node }) => {
-  const tags = node.frontmatter.tags.map(tag => (
+  const { date, title, description, tags } = node.frontmatter
+  const tagsText = tags.map(tag => (
     <Link to={`/blog/tag/${tag}/`} key={tag} className='mx-1'>#{tag} </Link>
   ))
+  const thumbnail = node.frontmatter.thumbnail ?
+    node.frontmatter.thumbnail.childImageSharp.resize.src :
+    ''
 
   return (
     <div key={node.id}>
-      <div>{node.frontmatter.date}</div>
+      <div>{date}</div>
       <h2>
         <Link  to={ `/blog${node.fields.slug}` } className="black-link">
-          {node.frontmatter.title}
+          {title}
         </Link>
       </h2>
-      <div>{node.frontmatter.description}</div>
-      {tags}
+      { thumbnail &&
+        <div className="py-4 text-center">
+          <Link  to={ `/blog${node.fields.slug}` }>
+            <img src={thumbnail}></img>
+          </Link>
+        </div> }
+      <div>{description}</div>
+      {tagsText}
       <hr className="my-4"/>
     </div>
   )

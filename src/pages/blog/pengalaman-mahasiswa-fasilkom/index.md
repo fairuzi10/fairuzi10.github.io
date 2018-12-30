@@ -3,6 +3,7 @@ title: Seperti Apa Rasanya Menjadi Mahasiswa Fasilkom UI?
 date: "2018-07-22"
 description: Apa sih bedanya Fasilkom dengan fakultas lain? Bagaimana dengan fakultas ilmu komputer/informatika universitas lain? Temukan jawabannya di sini.
 tags: ["UI"]
+thumbnail: "lab.jpg"
 ---
 
 Apa sih bedanya Fasilkom dengan fakultas lain? Bagaimana dengan fakultas ilmu komputer/informatika universitas lain? Pertanyaan tersebut pasti sering muncul dibenak para maba, termasuk saya dulu. Dengan pengalaman menjadi mahasiswa Fasilkom selama setahun ini, saya akan mencoba menjawab pertanyaan tersebut. Tanpa panjang lebar, mari kita lihat seperti apa sih rasanya menjadi mahasiswa Fasilkom UI.
@@ -13,7 +14,7 @@ Acara Fasilkom yang pertama diikuti maba tentu saja PMB. PMB ini adalah ospek ti
 <div class="row justify-content-center">
     <div class="col-9 col-lg-6">
         <img src="kating.jpg"/>
-        <em>Mengenal kating.</em>
+        <div class="img-caption">Mengenal kating.</div>
     </div>
 </div>
 
@@ -23,7 +24,7 @@ Katanya, kantin Fasilkom adalah salah satu kantin termurah di UI. Saya sendiri s
 <div class="row justify-content-center">
     <div class="col-9 col-lg-6">
         <img src="sate.png" alt="sate Fasilkom"/>
-        <em><i>Yakitori with peanut sauce.</i></em>
+        <div class="img-caption">Yakitori with peanut sauce.</div>
     </div>
 </div>
 
@@ -42,7 +43,7 @@ Kalau di fakultas lain udah muak sama laporan-laporan seperti makalah, Fasilkom 
 Lab di Fasilkom bagus, cukup nyaman digunakan dalam mengerjakan tugas. Kalau tadi saya bilang tidak perlu membeli buku, dengan lab ini kita sebenarnya tidak perlu membawa laptop. Pada semester 1 saya nyaris tidak pernah membawa laptop. Pada akhirnya, saya sering membawa laptop karena ada tugas-tugas lain di luar kuliah yang membuat malas setupnya. Oh ya, Wi-Fi Fasilkom yang terkenal cepatnya itu memiliki sinyal paling bagus salah satunya di lab ini.
 
 ![lab Fasilkom](lab.jpg)
-*Kondisi lab Fasilkom.*
+<div class="img-caption">Kondisi lab Fasilkom.</div>
 
 ### Lift
 Pengalaman unik lain yang akan kamu dapatkan di Fasilkom adalah liftnya. Liftnya. Sangat. Cepat. Tertutup. Siap-siap menjadi orang aneh saat menaiki lift di gedung lain :stuck_out_tongue:. Sayangnya, lift unik ini tidak dapat dipastikan nasibnya di gedung baru :worried:

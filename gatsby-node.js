@@ -31,6 +31,13 @@ exports.createPages = ({ graphql, actions }) => {
                 date(formatString: "DD MMMM YYYY")
                 description
                 tags
+                thumbnail {
+                  childImageSharp {
+                    resize(height:300, width:500) {
+                      src
+                    }
+                  }
+                }
               }
               fields {
                 slug

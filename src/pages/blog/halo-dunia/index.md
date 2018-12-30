@@ -3,6 +3,7 @@ title: "Halo Dunia"
 date: "2018-01-12"
 description: "Proses pembuatan website ini yang menggunakan GatsbyJS (React) dan mengapa saya membuat website ini."
 tags: ["Coding", "SoftwareDevelopment"]
+thumbnail: "meme/drake-toki.png"
 ---
 
 Akhirnya setelah berhari-hari website ini jadi juga :grin:. Padahal mau dipublish tanggal 10 tapi karena malas jadi tanggal 12 deh :cry:.
@@ -12,7 +13,7 @@ Oke, kenapa aku buat website ini? Jadi di Facebook aku melihat Albert-kun share 
 Apa yang aku dapat setelah membuat web ini? Pada awalnya aku menganggap frontend dan backend itu sama saja (dalam artian aku ga prefer salah satunya). Setelah menyelesaikan web ini, aku benci frontend :triumph:.
 
 ![Say no to TKinter](meme/drake-toki.png)
-*Keheranan Pak Fariz terhadap anak TOKI.*
+<div class="img-caption">Keheranan Pak Fariz terhadap anak TOKI.</div>
 
 Kadang suka heran juga sama anak-anak yang nanya ke aku ngerjain TP GUI berapa lama, dikira hapal librarynya apa.
 

@@ -3,6 +3,7 @@ title: "Cara Mencari Kata yang Baku Sesuai PUEBI"
 date: "2018-07-08"
 description: "Apa pun atau apapun? Dimana atau di mana? Satu per satu atau satu persatu? Sering bingung menentukan mana yang baku? Inilah beberapa cara yang dapat digunakan untuk mencari kata yang baku."
 tags: ["UI", "TipsAndTrick"]
+thumbnail: "ivanlanin.png"
 ---
 
 Sewaktu saya semester dua dulu (sok-sok lama padahal baru kemarin :stuck_out_tongue_winking_eye:), saya mengambil mata kuliah wajib UI yaitu MPKT A. MPKT A ini pelajaran yang bukan main pentingnya, 6 SKS! Pelajarannya sendiri tentang sosial, berbeda dengan MPKT B yang saya ambil pada semester 1 yang membahas tentang ilmu alam dan teknologi. Dosennya pun berasal dari berbagai fakultas, dan kebetulan saya mendapat dosen dari Fakultas Ilmu Pengetahuan Budaya UI. Materi yang dibahas beragam, seperti pembangunan karakter, filsafat, logika, etika, dll. Namun mungkin karena latar belakang dosen saya, materi yang sebenarnya dibahas yaitu
