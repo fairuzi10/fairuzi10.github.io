@@ -24,7 +24,7 @@ export const Post = ({ node }) => {
         </Link>
       </h2>
       { thumbnail &&
-        <div className="py-4 text-center row">
+        <div className="pb-4 text-center row">
           <div className="col-12 col-md-8 offset-md-2">
             <Link  to={ `/blog${node.fields.slug}` }>
               <Img fluid={thumbnail}></Img>
@@ -32,17 +32,6 @@ export const Post = ({ node }) => {
           </div>
         </div> }
       <div>{description}</div>
-      {/* <div className="row py-3">
-        <div className="col-3">
-          { thumbnail &&
-            <div className="text-center">
-              <Link  to={ `/blog${node.fields.slug}` }>
-                <Img fluid={thumbnail}></Img>
-              </Link>
-            </div> }
-        </div>
-        <div className="col-9">{description}</div>
-      </div> */}
       {tagsText}
       <hr className="my-4"/>
     </div>

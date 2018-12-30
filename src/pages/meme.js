@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Img from 'gatsby-image'
 import Wrapper from '../components/wrapper.js'
 import { graphql, Link } from 'gatsby'
 import {
@@ -28,13 +29,15 @@ const MemePage = ({
 }) => {
   const memes = shuffle(edges)
   const images = memes.map((nodeObject) => {
-    const src = nodeObject.node.childImageSharp.fluid.src
+    const img = nodeObject.node.childImageSharp.fluid
     const path = nodeObject.node.relativePath
     const postUrl = '/blog/' + path.slice(0, path.indexOf('/')) + '/'
     return (
-      <Link to={postUrl} key={src}>
-        <img className="img-fluid p-3" src={src}></img>
-      </Link>
+      <div className="py-4" key={path}>
+        <Link to={postUrl}>
+          <Img fluid={img}></Img>
+        </Link>
+      </div>
     )
   })
   const evenImages = images.filter((el, idx) => idx%2 == 0)
@@ -61,8 +64,8 @@ export const pageQuery = graphql`
       edges {
         node {
           childImageSharp {
-            fluid(maxWidth:500) {
-              src
+            fluid {
+              ...GatsbyImageSharpFluid
             }
           }
           relativePath
