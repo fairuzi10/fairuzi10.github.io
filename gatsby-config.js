@@ -27,18 +27,30 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages/blog`,
         name: 'pages',
+        path: `${__dirname}/src/pages/blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/pages/blog`,
       },
     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-images`,
           `gatsby-remark-smartypants`,
           `gatsby-remark-katex`,
           `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1024,
+            },
+          },
           {
             resolve: `gatsby-remark-embed-video`,
             options: {

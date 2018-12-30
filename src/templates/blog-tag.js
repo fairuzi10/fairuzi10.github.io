@@ -1,43 +1,64 @@
 import React from 'react';
+import { graphql } from 'gatsby'
 import Link from 'gatsby-link';
 import Wrapper from '../components/wrapper'
 import Pagination from '../components/pagination'
+import { Post } from './blog-list'
 
-const Post = ({ node }) => {
-  const tags = node.frontmatter.tags.map(tag => (
-    <Link to={`/blog/tag/${tag}/`} key={tag} className='mx-1'>#{tag} </Link>
-  ))
-  return (
-    <div key={node.id}>
-      <div>{node.frontmatter.date}</div>
-      <h2>
-        <Link  to={ `/blog${node.fields.slug}` } className="black-link">
-          {node.frontmatter.title}
-        </Link>
-      </h2>
-      <div>{node.frontmatter.description}</div>
-      {tags}
-      <hr className="my-4"/>
-    </div>
-  )
-}
-
-const Page = ({ pageContext }) => {
-  const { group, index, pageCount, additionalContext } = pageContext;
-  const { tag, totalCount } = additionalContext;
-  const postList = group.map(({ node }) => <Post node={node} key={node.id}/>);
+const Page = ({ data, pageContext }) => {
+  const edges = data.allMarkdownRemark.edges
+  const postList = edges.map(({ node }) => <Post node={node} key={node.fields.slug}/>);
+  const { page, pageCount, tag } = pageContext
+  const postCount = data.allMarkdownRemark.totalCount
 
   return (
     <Wrapper single>
-      <h2>{totalCount} pos dilabeli dengan #{tag}</h2>
+      <h2>{postCount} pos dilabeli dengan #{tag}</h2>
       <h5>Lihat <Link to='/blog/tag'>semua label</Link></h5>
       <hr className="my-5"/>
       {postList}
       <div className="d-flex justify-content-center">
-        <Pagination index={index} pageCount={pageCount} />
+        <Pagination index={page} pageCount={pageCount} />
       </div>
     </Wrapper>
   );
 };
+
+export const query = graphql`
+query blogTagQuery($skip: Int!, $limit: Int!, $tag: String!) {
+  allMarkdownRemark(
+    filter: {
+      frontmatter: {
+        tags: { in: [$tag] }
+      }
+    }
+    sort: { fields: [frontmatter___date], order: DESC }
+    limit: $limit
+    skip: $skip
+  ) {
+    totalCount
+    edges {
+      node {
+        frontmatter {
+          title
+          date(formatString: "DD MMMM YYYY")
+          description
+          tags
+          thumbnail {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+}
+`
 
 export default Page;

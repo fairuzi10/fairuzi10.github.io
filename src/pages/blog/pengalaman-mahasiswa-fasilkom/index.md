@@ -2,7 +2,7 @@
 title: Seperti Apa Rasanya Menjadi Mahasiswa Fasilkom UI?
 date: "2018-07-22"
 description: Apa sih bedanya Fasilkom dengan fakultas lain? Bagaimana dengan fakultas ilmu komputer/informatika universitas lain? Temukan jawabannya di sini.
-tags: ["UI"]
+tags: ["Fasilkom", "UI"]
 thumbnail: "lab.jpg"
 ---
 
