@@ -71,7 +71,11 @@ const createBlogList = (createPage, graphql, posts) => {
 }
 
 const createTagPages = (createPage, graphql, posts) => {
-  const tags = posts.reduce((acc, edge) => acc.concat(edge.node.frontmatter.tags), [])
+  const tags = posts.reduce((acc, edge) =>
+    edge.node.frontmatter.tags ?
+      acc.concat(edge.node.frontmatter.tags) :
+      acc
+    , [])
   const uniqueTags = uniq(tags)
 
   uniqueTags.forEach((tag, i) => {
