@@ -4,6 +4,7 @@ date: "2018-07-22"
 description: Apa sih bedanya Fasilkom dengan fakultas lain? Bagaimana dengan fakultas ilmu komputer/informatika universitas lain? Temukan jawabannya di sini.
 tags: ["Fasilkom", "UI"]
 thumbnail: "lab.jpg"
+weight: 3
 ---
 
 Apa sih bedanya Fasilkom dengan fakultas lain? Bagaimana dengan fakultas ilmu komputer/informatika universitas lain? Pertanyaan tersebut pasti sering muncul dibenak para maba, termasuk saya dulu. Dengan pengalaman menjadi mahasiswa Fasilkom selama setahun ini, saya akan mencoba menjawab pertanyaan tersebut. Tanpa panjang lebar, mari kita lihat seperti apa sih rasanya menjadi mahasiswa Fasilkom UI.

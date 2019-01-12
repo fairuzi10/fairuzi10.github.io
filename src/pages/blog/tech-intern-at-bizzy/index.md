@@ -4,6 +4,7 @@ date: "2018-08-27"
 description: Keseharian saya pada saat magang sebagai software development engineer di Bizzy.
 tags: ["MyLife", "SoftwareDevelopment"]
 thumbnail: "CTO-intern-bizzy.jpeg"
+weight: 5
 ---
 
 Setelah saya [mendapatkan kesempatan magang di Bizzy](https://fairuzi10.github.io/blog/mendapatkan-magang-bizzy/), tibalah waktunya untuk saya memulai kehidupan sebagai tech intern di Bizzy. Saya mulai magang pada 25 Juni dan berakhir pada 24 Agustus yang lalu, jadi sekitar dua bulan.

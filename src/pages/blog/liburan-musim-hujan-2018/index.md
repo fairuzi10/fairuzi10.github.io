@@ -4,6 +4,7 @@ date: "2018-02-02"
 description: "Kegiatan-kegiatan yang saya lakukan selama liburan bulan Januari 2018."
 tags: ["MyLife"]
 thumbnail: "meme/magang-neraka.jpg"
+weight: 1
 ---
 
 <blockquote class="blockquote">

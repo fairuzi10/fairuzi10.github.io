@@ -49,6 +49,7 @@ const createBlogPost = (createPage, graphql, posts) => {
       component: path.resolve(`./src/templates/blog-post.js`),
       context: {
         slug: node.fields.slug,
+        tags: node.frontmatter.tags,
       },
     })
   })
