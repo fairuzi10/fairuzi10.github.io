@@ -49,7 +49,7 @@ const createBlogPost = (createPage, graphql, posts) => {
       component: path.resolve(`./src/templates/blog-post.js`),
       context: {
         slug: node.fields.slug,
-        tags: node.frontmatter.tags,
+        tags: node.frontmatter.tags || [], // bug, sometimes tags is null in hot reload.
       },
     })
   })
