@@ -24,7 +24,7 @@ export default ({ data }) => {
     const node = nodeObject.node
     const { title, description } = node.frontmatter
     return (
-      <div className="col-md-6" key={node.id}>
+      <div className="col-md-6 pt-3" key={node.id}>
         <strong>
           <Link to={`/blog/${node.fields.slug}/`} className="black-link">
             {title}
