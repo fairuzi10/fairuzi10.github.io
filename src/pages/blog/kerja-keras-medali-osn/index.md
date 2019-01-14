@@ -42,7 +42,7 @@ Kembali ke pertanyaan awal, apakah kerja keras cukup untuk meraih medali OSN? Te
 <div class="row justify-content-center">
     <div class="col-9 col-lg-6">
         <img src="meme/dr-strange-pkd.png"/>
-    <em>Belajar PKD.</em>
+        <div class="img-caption">Belajar PKD.</div>
     </div>
 </div>
 
