@@ -10,7 +10,7 @@ import 'prismjs/themes/prism-okaidia.css'
 
 export default ({ data }) => {
   const post = data.post
-  const {title, description, date, tags } = post.frontmatter
+  const {title, description, date, tags, thumbnail } = post.frontmatter
   const disqusConfig = {
     url: 'http://fairuzi10.github.io/blog' + post.fields.slug,
     identifier: 'blog' + post.fields.slug,
@@ -38,9 +38,11 @@ export default ({ data }) => {
   return (
     <Wrapper single>
       <Helmet
-        title={post.frontmatter.title}
+        title={title}
         meta={[
           { name: 'description', content: description },
+          { name: 'og:title', content: title },
+          { name: 'og:image', content: thumbnail.publicURL }
         ]}
       />
       { date }
@@ -71,6 +73,9 @@ export const query = graphql`
         date(formatString: "DD MMMM YYYY")
         description
         tags
+        thumbnail {
+          publicURL
+        }
       }
       fields {
         slug
