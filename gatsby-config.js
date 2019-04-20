@@ -3,6 +3,7 @@ module.exports = {
     title: `Fairuzi's Personal Website`,
     author: `Muhammad Fairuzi Teguh`,
     siteUrl: `https://fairuzi10.github.io`,
+    description: `Fairuzi's Personal Website`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +12,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
