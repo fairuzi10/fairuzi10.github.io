@@ -5,6 +5,7 @@ import Pagination from '../components/pagination'
 import Wrapper from '../components/wrapper'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
+import { Card } from '../components/utils';
 
 export const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
@@ -52,8 +53,10 @@ const IndexPage = ({ data, pageContext }) => {
   komputer, Universitas Indonesia, dan lain sebagainya.' },
         ]}
       />
-      {postList}
-      <div className="d-flex justify-content-center">
+      <Card>
+        {postList}
+      </Card>
+      <div className="d-flex justify-content-center mt-4">
         <Pagination index={page} pageCount={pageCount} />
       </div>
     </Wrapper>

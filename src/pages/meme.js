@@ -7,6 +7,7 @@ import {
   Row,
   Col,
 } from 'reactstrap'
+import { Card } from '../components/utils.js';
 
 const shuffle = (array) => {
   array = array.slice()
@@ -49,11 +50,13 @@ const MemePage = ({
           { name: 'description', content: 'Kumpulan meme yang ada pada blog ini.' },
         ]}
       />
-      <h5 className="text-center">Klik gambar untuk membaca pos dan mendapatkan konteksnya :)</h5>
-      <Row className="justify-content-center">
-        <Col className="text-center" xs="12" md="6">{evenImages}</Col>
-        <Col className="text-center" xs="12" md="6">{oddImages}</Col>
-      </Row>
+      <Card>
+        <h5 className="text-center">Klik gambar untuk membaca pos dan mendapatkan konteksnya :)</h5>
+        <Row className="justify-content-center">
+          <Col className="text-center" xs="12" md="6">{evenImages}</Col>
+          <Col className="text-center" xs="12" md="6">{oddImages}</Col>
+        </Row>
+      </Card>
     </Wrapper>
   )
 }

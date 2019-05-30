@@ -20,6 +20,13 @@ import {
   Alert,
   Tooltip,
 } from 'reactstrap'
+import { projectUrl } from '../../../utils/urls';
+
+export const metaData = {
+  name: 'Saved Messages',
+  url: projectUrl('saved-messages'),
+  description: 'Simpan pesanmu untuk dilihat di komputer lain.',
+}
 
 const MessageContainer = styled.div`
   background-color: #f8f9fa;
@@ -398,7 +405,7 @@ class Index extends React.Component {
           <Col xs="12" lg="7">
             <CariPesan searchMessage={this.searchMessage}
               alertError={this.alertError} />
-            <ListPesan messages={this.state.messages} 
+            <ListPesan messages={this.state.messages}
               searchMessage={this.searchMessage}
               password={this.state.password}
               alertError={this.alertError} />

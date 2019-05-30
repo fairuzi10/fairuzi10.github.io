@@ -7,6 +7,8 @@ import Link from 'gatsby-link'
 
 import 'katex/dist/katex.min.css'
 import 'prismjs/themes/prism-okaidia.css'
+import { Card, SectionDivider, BlackLink } from '../components/utils';
+import { blogUrl, blogTagUrl } from '../utils/urls';
 
 export default ({ data }) => {
   const post = data.post
@@ -18,7 +20,7 @@ export default ({ data }) => {
   }
 
   const tagsText = tags.map(tag => (
-    <Link to={`/blog/tag/${tag}/`} key={tag} className='mx-1'>#{tag} </Link>
+    <Link to={blogTagUrl(tag)} key={tag} className='mx-1'>#{tag} </Link>
   ))
   const relatedPost = data.relatedPost.edges.map((nodeObject) => {
     const node = nodeObject.node
@@ -26,9 +28,9 @@ export default ({ data }) => {
     return (
       <div className="col-md-6 pt-3" key={node.id}>
         <strong>
-          <Link to={`/blog/${node.fields.slug}/`} className="black-link">
+          <BlackLink to={blogUrl(node.fields.slug)}>
             {title}
-          </Link>
+          </BlackLink>
         </strong><br />
         {description}
       </div>
@@ -45,21 +47,25 @@ export default ({ data }) => {
           { name: 'og:image', content: thumbnail.publicURL }
         ]}
       />
-      { date }
-      <hr />
-      <h1>{title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} className="blog-post" />
-      <hr />
-      {tagsText}
-      <hr />
-      <div>
-        <strong><span className="black-link">Related Post:</span></strong><br />
-        <div className="row">
-          {relatedPost}
+      <Card>
+        { date }
+        <SectionDivider/>
+        <h1>{title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} className="blog-post" />
+        <SectionDivider/>
+        {tagsText}
+        <SectionDivider/>
+        <div>
+          <strong><span className="black-link">Related Post:</span></strong><br />
+          <div className="row">
+            {relatedPost}
+          </div>
         </div>
-      </div>
-      <hr />
-      <DiscussionEmbed shortname="fairuzi10-github-io" config={disqusConfig} />
+        <SectionDivider/>
+      </Card>
+      <Card>
+        <DiscussionEmbed shortname="fairuzi10-github-io" config={disqusConfig} />
+      </Card>
     </Wrapper>
   )
 }

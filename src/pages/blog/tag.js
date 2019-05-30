@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 import { graphql } from 'gatsby'
 import Wrapper from '../../components/wrapper'
+import { blogTagUrl } from '../../utils/urls';
 
 const TagsPage = ({
   data: {
@@ -11,7 +12,7 @@ const TagsPage = ({
 }) => {
   const tagList = group.map(tag => (
     <h6 key={tag.fieldValue}>
-      <Link to={`/blog/tag/${tag.fieldValue}/`}>
+      <Link to={blogTagUrl(tag.fieldValue)}>
         {`${tag.fieldValue} (${tag.totalCount})`}
       </Link>
     </h6>

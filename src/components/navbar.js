@@ -1,21 +1,15 @@
-import React from 'react'
-import styled from '@emotion/styled'
-import Link from 'gatsby-link'
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem } from 'reactstrap'
+import styled from '@emotion/styled';
+import Link from 'gatsby-link';
+import React from 'react';
+import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem } from 'reactstrap';
 
-const NavbarWrapper = styled.div`
-  margin-bottom: 3rem;
-`
+const NavbarWrapper = styled.div({
+  marginBottom: '3rem',
+})
 
 const LinkNav = ({to, children}) => (
   <NavItem>
-    <Link className='nav-link' to={ to }>{ children }</Link>
+    <Link className='nav-link' to={to} activeClassName="active" partiallyActive>{ children }</Link>
   </NavItem>
 )
 
@@ -36,7 +30,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <NavbarWrapper>
-        <Navbar color='light' light expand="md">
+        <Navbar color="primary" dark expand="md">
           <NavbarBrand href="/">Fairuzi10</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar aria-label="Toggle navbar">

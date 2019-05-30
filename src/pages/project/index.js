@@ -1,9 +1,24 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import Wrapper from '../../components/wrapper'
-import Helmet from 'react-helmet'
+import React from 'react';
+import Helmet from 'react-helmet';
+
+import { BlackLink, Card } from '../../components/utils';
+import Wrapper from '../../components/wrapper';
+import { metaData as oskpMetaData } from './oskp';
+import { metaData as savedMessagesMetaData } from './saved-messages';
+
+export const projectsMetaData = [
+  savedMessagesMetaData,
+  oskpMetaData,
+]
 
 const IndexPage = () => {
+  const projectList = projectsMetaData.map(metaData => (
+    <div key={metaData.url}>
+      <h2><BlackLink to={metaData.url}>{metaData.name}</BlackLink></h2>
+      <div>{metaData.description}</div>
+      <hr className="my-4"></hr>
+    </div>
+  ))
   return (
     <Wrapper single>
       <Helmet
@@ -12,20 +27,9 @@ const IndexPage = () => {
           { name: 'description', content: 'Berbagai proyek yang telah saya kerjakan.' },
         ]}
       />
-      <h2>
-        <Link to='/project/saved-messages/' className="black-link">
-          Saved Messages
-        </Link>
-      </h2>
-      <div>Simpan pesanmu untuk dilihat di komputer lain.</div>
-      <hr className="my-4"/>
-      <h2>
-        <Link  to='/project/oskp/' className="black-link">
-          OSKP
-        </Link>
-      </h2>
-      <div>Kumpulan slide yang dapat digunakan untuk belajar Olimpiade Sains Nasional (OSN) Komputer/Informatika</div>
-      <hr className="my-4"/>
+      <Card>
+        { projectList }
+      </Card>
     </Wrapper>
   )
 }

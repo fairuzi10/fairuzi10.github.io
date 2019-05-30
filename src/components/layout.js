@@ -7,11 +7,12 @@ import { Global, css } from '@emotion/core'
 import {
   StretchContainer,
 } from '../components/stretch'
+import { COLOR } from '../utils/theme';
 
-const FullPage = styled.div`
-  min-height: 100vh;
-  height: 1px;
-`
+const FullPage = styled.div({
+  minHeight: '100vh',
+  height: '1px',
+})
 
 const Layout = ({ children }) => (
   <FullPage>
@@ -27,6 +28,10 @@ const Layout = ({ children }) => (
 
       * {
         font-family: 'Arvo';
+      }
+
+      body {
+        background-color: ${COLOR.blueFade};
       }
 
       .black-link {
