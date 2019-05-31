@@ -1,6 +1,6 @@
-import Helmet from 'react-helmet'
-import React from 'react'
-import Vue from 'vue'
+import React from 'react';
+import Helmet from 'react-helmet';
+
 import { projectUrl } from '../../../utils/urls';
 
 export const metaData = {
@@ -9,23 +9,30 @@ export const metaData = {
   description: 'Atur jadwalmu dan jadilah pemenang SIAK War!',
 }
 
-// hacky trick to overcome the Helmet lazy refresh problem.
-// eslint-disable-next-line no-undef
-if (process.env.NODE_ENV == 'development') {
-  window.Vue = Vue
-}
-
 export default () => {
+  // A black magic to load script in order
+  const loadAsync = (u, c) => {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  if (typeof document !== 'undefined') {
+    const vueCdn = 'https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js'
+    const webCompCdn = 'https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/webcomponents-loader.js'
+    const jadwalSiakJs = '/jadwal-siak/dist/jadwal-siak.min.js'
+    loadAsync(vueCdn, () => loadAsync(jadwalSiakJs))
+    loadAsync(webCompCdn)
+  }
+
   return (
     <div>
       <Helmet
         meta={[
           { name: 'description', content: 'Susun jadwal SIAK-mu di sini dan pastikan kamulah juaranya.' },
-        ]}
-        script={[
-          { src: 'https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js' },
-          { src: 'https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/webcomponents-loader.js' },
-          { src: '/jadwal-siak/dist/jadwal-siak.min.js' },
         ]}
       />
       <jadwal-siak></jadwal-siak>

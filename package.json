@@ -38,13 +38,14 @@
     "gatsby-transformer-sharp": "^2.1.10",
     "katex": "^0.10.0",
     "prismjs": "^1.9.0",
-    "react": "^16.7.0",
+    "react": "^16.8.6",
     "react-copy-to-clipboard": "^5.0.1",
-    "react-dom": "^16.7.0",
+    "react-dom": "^16.8.6",
     "react-dotdotdot": "^1.2.3",
     "react-helmet": "^5.2.0",
     "react-linkify": "^0.2.2",
     "reactstrap": "^7.0.2",
+    "scriptjs": "^2.5.9",
     "vue": "^2.6.10"
   },
   "keywords": [
