@@ -5,8 +5,10 @@ import { BlackLink, Card } from '../../components/utils';
 import Wrapper from '../../components/wrapper';
 import { metaData as oskpMetaData } from './oskp';
 import { metaData as savedMessagesMetaData } from './saved-messages';
+import { metaData as jadwalSiakMetaData } from './jadwal-siak';
 
 export const projectsMetaData = [
+  jadwalSiakMetaData,
   savedMessagesMetaData,
   oskpMetaData,
 ]

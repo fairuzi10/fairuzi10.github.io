@@ -1,6 +1,13 @@
 import Helmet from 'react-helmet'
 import React from 'react'
 import Vue from 'vue'
+import { projectUrl } from '../../../utils/urls';
+
+export const metaData = {
+  name: 'Jadwal SIAK',
+  url: projectUrl('jadwal-siak'),
+  description: 'Atur jadwalmu dan jadilah pemenang SIAK War!',
+}
 
 // hacky trick to overcome the Helmet lazy refresh problem.
 // eslint-disable-next-line no-undef
