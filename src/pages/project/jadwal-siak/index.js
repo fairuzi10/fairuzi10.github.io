@@ -34,6 +34,10 @@ export default () => {
         meta={[
           { name: 'description', content: 'Susun jadwal SIAK-mu di sini dan pastikan kamulah juaranya.' },
         ]}
+        link={[
+          // need to import it here to escape shadow dom
+          { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css'}
+        ]}
       />
       <jadwal-siak></jadwal-siak>
     </div>
