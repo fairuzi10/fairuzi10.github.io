@@ -41,8 +41,8 @@ const MemePage = ({
       </div>
     )
   })
-  const evenImages = images.filter((el, idx) => idx%2 == 0)
-  const oddImages = images.filter((el, idx) => idx%2 == 1)
+  const evenImages = images.filter((el, idx) => idx%2 === 0)
+  const oddImages = images.filter((el, idx) => idx%2 === 1)
   return (
     <Wrapper>
       <Helmet

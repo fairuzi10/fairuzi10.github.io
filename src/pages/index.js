@@ -46,8 +46,7 @@ export default ({ data }) => {
     <Wrapper>
       <Helmet
         meta={[
-          { name: 'description', content: 'Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita\
-  mengenai hidup seperti kehidupan perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika.' },
+          { name: 'description', content: 'Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita mengenai hidup seperti kehidupan perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika.' },
         ]}
       />
       <Card>

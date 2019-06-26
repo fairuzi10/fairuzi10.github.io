@@ -49,8 +49,7 @@ const IndexPage = ({ data, pageContext }) => {
       <Helmet
         title='Blog'
         meta={[
-          { name: 'description', content: 'Kumpulan cerita milik Muhammad Fairuzi Teguh tentang olimpiade\
-  komputer, Universitas Indonesia, dan lain sebagainya.' },
+          { name: 'description', content: 'Kumpulan cerita milik Muhammad Fairuzi Teguh tentang olimpiade komputer, Universitas Indonesia, dan lain sebagainya.' },
         ]}
       />
       <Card>
