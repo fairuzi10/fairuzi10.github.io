@@ -1,6 +1,6 @@
 const { createFilePath } = require('gatsby-source-filesystem')
 const path = require('path')
-const uniq = require('lodash/uniq');
+const uniq = require('lodash/uniq')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -9,53 +9,49 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: 'slug',
-      value: slug,
+      value: slug
     })
   }
 }
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
-  return new Promise((resolve) => {
-    graphql(`
-      {
-        allMarkdownRemark {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                tags
-              }
+  const result = await graphql(`
+    {
+      allMarkdownRemark {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              tags
             }
           }
         }
       }
-    `).then(result => {
-      const posts = result.data.allMarkdownRemark.edges
-      createBlogPost(createPage, graphql, posts)
-      createBlogList(createPage, graphql, posts)
-      createTagPages(createPage, graphql, posts)
-      resolve();
-    })
-  });
+    }
+  `)
+  const posts = result.data.allMarkdownRemark.edges
+  createBlogPost(createPage, graphql, posts)
+  createBlogList(createPage, graphql, posts)
+  createTagPages(createPage, graphql, posts)
 }
 
-const createBlogPost = (createPage, graphql, posts) => {
+const createBlogPost = async (createPage, graphql, posts) => {
   posts.forEach(({ node }) => {
     createPage({
       path: 'blog' + node.fields.slug,
       component: path.resolve('./src/templates/blog-post.js'),
       context: {
         slug: node.fields.slug,
-        tags: node.frontmatter.tags || [], // bug, sometimes tags is null in hot reload.
-      },
+        tags: node.frontmatter.tags || [] // bug, sometimes tags is null in hot reload.
+      }
     })
   })
 }
-const createBlogList = (createPage, graphql, posts) => {
+const createBlogList = async (createPage, graphql, posts) => {
   const postsPerPage = 7
   const pageCount = Math.ceil(posts.length / postsPerPage)
   Array.from({ length: pageCount }).forEach((_, i) => {
@@ -66,22 +62,22 @@ const createBlogList = (createPage, graphql, posts) => {
         limit: postsPerPage,
         skip: i * postsPerPage,
         page: i + 1,
-        pageCount,
-      },
+        pageCount
+      }
     })
   })
 }
 
-const createTagPages = (createPage, graphql, posts) => {
-  const tags = posts.reduce((acc, edge) =>
-    edge.node.frontmatter.tags ?
-      acc.concat(edge.node.frontmatter.tags) :
-      acc
-  , [])
+const createTagPages = async (createPage, graphql, posts) => {
+  const tags = posts.reduce(
+    (acc, edge) =>
+      edge.node.frontmatter.tags ? acc.concat(edge.node.frontmatter.tags) : acc,
+    []
+  )
   const uniqueTags = uniq(tags)
 
-  uniqueTags.forEach((tag) => {
-    graphql(`
+  uniqueTags.forEach(async tag => {
+    const { data } = await graphql(`
       {
         allMarkdownRemark(
           filter: {
@@ -93,22 +89,21 @@ const createTagPages = (createPage, graphql, posts) => {
           totalCount
         }
       }
-    `).then(({ data }) => {
-      const postsCount = data.allMarkdownRemark.totalCount
-      const postsPerPage = 7
-      const pageCount = Math.ceil(postsCount / postsPerPage)
-      Array.from({ length: pageCount }).forEach((_, i) => {
-        createPage({
-          path: `blog/tag/${tag}/`,
-          component: path.resolve('./src/templates/blog-tag.js'),
-          context: {
-            limit: postsPerPage,
-            skip: i * postsPerPage,
-            page: i + 1,
-            pageCount,
-            tag
-          },
-        })
+    `)
+    const postsCount = data.allMarkdownRemark.totalCount
+    const postsPerPage = 7
+    const pageCount = Math.ceil(postsCount / postsPerPage)
+    Array.from({ length: pageCount }).forEach((_, i) => {
+      createPage({
+        path: `blog/tag/${tag}/`,
+        component: path.resolve('./src/templates/blog-tag.js'),
+        context: {
+          limit: postsPerPage,
+          skip: i * postsPerPage,
+          page: i + 1,
+          pageCount,
+          tag
+        }
       })
     })
   })

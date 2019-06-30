@@ -1,9 +1,11 @@
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
-    title: 'Fairuzi\'s Personal Website',
+    title: "Fairuzi's Personal Website",
     author: 'Muhammad Fairuzi Teguh',
     siteUrl: 'https://fairuzi10.github.io',
-    description: 'Fairuzi\'s Personal Website',
+    description: "Fairuzi's Personal Website"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -35,7 +37,7 @@ module.exports = {
                 return Object.assign({}, edge.node.frontmatter, {
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.html }],
+                  custom_elements: [{ 'content:encoded': edge.node.html }]
                 })
               })
             },
@@ -60,10 +62,10 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Fairuzi10 RSS Feed',
-          },
-        ],
-      },
+            title: 'Fairuzi10 RSS Feed'
+          }
+        ]
+      }
     },
     {
       resolve: 'gatsby-plugin-manifest',
@@ -74,23 +76,23 @@ module.exports = {
         background_color: 'white',
         theme_color: '#f8f9fa',
         display: 'minimal-ui',
-        icon: 'src/favicon.png', // This path is relative to the root of the site.
-      },
+        icon: 'src/favicon.png' // This path is relative to the root of the site.
+      }
     },
     'gatsby-plugin-remove-serviceworker',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: `${__dirname}/src/pages/blog`,
-      },
+        path: `${__dirname}/src/pages/blog`
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: `${__dirname}/src/pages/blog`,
-      },
+        path: `${__dirname}/src/pages/blog`
+      }
     },
     {
       resolve: 'gatsby-transformer-remark',
@@ -102,14 +104,14 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 1024,
-            },
+              maxWidth: 1024
+            }
           },
           {
             resolve: 'gatsby-remark-embed-video',
             options: {
               width: 800,
-              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              ratio: 1.77 // Optional: Defaults to 16/9 = 1.77
               // height: 400 // Optional: Overrides optional.ratio
             }
           },
@@ -118,23 +120,23 @@ module.exports = {
             resolve: 'gatsby-remark-emojis',
             options: {
               // Deactivate the plugin globally (default: true)
-              active : true,
+              active: true,
               // Add a custom css class
-              class  : 'emoji-icon',
+              class: 'emoji-icon',
               // Select the size (available size: 16, 24, 32, 64)
-              size   : 32,
+              size: 32,
               // Add custom styles
-              styles : {
-                display      : 'inline',
-                margin       : '0',
-                'margin-top' : '1px',
-                position     : 'relative',
-                width        : '20px'
+              styles: {
+                display: 'inline',
+                margin: '0',
+                'margin-top': '1px',
+                position: 'relative',
+                width: '20px'
               }
             }
-          },
-        ],
-      },
+          }
+        ]
+      }
     },
     {
       resolve: 'gatsby-plugin-favicon',
@@ -157,8 +159,17 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'UA-112414390-1',
-      },
+        trackingId: 'UA-112414390-1'
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-alias-imports',
+      options: {
+        alias: {
+          '@': path.resolve(__dirname, 'src')
+        },
+        extensions: []
+      }
     }
   ]
 }
