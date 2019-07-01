@@ -3,6 +3,7 @@
   "description": "Fairuzi's personal website",
   "version": "1.0.0",
   "author": "Muhammad Fairuzi Teguh <mfairuzit@gmail.com>",
+  "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.6",
     "@emotion/styled": "^10.0.6",
@@ -11,7 +12,7 @@
     "disqus-react": "^1.0.5",
     "emotion": "^10.0.6",
     "emotion-server": "^10.0.6",
-    "gatsby": "^2.11.5",
+    "gatsby": "^2.11.6",
     "gatsby-image": "^2.0.26",
     "gatsby-link": "^2.1.1",
     "gatsby-plugin-alias-imports": "^1.0.5",
@@ -62,7 +63,10 @@
     "push": "git push origin source"
   },
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "ajv": "^6.10.0",
+    "babel-eslint": "^10.0.2",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-react-app": "^4.0.1",
@@ -72,6 +76,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^1.5.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "typescript": "^3.5.2"
   }
 }
