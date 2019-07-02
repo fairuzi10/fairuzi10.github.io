@@ -77,7 +77,7 @@ export default ({ data }) => {
             </DarkLink>
             <SectionDivider />
             {postList}
-            <div class="text-center">
+            <div className="text-center">
               <Link to={blogListUrl(1)}>
                 <Button>Lihat Selengkapnya</Button>
               </Link>
