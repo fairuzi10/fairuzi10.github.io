@@ -1,14 +1,15 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
+import Card from '@/components/card'
+import Wrapper from '@/components/wrapper'
+import { blogTagUrl } from '@/utils/urls'
 import { graphql } from 'gatsby'
-import Wrapper from '../../components/wrapper'
-import { blogTagUrl } from '../../utils/urls';
+import Link from 'gatsby-link'
+import React from 'react'
+import Helmet from 'react-helmet'
 
 const TagsPage = ({
   data: {
-    allMarkdownRemark: { group },
-  },
+    allMarkdownRemark: { group }
+  }
 }) => {
   const tagList = group.map(tag => (
     <h6 key={tag.fieldValue}>
@@ -20,20 +21,18 @@ const TagsPage = ({
 
   return (
     <Wrapper single>
-      <Helmet title='label' />
-      <div>
+      <Helmet title="label" />
+      <Card>
         <h2>Daftar Label</h2>
-        { tagList }
-      </div>
+      </Card>
+      <Card>{tagList}</Card>
     </Wrapper>
   )
-};
+}
 
 export const pageQuery = graphql`
   query TagsQuery {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       group(field: frontmatter___tags) {
         fieldValue
         totalCount

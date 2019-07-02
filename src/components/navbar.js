@@ -1,15 +1,25 @@
-import styled from '@emotion/styled';
-import Link from 'gatsby-link';
-import React from 'react';
-import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem } from 'reactstrap';
+import styled from '@emotion/styled'
+import Link from 'gatsby-link'
+import React from 'react'
+import {
+  Collapse,
+  Nav,
+  Navbar,
+  NavbarBrand,
+  NavbarToggler,
+  NavItem
+} from 'reactstrap'
 
 const NavbarWrapper = styled.div({
   marginBottom: '3rem',
+  boxShadow: '0px 10px 20px -10px rgba(0,64,128,0.2)'
 })
 
-const LinkNav = ({to, children}) => (
+const LinkNav = ({ to, children }) => (
   <NavItem>
-    <Link className='nav-link' to={to} activeClassName="active" partiallyActive>{ children }</Link>
+    <Link className="nav-link" to={to} activeClassName="active" partiallyActive>
+      {children}
+    </Link>
   </NavItem>
 )
 
@@ -30,14 +40,18 @@ export default class Example extends React.Component {
   render() {
     return (
       <NavbarWrapper>
-        <Navbar color="primary" dark expand="md">
+        <Navbar color="white" light expand="md" className="py-3">
           <NavbarBrand href="/">Fairuzi10</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar aria-label="Toggle navbar">
+          <Collapse
+            isOpen={this.state.isOpen}
+            navbar
+            aria-label="Toggle navbar"
+          >
             <Nav className="ml-auto" navbar>
-              <LinkNav to='/blog/'>Blog</LinkNav>
-              <LinkNav to='/project/'>Project</LinkNav>
-              <LinkNav to='/meme/'>Meme</LinkNav>
+              <LinkNav to="/blog/">Blog</LinkNav>
+              <LinkNav to="/project/">Project</LinkNav>
+              <LinkNav to="/meme/">Meme</LinkNav>
             </Nav>
           </Collapse>
         </Navbar>

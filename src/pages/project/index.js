@@ -1,11 +1,12 @@
+import Card from '@/components/card'
+import DarkLink from '@/components/dark-link'
+import Wrapper from '@/components/wrapper'
+import { projectUrl } from '@/utils/urls'
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import { BlackLink, Card } from '../../components/utils'
-import Wrapper from '../../components/wrapper'
 import { metaData as oskpMetaData } from './oskp'
 import { metaData as savedMessagesMetaData } from './saved-messages'
-import { projectUrl } from '@/utils/urls'
 
 const jadwalSiakMetaData = {
   name: 'Jadwal SIAK',
@@ -23,7 +24,7 @@ const IndexPage = () => {
   const projectList = projectsMetaData.map(metaData => (
     <div key={metaData.url}>
       <h2>
-        <BlackLink to={metaData.url}>{metaData.name}</BlackLink>
+        <DarkLink to={metaData.url}>{metaData.name}</DarkLink>
       </h2>
       <div>{metaData.description}</div>
       <hr className="my-4" />

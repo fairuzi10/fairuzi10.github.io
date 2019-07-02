@@ -14,8 +14,5 @@ module.exports = {
         singleQuote: true
       }
     ]
-  },
-  globals: {
-    // graphql: false
   }
 }
