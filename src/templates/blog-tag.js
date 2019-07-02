@@ -17,12 +17,12 @@ const Page = ({ data, pageContext }) => {
   return (
     <Wrapper single>
       <Card>
-        <h2>
+        <h4>
           {postCount} pos dilabeli dengan #{tag}
-        </h2>
-        <h5>
+        </h4>
+        <h6>
           Lihat <Link to="/blog/tag/">semua label</Link>
-        </h5>
+        </h6>
       </Card>
       <Card>{postList}</Card>
       <div className="d-flex justify-content-center">
