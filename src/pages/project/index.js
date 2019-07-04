@@ -1,5 +1,5 @@
 import Card from '@/components/card'
-import DarkLink, { DarkA } from '@/components/dark-link'
+import DarkLink from '@/components/dark-link'
 import Wrapper from '@/components/wrapper'
 import { URL } from '@/settings'
 import { projectUrl } from '@/utils/urls'
