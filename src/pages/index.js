@@ -86,10 +86,10 @@ export default ({ data }) => {
         </div>{' '}
         <div className="col-12 col-lg-5">
           <Card>
-            <DarkLink to="/project/">
-              <h4 className="text-center">Cool Projects</h4>
-              <SectionDivider />
-            </DarkLink>
+            <h4 className="text-center">
+              <DarkLink to="/project/">Cool Projects</DarkLink>
+            </h4>
+            <SectionDivider />
             {projectList}
           </Card>
         </div>
