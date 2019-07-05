@@ -2,14 +2,12 @@ import DarkLink from '@/components/dark-link'
 import Button from '@/components/button'
 import { Card } from '@/components/card'
 import SectionDivider from '@/components/section-divider'
-import styled from '@emotion/styled'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import React from 'react'
 import Helmet from 'react-helmet'
 
 import Wrapper from '../components/wrapper.js'
-import { COLOR } from '../utils/theme.js'
 import { blogListUrl, blogUrl } from '../utils/urls.js'
 import { projectsMetaData } from './project/index.js'
 
@@ -66,8 +64,10 @@ export default ({ data }) => {
         ]}
       />
       <Card>
-        <WelcomeHeader>Selamat Datang di Website Fairuzi10</WelcomeHeader>
-        <SectionDivider />
+        <h1 className="text-center">Fairuzi10</h1>
+        <h6 className="text-center">
+          <i>I explain with words and memes</i>
+        </h6>
       </Card>
       <div className="row">
         <div className="col-12 col-lg-7">
@@ -77,10 +77,17 @@ export default ({ data }) => {
             </DarkLink>
             <SectionDivider />
             {postList}
-            <div className="text-center">
-              <Link to={blogListUrl(1)}>
-                <Button>Lihat Selengkapnya</Button>
-              </Link>
+            <div className="d-flex justify-content-center">
+              <div className="col-12 col-md-8">
+                <Link
+                  to={blogListUrl(1)}
+                  className="text-decoration-none d-block"
+                >
+                  <Button block size="lg">
+                    Lihat Selengkapnya
+                  </Button>
+                </Link>
+              </div>
             </div>
           </Card>
         </div>{' '}
@@ -119,9 +126,4 @@ export const query = graphql`
       }
     }
   }
-`
-
-const WelcomeHeader = styled.h1`
-  text-align: center;
-  color: ${COLOR.dark};
 `

@@ -2,7 +2,7 @@ import { css } from '@emotion/core'
 import { COLOR } from '@/utils/theme'
 
 export default css`
-  @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+  @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.2.0/css/bootstrap.min.css');
   @import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
 
   * {
@@ -11,6 +11,7 @@ export default css`
 
   body {
     background-color: ${COLOR.blueFade};
+    color: ${COLOR.dark};
   }
 
   .black-link {
@@ -64,5 +65,13 @@ export default css`
 
   .blog-post p {
     text-align: justify;
+  }
+
+  .dark-text {
+    color: ${COLOR.dark};
+  }
+
+  .text-decoration-none {
+    text-decoration: none;
   }
 `
