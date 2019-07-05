@@ -1,8 +1,8 @@
 import Card from '@/components/card'
 import DarkLink from '@/components/dark-link'
 import Wrapper from '@/components/wrapper'
-import { URL } from '@/settings'
 import { projectUrl } from '@/utils/urls'
+import { siteMetadata } from '@/settings'
 import React from 'react'
 import Helmet from 'react-helmet'
 
@@ -11,7 +11,7 @@ import { metaData as savedMessagesMetaData } from './saved-messages'
 
 const jadwalSiakMetaData = {
   name: 'Jadwal SIAK',
-  url: URL + projectUrl('jadwal-siak'), // force external URL
+  url: siteMetadata.siteUrl + projectUrl('jadwal-siak'), // force external URL
   description: 'Atur jadwalmu dan jadilah pemenang SIAK War!'
 }
 

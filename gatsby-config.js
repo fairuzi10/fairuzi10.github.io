@@ -1,12 +1,8 @@
+const siteMetadata = require('./src/settings').siteMetadata
 const path = require('path')
 
 module.exports = {
-  siteMetadata: {
-    title: "Fairuzi's Personal Website",
-    author: 'Muhammad Fairuzi Teguh',
-    siteUrl: 'https://fairuzi10.github.io',
-    description: "Fairuzi's Personal Website"
-  },
+  siteMetadata,
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
