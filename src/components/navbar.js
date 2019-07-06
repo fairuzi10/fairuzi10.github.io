@@ -41,7 +41,9 @@ export default class Example extends React.Component {
     return (
       <NavbarWrapper>
         <Navbar color="white" light expand="md" className="py-3">
-          <NavbarBrand href="/">Fairuzi10</NavbarBrand>
+          <NavbarBrand href="/">
+            <b>Fairuzi10</b>
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse
             isOpen={this.state.isOpen}

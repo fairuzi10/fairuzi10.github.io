@@ -8,7 +8,6 @@ const Footer = styled.footer({
   padding: '3rem 0',
   textAlign: 'center',
   color: COLOR.dark,
-  fontSize: '0.8rem',
   backgroundColor: COLOR.white
 })
 

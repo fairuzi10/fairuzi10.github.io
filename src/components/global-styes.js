@@ -3,15 +3,23 @@ import { COLOR } from '@/utils/theme'
 
 export default css`
   @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.2.0/css/bootstrap.min.css');
-  @import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
-
-  * {
-    font-family: 'Arvo';
-  }
 
   body {
     background-color: ${COLOR.blueFade};
     color: ${COLOR.dark};
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+  h2 {
+    font-weight: bold;
+  }
+  h3 {
+    font-weight: bold;
+  }
+  h4 {
+    font-weight: bold;
   }
 
   .black-link {

@@ -22,12 +22,10 @@ const Post = ({ node }) => {
   return (
     <div key={node.id}>
       <div>{date}</div>
-      <h4>
+      <h4 className="mt-2">
         <DarkLink to={blogUrl(node.fields.slug)}>{title}</DarkLink>
       </h4>
-      <div>
-        <small>{description}</small>
-      </div>
+      <div className="mb-2">{description}</div>
       {tagsText}
       <SectionDivider />
     </div>
@@ -42,12 +40,10 @@ export default ({ data }) => {
 
   const projectList = projectsMetaData.map(metaData => (
     <div key={metaData.url}>
-      <h4>
+      <h4 className="mb-2">
         <DarkLink to={metaData.url}>{metaData.name}</DarkLink>
       </h4>
-      <div>
-        <small>{metaData.description}</small>
-      </div>
+      <div>{metaData.description}</div>
       <SectionDivider />
     </div>
   ))
@@ -72,9 +68,9 @@ export default ({ data }) => {
       <div className="row">
         <div className="col-12 col-lg-7">
           <Card>
-            <DarkLink to="/blog/">
-              <h4 className="text-center">Latest Blogs</h4>
-            </DarkLink>
+            <h4 className="text-center">
+              <DarkLink to="/blog/">Latest Blogs</DarkLink>
+            </h4>
             <SectionDivider />
             {postList}
             <div className="d-flex justify-content-center">
