@@ -1,3 +1,5 @@
+import React from 'react'
+
 const unmountInitialLoading = () => {
   if (typeof document !== 'undefined') {
     const loadingBody = document.getElementById('loading-body')
@@ -9,7 +11,7 @@ const unmountInitialLoading = () => {
   }
 }
 
-exports.wrapRootElement = ({ element }) => {
+export const wrapRootElement = ({ element }) => {
   unmountInitialLoading()
-  return element
+  return <React.StrictMode>{element}</React.StrictMode>
 }
