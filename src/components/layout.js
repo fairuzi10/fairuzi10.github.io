@@ -14,12 +14,6 @@ const FullPage = styled.div({
 })
 
 const Layout = ({ children }) => {
-  if (typeof document !== 'undefined') {
-    const loadingStyle = document.getElementById('loading-style')
-    const loadingBody = document.getElementById('loading-body')
-    if (loadingStyle) loadingStyle.remove()
-    if (loadingBody) loadingBody.remove()
-  }
   return (
     <FullPage>
       <Helmet

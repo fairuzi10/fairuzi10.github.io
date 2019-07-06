@@ -20,9 +20,6 @@ export default function HTML(props) {
                 background-color: #e6ecf0;
                 margin: 0;
               }
-              #app:not(:empty) + .loading-body {
-                display: none;
-              }
               .py-3 {
                 padding-top: 1rem!important;
                 padding-bottom: 1rem!important;
@@ -131,12 +128,6 @@ export default function HTML(props) {
         <noscript key="noscript" id="gatsby-noscript">
           This app works best with JavaScript enabled.
         </noscript>
-        <div
-          key={`body`}
-          id="___gatsby"
-          dangerouslySetInnerHTML={{ __html: props.body }}
-        />
-
         <div id="loading-body">
           <nav className="py-3 navbar navbar-expand-md navbar-light bg-white">
             <a href="/" className="navbar-brand">
@@ -152,7 +143,19 @@ export default function HTML(props) {
             </div>
           </div>
         </div>
-
+        <div
+          key={`body`}
+          id="___gatsby"
+          dangerouslySetInnerHTML={{ __html: props.body }}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              const loadingBody = document.getElementById('loading-body');
+              if (loadingBody) loadingBody.style.display = 'none';
+            `
+          }}
+        />
         {props.postBodyComponents}
       </body>
     </html>

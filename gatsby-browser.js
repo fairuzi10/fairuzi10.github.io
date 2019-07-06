@@ -1,7 +1,15 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
+const unmountInitialLoading = () => {
+  if (typeof document !== 'undefined') {
+    const loadingBody = document.getElementById('loading-body')
+    if (loadingBody) {
+      loadingBody.remove()
+      const loadingStyle = document.getElementById('loading-style')
+      if (loadingStyle) loadingStyle.remove()
+    }
+  }
+}
 
- // You can delete this file if you're not using it
+exports.wrapRootElement = ({ element }) => {
+  unmountInitialLoading()
+  return element
+}
