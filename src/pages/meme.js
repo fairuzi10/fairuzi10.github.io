@@ -29,7 +29,7 @@ const MemePage = ({
   const images = memes.map(nodeObject => {
     const img = nodeObject.node.childImageSharp.fluid
     const path = nodeObject.node.relativePath
-    const postUrl = '/blog/' + path.slice(0, path.indexOf('/')) + '/'
+    const postUrl = `/blog/${path.slice(0, path.indexOf('/'))}/`
     return (
       <div className="py-4" key={path}>
         <Link to={postUrl}>
@@ -42,14 +42,18 @@ const MemePage = ({
   const oddImages = images.filter((el, idx) => idx % 2 === 1)
   return (
     <Wrapper>
-      <Helmet
-        meta={[
-          {
-            name: 'description',
-            content: 'Kumpulan meme yang ada pada blog ini.'
-          }
-        ]}
-      />
+      <Helmet>
+        <title>Meme</title>
+        <meta name="og:title" content="Meme" />
+        <meta
+          name="description"
+          content="Kumpulan meme yang ada pada blog ini"
+        />
+        <meta
+          name="og:description"
+          content="Kumpulan meme yang ada pada blog ini"
+        />
+      </Helmet>
       <Card>
         <h5 className="text-center">
           Klik gambar untuk membaca pos dan mendapatkan konteksnya :)

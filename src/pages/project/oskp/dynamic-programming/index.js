@@ -13,15 +13,18 @@ export default () => {
 
   return (
     <Wrapper single>
-      <Helmet
-        title="Dynamic Programming"
-        meta={[
-          {
-            name: 'description',
-            content: 'Belajar dynamic programming OSN Komputer/Informatika'
-          }
-        ]}
-      />
+      <Helmet>
+        <title>Dynamic Programming</title>
+        <meta name="og:title" content="Dynamic Programming" />
+        <meta
+          name="description"
+          content="Belajar dynamic programming OSN Komputer/Informatika"
+        />
+        <meta
+          name="og:description"
+          content="Belajar dynamic programming OSN Komputer/Informatika"
+        />
+      </Helmet>
       <Card>
         <h1>Dynamic Programming</h1>
         <div className="text-justify">

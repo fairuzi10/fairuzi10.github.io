@@ -31,15 +31,18 @@ const IndexPage = () => {
   ))
   return (
     <Wrapper single>
-      <Helmet
-        title="Project"
-        meta={[
-          {
-            name: 'description',
-            content: 'Berbagai proyek yang telah saya kerjakan.'
-          }
-        ]}
-      />
+      <Helmet>
+        <title>Project</title>
+        <meta name="og:title" content="Project" />
+        <meta
+          name="description"
+          content="Berbagai proyek yang telah saya kerjakan"
+        />
+        <meta
+          name="og:description"
+          content="Berbagai proyek yang telah saya kerjakan"
+        />
+      </Helmet>
       <Card>{projectList}</Card>
     </Wrapper>
   )

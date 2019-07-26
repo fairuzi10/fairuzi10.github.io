@@ -51,16 +51,18 @@ const IndexPage = ({ data, pageContext }) => {
 
   return (
     <Wrapper single>
-      <Helmet
-        title="Blog"
-        meta={[
-          {
-            name: 'description',
-            content:
-              'Kumpulan cerita milik Muhammad Fairuzi Teguh tentang olimpiade komputer, Universitas Indonesia, dan lain sebagainya.'
-          }
-        ]}
-      />
+      <Helmet>
+        <title>Blog</title>
+        <meta name="og:title" content="Blog" />
+        <meta
+          name="description"
+          content="Kumpulan cerita tentang olimpiade komputer, Universitas Indonesia, dan Software Engineering"
+        />
+        <meta
+          name="og:description"
+          content="Kumpulan cerita tentang olimpiade komputer, Universitas Indonesia, dan Software Engineering"
+        />
+      </Helmet>
       <Card>{postList}</Card>
       <div className="d-flex justify-content-center mt-4">
         <Pagination index={page} pageCount={pageCount} />

@@ -17,17 +17,30 @@ const Layout = ({ children }) => {
   return (
     <FullPage>
       <Helmet
-        title="Fairuzi10"
         htmlAttributes={{
           lang: 'id'
         }}
-        meta={[
-          {
-            name: 'google-site-verification',
-            content: 'uu3IRN8Av5aq9r0lEKhIJjoLFIi1T8TFKymt0f-68bk'
-          }
-        ]}
-      />
+      >
+        <title>Fairuzi10</title>
+        <meta name="og:title" content="Fairuzi10" />
+        <meta
+          name="description"
+          content="Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita mengenai hidup seperti perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika."
+        />
+        <meta
+          name="description"
+          content="Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita mengenai hidup seperti perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika."
+        />
+        <meta
+          name="og:description"
+          content="Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita mengenai hidup seperti perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika."
+        />
+        <meta name="og:image" content={require('@/favicon.png')} />
+        <meta
+          name="google-site-verification"
+          content="uu3IRN8Av5aq9r0lEKhIJjoLFIi1T8TFKymt0f-68bk"
+        />
+      </Helmet>
       <Global styles={globalStyles} />
       <StretchContainer>
         <Navbar />

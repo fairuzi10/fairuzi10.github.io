@@ -404,15 +404,18 @@ class Index extends React.Component {
   render() {
     return (
       <Wrapper>
-        <Helmet
-          title="Saved Messages"
-          meta={[
-            {
-              name: 'description',
-              content: 'Kirim pesan untuk dibaca di komputer lain'
-            }
-          ]}
-        />
+        <Helmet>
+          <title>Saved Messages</title>
+          <meta name="og:title" content="Saved Messages" />
+          <meta
+            name="description"
+            content="Kirim pesan untuk dibaca di komputer lain"
+          />
+          <meta
+            name="og:description"
+            content="Kirim pesan untuk dibaca di komputer lain"
+          />
+        </Helmet>
         <div className="text-center">
           <h1 className="display-4">Saved Messages</h1>
           <div className="text-muted">

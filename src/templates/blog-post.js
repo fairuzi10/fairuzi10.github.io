@@ -16,8 +16,8 @@ export default ({ data }) => {
   const post = data.post
   const { title, description, date, tags, thumbnail } = post.frontmatter
   const disqusConfig = {
-    url: 'http://fairuzi10.github.io/blog' + post.fields.slug,
-    identifier: 'blog' + post.fields.slug,
+    url: `http://fairuzi10.github.io/blog${post.fields.slug}`,
+    identifier: `blog${post.fields.slug}`,
     title: post.frontmatter.title
   }
 
@@ -42,14 +42,13 @@ export default ({ data }) => {
 
   return (
     <Wrapper single>
-      <Helmet
-        title={title}
-        meta={[
-          { name: 'description', content: description },
-          { name: 'og:title', content: title },
-          { name: 'og:image', content: thumbnail.publicURL }
-        ]}
-      />
+      <Helmet>
+        <title>{title}</title>
+        <meta name="og:title" content={title} />
+        <meta name="description" content={description} />
+        <meta name="og:description" content={description} />
+        <meta name="og:image" content={thumbnail.publicURL} />
+      </Helmet>
       <Card>
         {date}
         <SectionDivider />

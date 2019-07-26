@@ -23,15 +23,18 @@ export default () => {
 
   return (
     <Wrapper single>
-      <Helmet
-        title="OSKP"
-        meta={[
-          {
-            name: 'description',
-            content: `Kumpulan slide yang dapat digunakan untuk belajar Olimpiade Sains Nasional (OSN) Komputer/Informatika`
-          }
-        ]}
-      />
+      <Helmet>
+        <title>OSKP</title>
+        <meta name="og:title" content="OSKP" />
+        <meta
+          name="description"
+          content="Kumpulan slide yang dapat digunakan untuk belajar Olimpiade Sains Nasional (OSN) Komputer/Informatika"
+        />
+        <meta
+          name="og:description"
+          content="Kumpulan slide yang dapat digunakan untuk belajar Olimpiade Sains Nasional (OSN) Komputer/Informatika"
+        />
+      </Helmet>
       <Card>
         <h1>OSKP</h1>
         <div className="text-justify">

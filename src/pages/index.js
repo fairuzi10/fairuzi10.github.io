@@ -1,11 +1,10 @@
-import DarkLink from '@/components/dark-link'
 import Button from '@/components/button'
 import { Card } from '@/components/card'
+import DarkLink from '@/components/dark-link'
 import SectionDivider from '@/components/section-divider'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import React from 'react'
-import Helmet from 'react-helmet'
 
 import Wrapper from '../components/wrapper.js'
 import { blogListUrl, blogUrl } from '../utils/urls.js'
@@ -50,15 +49,6 @@ export default ({ data }) => {
 
   return (
     <Wrapper>
-      <Helmet
-        meta={[
-          {
-            name: 'description',
-            content:
-              'Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita mengenai hidup seperti kehidupan perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika.'
-          }
-        ]}
-      />
       <Card className="my-3 mx-0 mx-lg-3">
         <h1 className="text-center">Fairuzi10</h1>
         <h6 className="text-center">

@@ -14,16 +14,18 @@ export default () => {
 
   return (
     <Wrapper single>
-      <Helmet
-        title="Persamaan Linear Diophantine"
-        meta={[
-          {
-            name: 'description',
-            content:
-              'Belajar persamaan linear diophantine OSN Komputer/Informatika'
-          }
-        ]}
-      />
+      <Helmet>
+        <title>Persamaan Linear Diophantine</title>
+        <meta name="og:title" content="Persamaan Linear Diophantine" />
+        <meta
+          name="description"
+          content="Belajar persamaan linear diophantine OSN Komputer/Informatika"
+        />
+        <meta
+          name="og:description"
+          content="Belajar persamaan linear diophantine OSN Komputer/Informatika"
+        />
+      </Helmet>
       <Card>
         <h1>Persamaan Linear Diophantine</h1>
         <div className="text-justify">
