@@ -1,8 +1,6 @@
 import Card from '@/components/card'
 import DarkLink from '@/components/dark-link'
 import Wrapper from '@/components/wrapper'
-import { projectUrl } from '@/utils/urls'
-import { siteMetadata } from '@/settings'
 import React from 'react'
 import Helmet from 'react-helmet'
 
@@ -10,8 +8,8 @@ import { metaData as oskpMetaData } from './oskp'
 import { metaData as savedMessagesMetaData } from './saved-messages'
 
 const jadwalSiakMetaData = {
-  name: 'Jadwal SIAK',
-  url: siteMetadata.siteUrl + projectUrl('jadwal-siak'), // force external URL
+  name: 'Jadwal SIAK War',
+  url: 'http://siak.fairuzi10.com',
   description: 'Atur jadwalmu dan jadilah pemenang SIAK War!'
 }
 
