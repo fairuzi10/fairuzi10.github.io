@@ -59,15 +59,15 @@ export default ({ data }) => {
           }
         ]}
       />
-      <Card>
+      <Card className="my-3 mx-0 mx-lg-3">
         <h1 className="text-center">Fairuzi10</h1>
         <h6 className="text-center">
           <i>I explain with words and memes</i>
         </h6>
       </Card>
-      <div className="row">
+      <div className="row no-gutters">
         <div className="col-12 col-lg-7">
-          <Card>
+          <Card className="my-3 mx-0 mx-lg-3">
             <h4 className="text-center">
               <DarkLink to="/blog/">Latest Blogs</DarkLink>
             </h4>
@@ -88,7 +88,7 @@ export default ({ data }) => {
           </Card>
         </div>{' '}
         <div className="col-12 col-lg-5">
-          <Card>
+          <Card className="my-3 mx-0 mx-lg-3">
             <h4 className="text-center">
               <DarkLink to="/project/">Cool Projects</DarkLink>
             </h4>

@@ -13,6 +13,7 @@ module.exports = {
         semi: false,
         singleQuote: true
       }
-    ]
+    ],
+    'prefer-template': 'warn'
   }
 }

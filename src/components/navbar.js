@@ -11,7 +11,7 @@ import {
 } from 'reactstrap'
 
 const NavbarWrapper = styled.div({
-  marginBottom: '3rem',
+  marginBottom: '2rem',
   boxShadow: '0px 10px 20px -10px rgba(0,64,128,0.2)'
 })
 
