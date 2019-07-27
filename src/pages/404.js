@@ -3,8 +3,8 @@ import Wrapper from '../components/wrapper'
 
 const NotFoundPage = () => (
   <Wrapper mid>
-    <h1>Halaman yang Anda Tuju Tidak Ditemukan</h1>
-    <h5>Sama seperti jodoh saya.</h5>
+    <h1>404</h1>
+    <h5>Halaman yang Anda Tuju Tidak Ditemukan</h5>
   </Wrapper>
 )
 
