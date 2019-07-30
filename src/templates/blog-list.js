@@ -1,16 +1,18 @@
-import React from 'react'
+import Card from '@/components/card'
 import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import Link from 'gatsby-link'
+import React from 'react'
+import Helmet from 'react-helmet'
+
 import Pagination from '../components/pagination'
 import Wrapper from '../components/wrapper'
-import Helmet from 'react-helmet'
-import Img from 'gatsby-image'
-import Card from '@/components/card'
+import { blogTagUrl } from '../utils/urls'
 
 export const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
   const tagsText = tags.map(tag => (
-    <Link to={`/blog/tag/${tag}/`} key={tag} className="mx-1">
+    <Link to={blogTagUrl(tag)} key={tag} className="mx-1">
       #{tag}{' '}
     </Link>
   ))
@@ -22,14 +24,14 @@ export const Post = ({ node }) => {
     <div key={node.id}>
       <div>{date}</div>
       <h2>
-        <Link to={`/blog${node.fields.slug}`} className="black-link">
+        <Link to={node.fields.slug} className="black-link">
           {title}
         </Link>
       </h2>
       {thumbnail && (
         <div className="pb-4 text-center row">
           <div className="col-12 col-md-8 offset-md-2">
-            <Link to={`/blog${node.fields.slug}`}>
+            <Link to={node.fields.slug}>
               <Img fluid={thumbnail} />
             </Link>
           </div>

@@ -4,17 +4,18 @@ import DarkLink from '@/components/dark-link'
 import Featured from '@/components/featured'
 import SectionDivider from '@/components/section-divider'
 import Wrapper from '@/components/wrapper'
-import { blogListUrl, blogUrl } from '@/utils/urls.js'
+import { blogListUrl } from '@/utils/urls.js'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import React from 'react'
 
+import { blogTagUrl } from '../utils/urls.js'
 import { projectsMetaData } from './project/index.js'
 
 const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
   const tagsText = tags.map(tag => (
-    <Link to={`/blog/tag/${tag}/`} key={tag} className="mx-1">
+    <Link to={blogTagUrl(tag)} key={tag} className="mx-1">
       #{tag}{' '}
     </Link>
   ))
@@ -23,7 +24,7 @@ const Post = ({ node }) => {
     <div key={node.id}>
       <div>{date}</div>
       <h4 className="mt-2">
-        <DarkLink to={blogUrl(node.fields.slug)}>{title}</DarkLink>
+        <DarkLink to={node.fields.slug}>{title}</DarkLink>
       </h4>
       <div className="mb-2">{description}</div>
       {tagsText}
