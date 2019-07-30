@@ -1,10 +1,10 @@
 import Card from '@/components/card'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import Link from 'gatsby-link'
 import React from 'react'
 import Helmet from 'react-helmet'
 
+import { HoverableImage } from '../components/HoverableImage'
 import Pagination from '../components/pagination'
 import Wrapper from '../components/wrapper'
 import { blogTagUrl } from '../utils/urls'
@@ -29,10 +29,10 @@ export const Post = ({ node }) => {
         </Link>
       </h2>
       {thumbnail && (
-        <div className="pb-4 text-center row">
+        <div className="text-center row">
           <div className="col-12 col-md-8 offset-md-2">
             <Link to={node.fields.slug}>
-              <Img fluid={thumbnail} />
+              <HoverableImage fluid={thumbnail} />
             </Link>
           </div>
         </div>
