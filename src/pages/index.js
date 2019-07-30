@@ -1,13 +1,14 @@
 import Button from '@/components/button'
 import { Card } from '@/components/card'
 import DarkLink from '@/components/dark-link'
+import Featured from '@/components/featured'
 import SectionDivider from '@/components/section-divider'
+import Wrapper from '@/components/wrapper'
+import { blogListUrl, blogUrl } from '@/utils/urls.js'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import React from 'react'
 
-import Wrapper from '../components/wrapper.js'
-import { blogListUrl, blogUrl } from '../utils/urls.js'
 import { projectsMetaData } from './project/index.js'
 
 const Post = ({ node }) => {
@@ -57,34 +58,41 @@ export default ({ data }) => {
       </Card>
       <div className="row no-gutters">
         <div className="col-12 col-lg-7">
-          <Card className="my-3 mx-0 mx-lg-3">
-            <h4 className="text-center">
-              <DarkLink to="/blog/">Latest Blogs</DarkLink>
-            </h4>
-            <SectionDivider />
-            {postList}
-            <div className="d-flex justify-content-center">
-              <div className="col-12 col-md-8">
-                <Link
-                  to={blogListUrl(1)}
-                  className="text-decoration-none d-block"
-                >
-                  <Button block size="lg">
-                    Lihat Selengkapnya
-                  </Button>
-                </Link>
+          <div className="py-3 px-lg-3">
+            <Card>
+              <h4 className="text-center">
+                <DarkLink to="/blog/">Latest Blogs</DarkLink>
+              </h4>
+              <SectionDivider />
+              {postList}
+              <div className="d-flex justify-content-center">
+                <div className="col-12 col-md-8">
+                  <Link
+                    to={blogListUrl(1)}
+                    className="text-decoration-none d-block"
+                  >
+                    <Button block size="lg">
+                      Lihat Selengkapnya
+                    </Button>
+                  </Link>
+                </div>
               </div>
-            </div>
-          </Card>
+            </Card>
+          </div>
         </div>{' '}
         <div className="col-12 col-lg-5">
-          <Card className="my-3 mx-0 mx-lg-3">
-            <h4 className="text-center">
-              <DarkLink to="/project/">Cool Projects</DarkLink>
-            </h4>
-            <SectionDivider />
-            {projectList}
-          </Card>
+          <div className="py-3 px-lg-3">
+            <Card>
+              <h4 className="text-center">
+                <DarkLink to="/project/">Cool Projects</DarkLink>
+              </h4>
+              <SectionDivider />
+              {projectList}
+            </Card>
+          </div>
+          <div className="py-3 px-lg-3">
+            <Featured />
+          </div>
         </div>
       </div>
     </Wrapper>

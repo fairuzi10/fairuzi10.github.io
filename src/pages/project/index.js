@@ -6,10 +6,11 @@ import Helmet from 'react-helmet'
 
 import { metaData as oskpMetaData } from './oskp'
 import { metaData as savedMessagesMetaData } from './saved-messages'
+import { projectUrl } from '../../utils/urls'
 
 const jadwalSiakMetaData = {
   name: 'Jadwal SIAK War',
-  url: 'http://siak.fairuzi10.com',
+  url: projectUrl('jadwal-siak-war'),
   description: 'Atur jadwalmu dan jadilah pemenang SIAK War!'
 }
 

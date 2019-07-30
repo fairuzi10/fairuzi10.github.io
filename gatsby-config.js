@@ -79,15 +79,15 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'pages',
-        path: `${__dirname}/src/pages/blog`
+        name: 'assets',
+        path: `${__dirname}/src/assets`
       }
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'images',
-        path: `${__dirname}/src/pages/blog`
+        name: `pages`,
+        path: `${__dirname}/src/pages`
       }
     },
     {

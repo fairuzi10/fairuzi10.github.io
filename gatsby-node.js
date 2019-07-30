@@ -42,7 +42,7 @@ exports.createPages = async ({ graphql, actions }) => {
 const createBlogPost = async (createPage, graphql, posts) => {
   posts.forEach(({ node }) => {
     createPage({
-      path: 'blog' + node.fields.slug,
+      path: `blog${node.fields.slug}`,
       component: path.resolve('./src/templates/blog-post.js'),
       context: {
         slug: node.fields.slug,
