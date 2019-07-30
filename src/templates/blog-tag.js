@@ -16,7 +16,7 @@ const Page = ({ data, pageContext }) => {
 
   return (
     <Wrapper single>
-      <Card>
+      <Card className="mb-3">
         <h4>
           {postCount} pos dilabeli dengan #{tag}
         </h4>
@@ -24,7 +24,7 @@ const Page = ({ data, pageContext }) => {
           Lihat <Link to="/blog/tag/">semua label</Link>
         </h6>
       </Card>
-      <Card>{postList}</Card>
+      <Card className="mb-3">{postList}</Card>
       <div className="d-flex justify-content-center">
         <Pagination index={page} pageCount={pageCount} />
       </div>
