@@ -10,8 +10,7 @@ import {
   NavItem
 } from 'reactstrap'
 
-const NavbarWrapper = styled.div({
-  marginBottom: '2rem',
+const CustomNavbar = styled(Navbar)({
   boxShadow: '0px 10px 20px -10px rgba(0,64,128,0.2)'
 })
 
@@ -39,25 +38,25 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <NavbarWrapper>
-        <Navbar color="white" light expand="md" className="py-3">
-          <NavbarBrand href="/">
-            <b>Fairuzi10</b>
-          </NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse
-            isOpen={this.state.isOpen}
-            navbar
-            aria-label="Toggle navbar"
-          >
-            <Nav className="ml-auto" navbar>
-              <LinkNav to="/blog/">Blog</LinkNav>
-              <LinkNav to="/project/">Project</LinkNav>
-              <LinkNav to="/meme/">Meme</LinkNav>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </NavbarWrapper>
+      <CustomNavbar
+        color="white"
+        light
+        expand="md"
+        className="py-3"
+        fixed="top"
+      >
+        <NavbarBrand href="/">
+          <b>Fairuzi10</b>
+        </NavbarBrand>
+        <NavbarToggler onClick={this.toggle} />
+        <Collapse isOpen={this.state.isOpen} navbar aria-label="Toggle navbar">
+          <Nav className="ml-auto" navbar>
+            <LinkNav to="/blog/">Blog</LinkNav>
+            <LinkNav to="/project/">Project</LinkNav>
+            <LinkNav to="/meme/">Meme</LinkNav>
+          </Nav>
+        </Collapse>
+      </CustomNavbar>
     )
   }
 }

@@ -10,7 +10,8 @@ import globalStyles from './global-styes'
 
 const FullPage = styled.div({
   minHeight: '100vh',
-  height: '1px'
+  height: '1px',
+  paddingTop: '100px'
 })
 
 const Layout = ({ children }) => {
