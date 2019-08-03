@@ -31,7 +31,7 @@ export const Post = ({ node }) => {
       {thumbnail && (
         <div className="text-center row">
           <div className="col-12 col-md-8 offset-md-2">
-            <Link to={node.fields.slug}>
+            <Link to={blogUrl(node.fields.slug)}>
               <HoverableImage fluid={thumbnail} />
             </Link>
           </div>
