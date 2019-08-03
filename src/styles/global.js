@@ -9,19 +9,6 @@ export default css`
     color: ${COLOR.dark};
   }
 
-  h1 {
-    font-weight: bold;
-  }
-  h2 {
-    font-weight: bold;
-  }
-  h3 {
-    font-weight: bold;
-  }
-  h4 {
-    font-weight: bold;
-  }
-
   .black-link {
     color: ${COLOR.dark} !important;
   }
@@ -49,12 +36,6 @@ export default css`
     margin-bottom: 1em;
   }
 
-  blockquote {
-    background: #f8f9fa;
-    border-left: 0.3em solid #e5e5e5;
-    padding: 1em;
-  }
-
   hr.section-divider {
     margin: 3em 0;
     border: 0;
@@ -77,5 +58,12 @@ export default css`
 
   .text-decoration-none {
     text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: bold;
   }
 `
