@@ -4,8 +4,8 @@ const uniq = require('lodash/uniq')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  if (node.internal.type === 'MarkdownRemark') {
-    const slug = createFilePath({ node, getNode, basePath: 'pages' })
+  if (node.internal.type === 'Mdx') {
+    const slug = createFilePath({ node, getNode, basePath: 'posts' })
     createNodeField({
       node,
       name: 'slug',
@@ -19,9 +19,10 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const result = await graphql(`
     {
-      allMarkdownRemark {
+      allMdx {
         edges {
           node {
+            id
             fields {
               slug
             }
@@ -33,7 +34,7 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-  const posts = result.data.allMarkdownRemark.edges
+  const posts = result.data.allMdx.edges
   createBlogPost(createPage, graphql, posts)
   createBlogList(createPage, graphql, posts)
   createTagPages(createPage, graphql, posts)
@@ -42,7 +43,7 @@ exports.createPages = async ({ graphql, actions }) => {
 const createBlogPost = async (createPage, graphql, posts) => {
   posts.forEach(({ node }) => {
     createPage({
-      path: `${node.fields.slug}`,
+      path: `/blog${node.fields.slug}`,
       component: path.resolve('./src/templates/blog-post.js'),
       context: {
         slug: node.fields.slug,
@@ -79,7 +80,7 @@ const createTagPages = async (createPage, graphql, posts) => {
   uniqueTags.forEach(async tag => {
     const { data } = await graphql(`
       {
-        allMarkdownRemark(
+        allMdx(
           filter: {
             frontmatter: {
               tags: { in: ["${tag}"] }
@@ -90,7 +91,7 @@ const createTagPages = async (createPage, graphql, posts) => {
         }
       }
     `)
-    const postsCount = data.allMarkdownRemark.totalCount
+    const postsCount = data.allMdx.totalCount
     const postsPerPage = 7
     const pageCount = Math.ceil(postsCount / postsPerPage)
     Array.from({ length: pageCount }).forEach((_, i) => {

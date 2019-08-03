@@ -71,10 +71,6 @@ export default css`
     color: rgb(33, 37, 41);
   }
 
-  .blog-post p {
-    text-align: justify;
-  }
-
   .dark-text {
     color: ${COLOR.dark};
   }

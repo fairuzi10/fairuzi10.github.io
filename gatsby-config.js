@@ -28,8 +28,8 @@ module.exports = {
         `,
         feeds: [
           {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+            serialize: ({ query: { site, allMdx } }) => {
+              return allMdx.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
@@ -39,7 +39,7 @@ module.exports = {
             },
             query: `
               {
-                allMarkdownRemark(
+                allMdx(
                   limit: 1000,
                   sort: { order: DESC, fields: [frontmatter___date] }
                 ) {
@@ -86,21 +86,23 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages`
+        name: `posts`,
+        path: `${__dirname}/content/posts`
       }
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        plugins: ['gatsby-remark-images'],
+        gatsbyRemarkPlugins: [
           'gatsby-remark-smartypants',
           'gatsby-remark-katex',
           'gatsby-remark-prismjs',
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 1024
+              maxWidth: 1024,
+              wrapperStyle: fluidResult => `max-height: 350px;`
             }
           },
           {

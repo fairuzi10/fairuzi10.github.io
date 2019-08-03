@@ -1,23 +1,28 @@
 import 'katex/dist/katex.min.css'
 import 'prismjs/themes/prism-okaidia.css'
 
-import Card from '@/components/card'
-import DarkLink from '@/components/dark-link'
-import SectionDivider from '@/components/section-divider'
-import Wrapper from '@/components/wrapper'
-import { blogTagUrl, blogUrl } from '@/utils/urls'
+import { Global } from '@emotion/core'
 import { DiscussionEmbed } from 'disqus-react'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import React from 'react'
 import Helmet from 'react-helmet'
+
+import Card from '../components/card'
+import DarkLink from '../components/dark-link'
+import SectionDivider from '../components/section-divider'
+import Wrapper from '../components/wrapper'
+import blogStyles from '../styles/blog'
+import { blogTagUrl, blogUrl } from '../utils/urls'
+import settings from '../settings'
 
 export default ({ data }) => {
   const post = data.post
   const { title, description, date, tags, thumbnail } = post.frontmatter
   const disqusConfig = {
-    url: `http://fairuzi10.github.io/blog${post.fields.slug}`,
-    identifier: `blog${post.fields.slug}`,
+    url: `${settings.siteMetadata.siteUrl}/blog${post.fields.slug}`,
+    identifier: `/blog${post.fields.slug}`,
     title: post.frontmatter.title
   }
 
@@ -49,14 +54,12 @@ export default ({ data }) => {
         <meta name="og:description" content={description} />
         <meta name="og:image" content={thumbnail.publicURL} />
       </Helmet>
-      <Card>
+      <Card className="mb-3">
+        <Global styles={blogStyles} />
         {date}
         <SectionDivider />
         <h1>{title}</h1>
-        <div
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          className="blog-post"
-        />
+        <MDXRenderer>{post.body}</MDXRenderer>
         <SectionDivider />
         {tagsText}
         <SectionDivider />
@@ -81,8 +84,8 @@ export default ({ data }) => {
 
 export const query = graphql`
   query BlogPostQuery($slug: String!, $tags: [String]!) {
-    post: markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+    post: mdx(fields: { slug: { eq: $slug } }) {
+      body
       frontmatter {
         title
         date(formatString: "DD MMMM YYYY")
@@ -96,7 +99,7 @@ export const query = graphql`
         slug
       }
     }
-    relatedPost: allMarkdownRemark(
+    relatedPost: allMdx(
       limit: 2
       sort: { fields: [frontmatter___weight], order: DESC }
       filter: {
