@@ -244,7 +244,7 @@ Padahal, masih banyak hal lain yang patut disyukuri.
 Secara mengejutkan, nilai semester 4 ini di luar ekspektasi saya dan banyak teman saya. Mungkin karena saking gilanya sampai *underestimate*?
 Nilainya lebih bagus dibanding apa yang saya bayangkan. Bahkan, di Instagram ada beberapa teman saya yang pos ini.
 ![Nilai naik](nilai-naik.jpg)
-<figcaption class="img-caption">Suka aku sama teman-teman sombongq ni.</figcaption>
+<figcaption class="img-caption">Suka aku sama teman-temanq yang pamer ni.</figcaption>
 
 <hr class="section-divider" />
 
