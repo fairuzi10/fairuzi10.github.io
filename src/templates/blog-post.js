@@ -52,7 +52,7 @@ export default ({ data }) => {
         <meta name="og:description" content={description} />
         {thumbnail && <meta name="og:image" content={thumbnail.publicURL} />}
       </Helmet>
-      <Card>
+      <Card className="mb-4">
         {date}
         <SectionDivider />
         <h1>{title}</h1>
