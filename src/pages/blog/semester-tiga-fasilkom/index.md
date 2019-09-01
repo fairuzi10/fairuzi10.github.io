@@ -18,7 +18,7 @@ Sebenarnya matkul ini mirip fisika di SMA, namun mungkin karena faktor umur (bac
 Sialnya, UTS dan UAS Fisika ini berbarengan dengan StatProb, mata kuliah yang saya sodok semester ini. Saat H-1 UAS, bodohnya saya hanya belajar StatProb. Ketika UAS StatProb selesai, saya dengan panik dan buru-buru pergi ke kafe sekre untuk belajar Fisika. Saya yang panik itu akhirnya menjumpai beberapa mahasiswa angkatan saya (yang juga akan UAS Fisika) malah sedang melakukan wawancara kepanitiaan. Luar biasa, untung mereka ga nyodok.
 
 ![Tidak wawancara tapi demo DDP](meme/wawancara-demo.jpg)
-<div class="img-caption">Tapi saya ngedemo DDP beberapa hari kemudian.</div>
+<figcaption class="img-caption">Tapi saya ngedemo DDP beberapa hari kemudian.</figcaption>
 
 Saya sendiri diajar oleh Prof. Wisnu. Beliau pernah berkata bahwa ini adalah pertama kalinya beliau mengajar fisika karena penasaran dengan isu anak Fasilkom buruk fisikanya. Walau baru pertama kali, menurut saya beliau adalah dosen yang cukup enak dalam mengajar. Tentu saya merokemendasikan beliau walaupun beliau pernah berkata kapok mengajar fisi 😆.
 
@@ -58,16 +58,25 @@ Di matkul yang menyerupai Competitive Programming ini kita diajarkan cukup banya
 Dari materi-materi yang diajarkan, yang saya belum pernah pelajari adalah B+ Tree. Ketika mau UAS, saya, FwP, Tan, dan Cahya panik sendiri mengenai B+ Tree sampai Bu Naya heran. Jadi teringat Pak Fariz yang heran saat panik G 😆. Tentu saja belajar B+ Tree hanya ketika Bu Naya mendekat. Ketika sudah jauh, Cahya langsung mengganti workspace laptopnya dan kami kembali membaca blog-blog dosen.
 
 ![Blog dosen Fasilkom](meme/btree.jpg)
-<div class="img-caption">Hanya bercanda, Cahya ga punya cewe.</div>
+<figcaption class="img-caption">Hanya bercanda, Cahya ga punya cewe.</figcaption>
 
 ## Pengantar Organisasi Komputer (POK)
 Matkul lanjutan dari Pengantar Sistem Dijital (PSD) ini kebanyakan membahas kode-kode assembly. Saya merasa matkul ini lebih jelas dibanding PSD yang abstrak, namun entah mengapa nilai POK saya jauh di bawah PSD 😞. Matkulnya cukup mirip dengan PSD, sehingga tidak ada yang jauh berbeda kecuali proyek akhirnya. Proyek akhirnya menggunakan AVR dan saat tugas proyek akhir ini keluar, bahkan kami belum pernah menyentuh AVR 😲. Akhirnya saya bertanya-tanya kepada kating dan menerka-nerka kira-kira apa yang dapat dibuat dengan AVR ini.
 
 Pada saat UAS, terdapat kejadian unik yaitu perbedaan pendapat di antara mahasiswa karena yang diajarkan dosen lain berbeda (atau mungkin otak kami yang tidak sampai, maaf pak, bu). Dari sekian banyak pertanyaan, akhirnya ada juga pertanyaan yang memiliki jawaban yang sama di antara mahasiswa sehingga dijadikan meme.
 
+<<<<<<< HEAD:content/posts/semester-tiga-fasilkom/index.mdx
 
 ![Persetujuan POK](meme/setuju-pok.jpg)
-<div class="img-caption">Sumber: Gagah.</div>
+<figcaption class="img-caption">Sumber: Gagah.</figcaption>
+=======
+<div class="row justify-content-center">
+    <div class="col-9 col-lg-6">
+        <img src="meme/setuju-pok.jpg"/>
+        <div class="img-caption">Sumber: Gagah.</div>
+    </div>
+</div>
+>>>>>>> parent of 61ad6f3... Migrate to MDX:src/pages/blog/semester-tiga-fasilkom/index.md
 
 ## Matematika Dasar 2
 Matkul yang menjadi momok bagi mahasiswa ilmu komputer ini bukan tanpa alasan. Matkulnya abstrak dan materinya cukup banyak, sehingga pada akhirnya saya hanya mengimani kebenarannya tanpa membuktikan/bermain-main dengan teorinya terlebih dahulu. Materi yang dicakup antara lain infinite series, conics and polar coordinates, multivariable functions, dan multiple integrals.
@@ -80,7 +89,7 @@ Untuk survive di matkul ini, saya menggunakan buku [Calculus oleh Gilbert Strang
 Matkul ini seharusnya diambil pada semester 4, namun saya sodok. Kenapa saya sodok? Karena teman-teman saya begitu hehe.
 
 ![Diperingatkan pembimbing akademis](warning.png)
-<div class="img-caption">Diperingatkan pembimbing akademis saya.</div>
+<figcaption class="img-caption">Diperingatkan pembimbing akademis saya.</figcaption>
 
 Matkul ini mirip sama matdas yang saya imani saja kebenarannya. Bedanya, teori-teori di matkul ini memang sepertinya kesepakatan karena bukti empiris, jadi ya sud 😆. Banyak materinya pun oke, sehingga cukup sering latihan soal dibanding matkul lain. Sayangnya, di kelas saya ini mahasiswanya cukup banyak, 70-an sehingga jika duduk di belakang nyaris tidak dapat apa-apa di kelas itu. Untuk memahami matkul ini, sebenarnya cukup mendengarkan dengan baik di kelas karena cukup jelas. Hanya materi kombinasi-permutasi yang mungkin perlu waktu tambahan belajar karena cukup sulit menjawab pertanyaan-pertanyaannya jika tidak sering berlatih, jadi silakan dipersiapkan mulai dari sekarang 😜. Oh iya, matkul ini seharusnya disebut Probabilitas dan Statistika, bukan sebaliknya. Ga paham? Makanya nyodok 😜.
 
@@ -97,7 +106,11 @@ Tak hanya itu, permintaan story pun kadang tidak jelas. Hal ini diperparah denga
 
 Akhirnya, banyak mahasiswa yang *burn out* bahkan sebelum UTS. Puncaknya, banyak mahasiswa yang memasang foto profil seperti berikut.
 
-![Kak Pewe Sehat Mental](meme/mental-health.jpg)
+<div class="row justify-content-center">
+    <div class="col-9 col-lg-6">
+        <img src="meme/mental-health.jpg" alt="Kak Pewe Sehat Mental"/>
+    </div>
+</div>
 
 Akhirnya, introspeksi terjadi sehingga ada beberapa perubahan. Story yang awalnya dikeluarkan tiap hari Senin akhirnya dikeluarkan tiap hari Jumat. Selain itu, beberapa kali diberikan motivasi dalam bentuk perkataan maupun video-video tentang ketangguhan dalam belajar. Tentu saja ada kritik mengenai foto sehat mental tersebut. Dosen-dosen tentu tidak menyukai kejadian tersebut karena tentu kesehatan mental tentu bukan hal yang main-main apalagi hanya karena suatu mata kuliah.
 Bahkan, katanya ada dosen yang hingga tidak dapat tidur karena memikirkannya. Anehnya, foto tersebut juga **digunakan Kak Pewe** sebagai foto profil Official Accountnya, bahkan hingga saat ini. Heran, kan? Inkonsistensi terjadi di mana-mana.

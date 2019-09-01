@@ -25,13 +25,6 @@ export default css`
     color: #777 !important;
   }
 
-  .img-caption {
-    margin-top: -1em;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 1em;
-  }
-
   .gatsby-resp-image-link {
     margin-bottom: 1em;
   }
@@ -50,6 +43,10 @@ export default css`
     letter-spacing: 1em;
     margin-left: 1em;
     color: rgb(33, 37, 41);
+  }
+
+  .blog-post p {
+    text-align: justify;
   }
 
   .dark-text {

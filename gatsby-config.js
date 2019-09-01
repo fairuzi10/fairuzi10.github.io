@@ -28,8 +28,8 @@ module.exports = {
         `,
         feeds: [
           {
-            serialize: ({ query: { site, allMdx } }) => {
-              return allMdx.edges.map(edge => {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
@@ -39,7 +39,7 @@ module.exports = {
             },
             query: `
               {
-                allMdx(
+                allMarkdownRemark(
                   limit: 1000,
                   sort: { order: DESC, fields: [frontmatter___date] }
                 ) {
@@ -86,23 +86,21 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `posts`,
-        path: `${__dirname}/content/posts`
+        name: `pages`,
+        path: `${__dirname}/src/pages`
       }
     },
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: ['gatsby-remark-images'],
-        gatsbyRemarkPlugins: [
+        plugins: [
           'gatsby-remark-smartypants',
           'gatsby-remark-katex',
           'gatsby-remark-prismjs',
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 1024,
-              wrapperStyle: fluidResult => `max-height: 350px;`
+              maxWidth: 1024
             }
           },
           {
@@ -110,7 +108,6 @@ module.exports = {
             options: {
               width: 800,
               ratio: 1.77 // Optional: Defaults to 16/9 = 1.77
-              // height: 400 // Optional: Overrides optional.ratio
             }
           },
           'gatsby-remark-responsive-iframe',

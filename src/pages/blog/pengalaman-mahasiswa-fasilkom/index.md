@@ -13,13 +13,13 @@ Apa sih bedanya Fasilkom dengan fakultas lain? Bagaimana dengan fakultas ilmu ko
 Acara Fasilkom yang pertama diikuti maba tentu saja PMB. PMB ini adalah ospek tingkat fakultas yang dimulai dari PSAF hingga bulan November, berarti kira-kira satu semester. Jika dibandingkan fakultas lain yang hanya beberapa bulan atau bahkan hingga satu tahun, durasi PMB Fasilkom bisa dibilang menengah. Berbeda dengan ospek fakultas lain, di PMB ini tidak ada yang namanya perpeloncoan yeay! Saat PMB ini, kamu akan membuat nametag untuk dipakai di lingkungan Fasilkom. Saran saya, nametag ini dipakai mulai masuk UI ketika PSAF agar kamu tidak disangka mahasiswa fakultas lain dan berujung diteriakin 😆. Tugas PMB sendiri cukup banyak mulai dari mengenal angkatan, mengenal elemen (dosen, janitor, pedagang kantin, dll) hingga mengenal kating.
 
 ![Mengenal mahasiswa Fasilkom](kating.jpg)
-<div class="img-caption">Mengenal kating.</div>
+<figcaption class="img-caption">Mengenal kating.</figcaption>
 
 ### Kantin
 Katanya, kantin Fasilkom adalah salah satu kantin termurah di UI. Saya sendiri sering bertemu teman saya yang berkuliah di FH, FMIPA, hingga FT di kantin Fasilkom. Di kantin Fasilkom juga ada penjual *yakitori with peanut sauce* yang cukup legendaris, hanya 10.000! Selain menawarkan jajanan murah, di Fasilkom juga terdapat Yoshinoya yang bisa dijadikan tempat hedon 😜. Jika makan di Fasilkom, jangan lupa menaruh piringnya di meja biru setelah selesai!
 
 ![Sate Fasilkom](sate.png)
-<div class="img-caption">Yakitori with peanut sauce.</div>
+<figcaption class="img-caption">Yakitori with peanut sauce.</figcaption>
 
 ### Homogen
 Ya, mahasiswa Fasilkom itu.... homogen. Ga macem-macem. Kalau kamu pergi ke fakultas lain, kamu akan melihat berbagai macam mahasiswa mulai dari penampilannya, sifatnya, dll. Mahasiswa Fasilkom? Paling wibu.
@@ -36,7 +36,7 @@ Kalau di fakultas lain udah muak sama laporan-laporan seperti makalah, Fasilkom 
 Lab di Fasilkom bagus, cukup nyaman digunakan dalam mengerjakan tugas. Kalau tadi saya bilang tidak perlu membeli buku, dengan lab ini kita sebenarnya tidak perlu membawa laptop. Pada semester 1 saya nyaris tidak pernah membawa laptop. Pada akhirnya, saya sering membawa laptop karena ada tugas-tugas lain di luar kuliah yang membuat malas setupnya. Oh ya, Wi-Fi Fasilkom yang terkenal cepatnya itu memiliki sinyal paling bagus salah satunya di lab ini.
 
 ![lab Fasilkom](lab.jpg)
-<div class="img-caption">Kondisi lab Fasilkom.</div>
+<figcaption class="img-caption">Kondisi lab Fasilkom.</figcaption>
 
 ### Lift
 Pengalaman unik lain yang akan kamu dapatkan di Fasilkom adalah liftnya. Liftnya. Sangat. Cepat. Tertutup. Siap-siap menjadi orang aneh saat menaiki lift di gedung lain 😜. Sayangnya, lift unik ini tidak dapat dipastikan nasibnya di gedung baru 😟

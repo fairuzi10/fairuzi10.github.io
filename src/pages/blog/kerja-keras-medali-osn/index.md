@@ -18,7 +18,7 @@ Sebelumnya, saya ingin flashback sebentar di saat saya mengikuti acara pelatihan
 Lalu apa hubungannya dengan OSN? Sebenarnya, jika kamu ingin menjadi medalis, sedikit saingannya! Tidak percaya? mari kita lihat data kunjungan [https://osn.toki.id](https://osn.toki.id) menjelang OSK.
 
 ![](kunjungan.png)
-<div class="img-caption">Kunjungan meningkat sangat tajam.</div>
+<figcaption class="img-caption">Kunjungan meningkat sangat tajam.</figcaption>
 
 Dari data tersebut, dapat dilihat bahwa banyak sekali peserta OSK yang deadliner! Alasannya tentu beragam, salah satu yang mungkin dan sangat disayangkan adalah baru diberitahu guru menjelang OSK. Artinya, untuk menjadi juara OSK sebenarnya lawanmu bukan saja sedikit (hanya beberapa siswa per sekolah), namun juga sedikit yang melakukan persiapan. Bagi saya, siswa-siswa deadliner ini tidak layak untuk lolos sehingga biasanya saya hanya mempertimbangkan siswa-siswa yang memiliki persiapan, mari kita sebut mereka sebagai "lawan sebenarnya". Dari mereka yang memiliki persiapan, berapa banyak yang telah mencoba soal-soal setidaknya 3 tahun ke belakang? Coba kamu data di daerahmu dan buktikan sendiri bahwa sainganmu sedikit 😄. Itu kan OSK, bagaimana dengan OSN? Tidak jauh berbeda! Mari lihat data dari [https://kawal-pjj.herokuapp.com](https://kawal-pjj.herokuapp.com).
 
@@ -37,7 +37,7 @@ Lalu bagaimana dengan sifat para medalis? Apakah mereka bekerja keras untuk mend
 Kembali ke pertanyaan awal, apakah kerja keras cukup untuk meraih medali OSN? Tentu tidak. Selain bekerja keras, kamu tentu harus memiliki sarana yang memadai seperti komputer, internet, serta sumber materi. Untungnya, komputer merupakan salah satu bidang yang peduli terhadap penyebaran materi salah satu contohnya dengan membuat buku Pemrograman Kompetitif Dasar yang dapat diunduh secara gratis [di sini](https://osn.toki.id/arsip/download-pkd).
 
 ![Dr. Strange Belajar CP](meme/dr-strange-pkd.png)
-<div class="img-caption">Belajar PKD.</div>
+<figcaption class="img-caption">Belajar PKD.</figcaption>
 
 Oke, cukup promosinya. Jawaban yang serius adalah, seharusnya iya. Saya rasa, asalkan kamu memiliki komputer, internet, dan tentunya semangat yang membara, insyaAllah medali OSN bisa diraih. Mungkin akan ada pemikiran "Bagaimana jika tidak memiliki komputer dan internet? Bukankah sama saja kondisinya seperti komik tadi?" Ya, itu benar. Tapi berdasarkan pengalaman, sebagian besar siswa yang gagal pada OSN disebabkan kurangnya kerja keras mereka sendiri, bukan karena tidak memiliki sarana di atas. Sebagai tambahan, silakan tonton video TED yang cukup baik berkaitan tentang tekad berikut ini. Akhir kata, selamat belajar dan berjuang menjadi yang terbaik!
 

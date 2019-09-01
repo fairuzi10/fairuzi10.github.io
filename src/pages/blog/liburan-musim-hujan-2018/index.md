@@ -27,7 +27,7 @@ Jelas lah ya, ini hasil kegabutan selama liburan. Seperti pada pos Halo Dunia, s
 Akhirnya saya bisa pergi ke Bali 😆. Saya mengunjungi tempat-tempat wisata indah yang ada di Bali. Waktu saya ke Garuda Wisnu Kencana, saya menemukan tulisan berbahasa Jepang. Saya pikir orang-orang Bali banyak yang wibu seperti Cahya-kun. Namun waktu melihat tari kecak, saya memperhatikan banyak orang Jepang yang berkunjung ke Bali. Saya mau tanya rating Atcodernya tapi takut keder kalo ternyata merah 😢.
 
 ![](luwak.jpg)
-<div class="img-caption">Pergi ke tempat luwak.</div>
+<figcaption class="img-caption">Pergi ke tempat luwak.</figcaption>
 
 ### Main Mobile Legends
 Ketika gabut, saya melihat adik saya bermain mobile legends. Awalnya saya gatau itu anak main apaan, walaupun saya pernah denger mobile legends karena sedang populer zaman now. Setelah itu saya coba bermain dan ternyata seru 😆. Saya yang sudah lama tidak bermain game akhirnya cukup sering bermain ML. Walaupun tidak kecanduan, kalau dipikir-pikir saya lebih memilih ML karena lebih simpel daripada PB ataupun AO yang bakal di re-open bulan Maret ini.

@@ -4,8 +4,8 @@ const uniq = require('lodash/uniq')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  if (node.internal.type === 'Mdx') {
-    const slug = createFilePath({ node, getNode, basePath: 'posts' })
+  if (node.internal.type === 'MarkdownRemark') {
+    const slug = createFilePath({ node, getNode, basePath: 'pages' })
     createNodeField({
       node,
       name: 'slug',
@@ -19,10 +19,9 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const result = await graphql(`
     {
-      allMdx {
+      allMarkdownRemark {
         edges {
           node {
-            id
             fields {
               slug
             }
@@ -34,7 +33,7 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-  const posts = result.data.allMdx.edges
+  const posts = result.data.allMarkdownRemark.edges
   createBlogPost(createPage, graphql, posts)
   createBlogList(createPage, graphql, posts)
   createTagPages(createPage, graphql, posts)
@@ -43,7 +42,7 @@ exports.createPages = async ({ graphql, actions }) => {
 const createBlogPost = async (createPage, graphql, posts) => {
   posts.forEach(({ node }) => {
     createPage({
-      path: `/blog${node.fields.slug}`,
+      path: `${node.fields.slug}`,
       component: path.resolve('./src/templates/blog-post.js'),
       context: {
         slug: node.fields.slug,
@@ -80,7 +79,7 @@ const createTagPages = async (createPage, graphql, posts) => {
   uniqueTags.forEach(async tag => {
     const { data } = await graphql(`
       {
-        allMdx(
+        allMarkdownRemark(
           filter: {
             frontmatter: {
               tags: { in: ["${tag}"] }
@@ -91,7 +90,7 @@ const createTagPages = async (createPage, graphql, posts) => {
         }
       }
     `)
-    const postsCount = data.allMdx.totalCount
+    const postsCount = data.allMarkdownRemark.totalCount
     const postsPerPage = 7
     const pageCount = Math.ceil(postsCount / postsPerPage)
     Array.from({ length: pageCount }).forEach((_, i) => {
@@ -107,5 +106,13 @@ const createTagPages = async (createPage, graphql, posts) => {
         }
       })
     })
+  })
+}
+
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      modules: [path.resolve(__dirname, 'src'), 'node_modules']
+    }
   })
 }

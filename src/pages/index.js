@@ -9,7 +9,7 @@ import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import React from 'react'
 
-import { blogTagUrl, blogUrl } from '../utils/urls.js'
+import { blogTagUrl } from '../utils/urls.js'
 import { projectsMetaData } from './project/index.js'
 
 const Post = ({ node }) => {
@@ -24,7 +24,7 @@ const Post = ({ node }) => {
     <div key={node.id}>
       <div>{date}</div>
       <h4 className="mt-2">
-        <DarkLink to={blogUrl(node.fields.slug)}>{title}</DarkLink>
+        <DarkLink to={node.fields.slug}>{title}</DarkLink>
       </h4>
       <div className="mb-2">{description}</div>
       {tagsText}
@@ -34,7 +34,7 @@ const Post = ({ node }) => {
 }
 
 export default ({ data }) => {
-  const postEdges = data.allMdx.edges
+  const postEdges = data.allMarkdownRemark.edges
   const postList = postEdges.map(({ node }) => (
     <Post node={node} key={node.fields.slug} />
   ))
@@ -102,7 +102,10 @@ export default ({ data }) => {
 
 export const query = graphql`
   query blogHomepageQuery {
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }, limit: 3) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 3
+    ) {
       edges {
         node {
           frontmatter {

@@ -8,7 +8,7 @@ import Helmet from 'react-helmet'
 
 const TagsPage = ({
   data: {
-    allMdx: { group }
+    allMarkdownRemark: { group }
   }
 }) => {
   const tagList = group.map(tag => (
@@ -22,7 +22,7 @@ const TagsPage = ({
   return (
     <Wrapper single>
       <Helmet title="label" />
-      <Card className="mb-3">
+      <Card>
         <h2>Daftar Label</h2>
       </Card>
       <Card>{tagList}</Card>
@@ -32,7 +32,7 @@ const TagsPage = ({
 
 export const pageQuery = graphql`
   query TagsQuery {
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       group(field: frontmatter___tags) {
         fieldValue
         totalCount

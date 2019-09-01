@@ -5,20 +5,25 @@ export default css`
     text-align: justify;
   }
 
-  img {
-    max-height: 350px !important;
-    width: auto !important;
-    position: absolute !important;
-    margin: 0 auto !important;
-    left: 0 !important;
-    right: 0 !important;
-  }
-
   blockquote {
     background: #f8f9fa;
     border-left: 0.3rem solid #e5e5e5;
     margin-left: -1rem;
     padding: 0.8rem;
+  }
+
+  .img-potrait {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  figcaption.img-caption {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em;
+  }
+  p + figcaption.img-caption {
+    margin-top: -1em;
   }
 
   h1 {

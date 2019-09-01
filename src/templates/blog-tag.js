@@ -7,12 +7,12 @@ import { Post } from './blog-list'
 import Card from '@/components/card'
 
 const Page = ({ data, pageContext }) => {
-  const edges = data.allMdx.edges
+  const edges = data.allMarkdownRemark.edges
   const postList = edges.map(({ node }) => (
     <Post node={node} key={node.fields.slug} />
   ))
   const { page, pageCount, tag } = pageContext
-  const postCount = data.allMdx.totalCount
+  const postCount = data.allMarkdownRemark.totalCount
 
   return (
     <Wrapper single>
@@ -34,7 +34,7 @@ const Page = ({ data, pageContext }) => {
 
 export const query = graphql`
   query blogTagQuery($skip: Int!, $limit: Int!, $tag: String!) {
-    allMdx(
+    allMarkdownRemark(
       filter: { frontmatter: { tags: { in: [$tag] } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit

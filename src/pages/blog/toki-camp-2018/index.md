@@ -16,7 +16,7 @@ Sebelum TOKI Camp berlangsung, ada koordinator yang mengkoordinasi keberangkatan
 Seperti biasa, saya pergi ke Stasiun Duren Kalibata terlebih dahulu. Di sana, ternyata ada sebuah perubahan yang baru saya lihat (karena saya tidak pernah ke UI selama liburan) yaitu ini
 
 ![](antri-stasiun.jpg)
-<div class="img-caption">Arahan untuk mendahulukan yang keluar</div>
+<figcaption class="img-caption">Arahan untuk mendahulukan yang keluar</figcaption>
 
 Saya sendiri tidak begitu melihat perubahan signifikan dengan adanya cat ini karena posisi kereta berhenti tentu berubah-ubah dan kalau benar-benar mengikuti cat ini bisa jadi kita antri di depan gerbong yang bukan pintu 😜. Walaupun demikian, sebelum ada cat ini menurut saya antrian keluar dan masuk gerbong sudah teratur. Walaupun sepertinya saya kurang peka terhadap masalah ini karena saya hanya pernah naik kereta di saat jam lenggang. FYI, kereta Jakata-Bogor yang saya tumpangi pada berangkat kuliah selalu sepi karena saat itu yang ramai adalah arah Bogor-Jakarta, begitu pula saat jam pulang saya.
 
@@ -35,24 +35,24 @@ Topik pembicaraan kemudian hanya berputar-putar dengan protes karena timeline li
 Akhirnya kami sampai di Wisma TOKI sekitar pukul 8:30. Acara sudah dimulai dengan perkenalan saat kami datang. Setelah perkenalan, kami dipersilahkan makan bakmi lalu mengikuti task force. Jadi di TOKI Camp ini salah satu acara utamanya adalah mengerjakan proyek-proyek TOKI yang dipecah-pecah menjadi beberapa task force yaitu TLX development, scientific committee Pelatnas 2, konten TLX, soal OSP, dan OSP online. Saya sendiri ikut konten TLX yang tugasnya membuat tag serta hint soal-soal OSN.
 
 ![](tlx-dev.jpg)
-<div class="img-caption">Task force TLX development.</div>
+<figcaption class="img-caption">Task force TLX development.</figcaption>
 
 ![](sc-p2.jpg)
-<div class="img-caption">Task force SC Pelatnas 2.</div>
+<figcaption class="img-caption">Task force SC Pelatnas 2.</figcaption>
 
 ![](konten-tlx.jpg)
-<div class="img-caption">Task force konten TLX.</div>
+<figcaption class="img-caption">Task force konten TLX.</figcaption>
 
 ![](osp.png)
-<div class="img-caption">Task force soal OSP. Identitas dirahasiakan demi keamanan.</div>
+<figcaption class="img-caption">Task force soal OSP. Identitas dirahasiakan demi keamanan.</figcaption>
 
 ![](osp-online.jpg)
-<div class="img-caption">Task force OSP online.</div>
+<figcaption class="img-caption">Task force OSP online.</figcaption>
 
 Setelah bekerja selama kira-kira 2 jam, kami pun tidur.
 
 ![](tidur.jpg)
-<div class="img-caption">Kondisi wiki ketika digunakan tidur.</div>
+<figcaption class="img-caption">Kondisi wiki ketika digunakan tidur.</figcaption>
 
 Pekerjaan dilakukan keesokan harinya, hingga tibalah pada acara seminar(?) dari sponsor yaitu Bizzy, tiket.com, dan Bukalapak.
 
@@ -61,7 +61,7 @@ Pekerjaan dilakukan keesokan harinya, hingga tibalah pada acara seminar(?) dari 
 Tentu saja seminar seperti ini sangat membuka wawasan saya dan saya mendapat banyak hal berharga dari sini.
 
 ![](berharga.jpg)
-<div class="img-caption">Hal berharga yang saya dapat.</div>
+<figcaption class="img-caption">Hal berharga yang saya dapat.</figcaption>
 
 Karena sesi ini merupakan sesi inti dari TOKI Camp (tidak semua orang menginap) maka dilakukan foto bersama setelah sesi ini selesai.
 
@@ -70,11 +70,11 @@ Karena sesi ini merupakan sesi inti dari TOKI Camp (tidak semua orang menginap) 
 Setelah itu, kami kembali mengerjakan tugas task force hingga malam. Keesokan harinya, tugas task force sudah selesai dan hanya tinggal bersenang-senang yeay 😆. Hanya satu hal yang saya kerjakan saat itu. Makan.
 
 ![](menunggu-makan.jpg)
-<div class="img-caption">Menunggu makanan siap.</div>
+<figcaption class="img-caption">Menunggu makanan siap.</figcaption>
 
 Hari terakhir ini diisi dengan kegabutan dan pada akhirnya, kami makan siang bersama di kafe lo.ka.si. Gokilnya, sinyal telkomsel di sana menyentuh 4G+!
 
 ![](4gp.png)
-<div class="img-caption">So fast.</div>
+<figcaption class="img-caption">So fast.</figcaption>
 
 Akhirnya, TOKI Camp pun berakhir dan kami pulang dengan kenyang~.

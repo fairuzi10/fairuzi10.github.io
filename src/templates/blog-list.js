@@ -7,7 +7,7 @@ import Helmet from 'react-helmet'
 import { HoverableImage } from '../components/HoverableImage'
 import Pagination from '../components/pagination'
 import Wrapper from '../components/wrapper'
-import { blogTagUrl, blogUrl } from '../utils/urls'
+import { blogTagUrl } from '../utils/urls'
 
 export const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
@@ -24,14 +24,14 @@ export const Post = ({ node }) => {
     <div key={node.id}>
       <div>{date}</div>
       <h2>
-        <Link to={blogUrl(node.fields.slug)} className="black-link">
+        <Link to={node.fields.slug} className="black-link">
           {title}
         </Link>
       </h2>
       {thumbnail && (
         <div className="text-center row">
           <div className="col-12 col-md-8 offset-md-2">
-            <Link to={blogUrl(node.fields.slug)}>
+            <Link to={node.fields.slug}>
               <HoverableImage fluid={thumbnail} />
             </Link>
           </div>
@@ -45,7 +45,7 @@ export const Post = ({ node }) => {
 }
 
 const IndexPage = ({ data, pageContext }) => {
-  const edges = data.allMdx.edges
+  const edges = data.allMarkdownRemark.edges
   const postList = edges.map(({ node }) => (
     <Post node={node} key={node.fields.slug} />
   ))
@@ -75,7 +75,7 @@ const IndexPage = ({ data, pageContext }) => {
 
 export const query = graphql`
   query blogListQuery($skip: Int!, $limit: Int!) {
-    allMdx(
+    allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip

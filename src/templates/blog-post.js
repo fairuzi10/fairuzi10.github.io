@@ -2,27 +2,24 @@ import 'katex/dist/katex.min.css'
 import 'prismjs/themes/prism-okaidia.css'
 
 import { Global } from '@emotion/core'
+import Card from 'components/card'
+import DarkLink from 'components/dark-link'
+import SectionDivider from 'components/section-divider'
+import Wrapper from 'components/wrapper'
 import { DiscussionEmbed } from 'disqus-react'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
 import React from 'react'
 import Helmet from 'react-helmet'
-
-import Card from '../components/card'
-import DarkLink from '../components/dark-link'
-import SectionDivider from '../components/section-divider'
-import Wrapper from '../components/wrapper'
-import blogStyles from '../styles/blog'
-import { blogTagUrl, blogUrl } from '../utils/urls'
-import settings from '../settings'
+import blogStyles from 'styles/blog'
+import { blogTagUrl, blogUrl } from 'utils/urls'
 
 export default ({ data }) => {
   const post = data.post
   const { title, description, date, tags, thumbnail } = post.frontmatter
   const disqusConfig = {
-    url: `${settings.siteMetadata.siteUrl}/blog${post.fields.slug}`,
-    identifier: `/blog${post.fields.slug}`,
+    url: `http://fairuzi10.github.io/blog${post.fields.slug}`,
+    identifier: `blog${post.fields.slug}`,
     title: post.frontmatter.title
   }
 
@@ -47,19 +44,22 @@ export default ({ data }) => {
 
   return (
     <Wrapper single>
+      <Global styles={blogStyles} />
       <Helmet>
         <title>{title}</title>
         <meta name="og:title" content={title} />
         <meta name="description" content={description} />
         <meta name="og:description" content={description} />
-        <meta name="og:image" content={thumbnail.publicURL} />
+        {thumbnail && <meta name="og:image" content={thumbnail.publicURL} />}
       </Helmet>
-      <Card className="mb-3">
-        <Global styles={blogStyles} />
+      <Card>
         {date}
         <SectionDivider />
         <h1>{title}</h1>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <div
+          dangerouslySetInnerHTML={{ __html: post.html }}
+          className="blog-post"
+        />
         <SectionDivider />
         {tagsText}
         <SectionDivider />
@@ -84,8 +84,8 @@ export default ({ data }) => {
 
 export const query = graphql`
   query BlogPostQuery($slug: String!, $tags: [String]!) {
-    post: mdx(fields: { slug: { eq: $slug } }) {
-      body
+    post: markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
       frontmatter {
         title
         date(formatString: "DD MMMM YYYY")
@@ -99,7 +99,7 @@ export const query = graphql`
         slug
       }
     }
-    relatedPost: allMdx(
+    relatedPost: allMarkdownRemark(
       limit: 2
       sort: { fields: [frontmatter___weight], order: DESC }
       filter: {

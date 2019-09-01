@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import { StretchContainer } from '../components/stretch'
-import globalStyles from '../styles/global'
+import globalStyles from './global-styes'
 
 const FullPage = styled.div({
   minHeight: '100vh',
