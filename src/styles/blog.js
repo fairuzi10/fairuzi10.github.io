@@ -15,6 +15,7 @@ export default css`
   .img-potrait {
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 1rem;
   }
 
   figcaption.img-caption {
