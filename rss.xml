@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fairuzi10]]></title><description><![CDATA[Fairuzi's Personal Website]]></description><link>https://fairuzi10.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 01 Sep 2019 16:31:16 GMT</lastBuildDate><item><title><![CDATA[Semester Empat Ilmu Komputer]]></title><description><![CDATA[Semester baru, pos baru! Seperti apa rasanya semester empat di Ilmu Komputer UI?]]></description><link>https://fairuzi10.com/blog/semester-empat-fasilkom/</link><guid isPermaLink="false">https://fairuzi10.com/blog/semester-empat-fasilkom/</guid><pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;* bersih-bersih debu *&lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fairuzi10]]></title><description><![CDATA[Fairuzi's Personal Website]]></description><link>https://fairuzi10.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 04 Sep 2019 13:49:09 GMT</lastBuildDate><item><title><![CDATA[Semester Empat Ilmu Komputer]]></title><description><![CDATA[Semester baru, pos baru! Seperti apa rasanya semester empat di Ilmu Komputer UI?]]></description><link>https://fairuzi10.com/blog/semester-empat-fasilkom/</link><guid isPermaLink="false">https://fairuzi10.com/blog/semester-empat-fasilkom/</guid><pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;* bersih-bersih debu *&lt;br&gt;
 Akhirnya menambah konten blog ini tidak sebatas wacana. Rasanya sudah &lt;strike&gt;malas&lt;/strike&gt; tidak sempat mengurus blog ini, namun karena Rey minta dan ada yang nanya secara pribadi ke saya, rasanya mungkin akan lebih berguna untuk orang banyak jika dijadikan blog. Oh ya, maaf jika di pos ini kurang banyak memenya. Kalau mau nyari meme, follow saja Instagram &lt;a href=&quot;http://instagram.com/kesegaran.fasilkom&quot;&gt;@kesegaran.fasilkom&lt;/a&gt; buatan CS UI 2019. Sepertinya kalau &lt;a href=&quot;https://twitter.com/JangkarAngkatan&quot;&gt;JangkarAngkatan&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/tarung2017&quot;&gt;Tarung&lt;/a&gt;, dan &lt;a href=&quot;https://twitter.com/quanta_anak&quot;&gt;out of context quanta&lt;/a&gt; digabung tetep kalah. Rasanya mereka lebih baik kamaba terus aja ga perlu kuliah biar ada meme tiap hari 😜. Oke langsung saja ya kita bahas matkulnya satu per satu.&lt;/p&gt;
 &lt;h2&gt;Basis Data (Basdat)&lt;/h2&gt;
 &lt;p&gt;Matkul ini mempelajari &lt;em&gt;database&lt;/em&gt;, lebih tepatnya SQL dan pada prakteknya menggunakan &lt;strong&gt;PostgreSQL&lt;/strong&gt;. Walau begitu, isi matkulnya &lt;strong&gt;tidak hanya SQL&lt;/strong&gt;.
@@ -98,7 +98,7 @@ Nah di sini dibahas karena System.in adalah suatu stream, maka sebenarnya System
 Stream juga tidak hanya bisa di-&lt;em&gt;scan&lt;/em&gt;, bisa juga di-&lt;em&gt;write&lt;/em&gt;. Jadi, dengan menggunakan komposisi seperti A(B) misal Scanner(System.in) jika ada N pilihan A
 dan M pilihan B, maka ada N + M class yang harus dibuat, sedangkan jika disatukan seperti “ScannerSysin” ada N * M class. Semakin besar N dan M, semakin banyak
 class yang harus dibuat. Cukup menjawab lah kenapa dibuat seperti itu ya. Semoga bisa menjawab ini matkul ngapain.&lt;/p&gt;
-&lt;p&gt;Menurutku, matkul seperti ini baru seru kalo ketemu masalahnya secara langsung ketika ngoding. Mungkin ini bisa menjelaskan kenapa walaupun materinya cukup menarik, &lt;strong&gt;kelasnya kurang kondusif&lt;/strong&gt;. Matkul ini tidak memiliki PR, tapi memiliki lab yang sepertinya tidak akan bisa diselesaikan tepat waktu jika mengerjakan hanya di lab. Lab ini membahas design-design pattern dari buku &lt;a href=&quot;https://www.oreilly.com/library/view/head-first-design/0596007124/&quot;&gt;Head First Design Patterns&lt;/a&gt;.
+&lt;p&gt;Menurutku, matkul seperti ini baru seru kalo ketemu masalahnya secara langsung ketika ngoding. Mungkin ini bisa menjelaskan kenapa walaupun materinya cukup menarik, kelasnya kurang kondusif. Matkul ini tidak memiliki PR, tapi memiliki lab yang sepertinya tidak akan bisa diselesaikan tepat waktu jika mengerjakan hanya di lab. Lab ini membahas design-design pattern dari buku &lt;a href=&quot;https://www.oreilly.com/library/view/head-first-design/0596007124/&quot;&gt;Head First Design Patterns&lt;/a&gt;.
 Lab hanya berlangsung hingga UTS. Setelah UTS, diganti tugas kelompok berlima yang membuat suatu proyek yang mengaplikasikan semua hal yang telah dipelajari.
 Proyeknya menggunakan framework &lt;strong&gt;Java Spring&lt;/strong&gt;, mungkin ingin mengenalkan pattern MVC (ya, pattern lagi). Di sini paham deh malesnya setup proyek Java
 buat tugas yang sekali dipake terus ditinggal. Kalau kata Fata, anak Fasilkom punya hubungan yang kurang baik dengan Java 😂. Saranku sih kalo ada tugas proyek
@@ -456,7 +456,10 @@ bareng temen ya, cuma saya kalah war di satu matkul ini, padahal anak tarung ban
 &lt;p&gt;Matkul ini terkenal &lt;strong&gt;sangat susah&lt;/strong&gt; di kalangan kating, tapi mungkin karena tahun ini ada Kak Raja, sepertinya jadi &lt;strong&gt;lebih mudah&lt;/strong&gt;.
 Kalau kata Fata, anum lebih mudah dari pada matdas 2. Menurutku yang paling membantu PR sih, karena seperti SC, matkul ini rasanya di kelas paham,
 tapi pas ngerjain ternyata ga paham-paham banget 😟. Kalau mau liat-liat soalnya, bisa kunjungi
-&lt;a href=&quot;https://nivotko.wordpress.com/teaching/numerical-analysis-2018-2019/&quot;&gt;blog Kak Raja&lt;/a&gt;. Selain itu, sebelum ujian juga biasanya saya liat soal-soal tahun
+&lt;a href=&quot;https://nivotko.wordpress.com/teaching/numerical-analysis-2018-2019/&quot;&gt;blog Kak Raja&lt;/a&gt;.
+Untuk belajar materinya, bisa dari slide di sana atau menggunakan buku legenda anum Fasilkom,
+“Komputasi Numerik” karya Prof. Basaruddin yang dapat dibeli di Perpustakaan Fasilkom.
+Selain itu, sebelum ujian juga biasanya saya liat soal-soal tahun
 sebelumnya di &lt;a href=&quot;http://bit.ly/anumzki&quot;&gt;bit.ly/anumzki&lt;/a&gt; terima kasih kepada Nida.&lt;/p&gt;
 &lt;hr class=&quot;section-divider&quot; /&gt;
 &lt;p&gt;Setelah melihat garis besar semua matkul, mari kita bahas hal unik di semester ini.&lt;/p&gt;
@@ -1485,34 +1488,6 @@ window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;analytics&lt
 &lt;p&gt;Mempersiapkan magang pertama memang tidak mudah. Semoga tulisan ini dapat memberikan masukan baru bagimu dalam mempersiapkan magang. Tulisan mengenai pengalaman magang di Bizzy akan hadir segera! (ssstt, with tons of meme 😜)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Seperti Apa Rasanya Menjadi Mahasiswa Fasilkom UI?]]></title><description><![CDATA[Apa sih bedanya Fasilkom dengan fakultas lain? Bagaimana dengan fakultas ilmu komputer/informatika universitas lain? Temukan jawabannya di sini.]]></description><link>https://fairuzi10.com/blog/pengalaman-mahasiswa-fasilkom/</link><guid isPermaLink="false">https://fairuzi10.com/blog/pengalaman-mahasiswa-fasilkom/</guid><pubDate>Sun, 22 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Apa sih bedanya Fasilkom dengan fakultas lain? Bagaimana dengan fakultas ilmu komputer/informatika universitas lain? Pertanyaan tersebut pasti sering muncul dibenak para maba, termasuk saya dulu. Dengan pengalaman menjadi mahasiswa Fasilkom selama setahun ini, saya akan mencoba menjawab pertanyaan tersebut. Tanpa panjang lebar, mari kita lihat seperti apa sih rasanya menjadi mahasiswa Fasilkom UI.&lt;/p&gt;
 &lt;h3&gt;Pembinaan Mahasiswa Baru (PMB)&lt;/h3&gt;
 &lt;p&gt;Acara Fasilkom yang pertama diikuti maba tentu saja PMB. PMB ini adalah ospek tingkat fakultas yang dimulai dari PSAF hingga bulan November, berarti kira-kira satu semester. Jika dibandingkan fakultas lain yang hanya beberapa bulan atau bahkan hingga satu tahun, durasi PMB Fasilkom bisa dibilang menengah. Berbeda dengan ospek fakultas lain, di PMB ini tidak ada yang namanya perpeloncoan yeay! Saat PMB ini, kamu akan membuat nametag untuk dipakai di lingkungan Fasilkom. Saran saya, nametag ini dipakai mulai masuk UI ketika PSAF agar kamu tidak disangka mahasiswa fakultas lain dan berujung diteriakin 😆. Tugas PMB sendiri cukup banyak mulai dari mengenal angkatan, mengenal elemen (dosen, janitor, pedagang kantin, dll) hingga mengenal kating.&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dce3e0e52d9cfb67624d289f73a3e869/3e94c/kating.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 505px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 133.46534653465346%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAABQABAgME/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFDIiEeu2gNEvtNOQ9H/8QAHRAAAQQCAwAAAAAAAAAAAAAAAgABERIDEAQTIf/aAAgBAQABBQLZtc+PNKZEzygJp7lk8HX/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARAS/9oACAEDAQE/Aall/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEQEv/aAAgBAgEBPwGoaf/EAB4QAAEDBAMAAAAAAAAAAAAAAAEAAhEQISJhMkKB/9oACAEBAAY/Aqlz50gJBE2krqtpmDsVwcva/wD/xAAfEAACAgIBBQAAAAAAAAAAAAAAAREhMUGREFFxoeH/2gAIAQEAAT8hrfWxpTCLRSHkKzHNXuxrNKQrhEelZD4oRSLMCPPJfd8n/9oADAMBAAIAAwAAABDn4zL/xAAZEQEAAgMAAAAAAAAAAAAAAAABABEQMVH/2gAIAQMBAT8QSsJ3Ldn/xAAZEQADAAMAAAAAAAAAAAAAAAAAAREhMVH/2gAIAQIBAT8QTuiGBPD/xAAgEAEAAgMAAQUBAAAAAAAAAAABABEhMUFxEJGxwdHw/9oACAEBAAE/ELGweWvV7hXpTyVtZKqByqzUsKU5f4RXu+PnzE4UQcze7xnMEP5PeUnoUJvcqJVM8UGn2J//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Mengenal mahasiswa Fasilkom&quot;
-        title=&quot;&quot;
-        src=&quot;/static/dce3e0e52d9cfb67624d289f73a3e869/3e94c/kating.jpg&quot;
-        srcset=&quot;/static/dce3e0e52d9cfb67624d289f73a3e869/bb385/kating.jpg 256w,
-/static/dce3e0e52d9cfb67624d289f73a3e869/3e94c/kating.jpg 505w&quot;
-        sizes=&quot;(max-width: 505px) 100vw, 505px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
-&lt;figcaption class=&quot;img-caption&quot;&gt;Mengenal kating.&lt;/figcaption&gt;
 &lt;h3&gt;Kantin&lt;/h3&gt;
 &lt;p&gt;Katanya, kantin Fasilkom adalah salah satu kantin termurah di UI. Saya sendiri sering bertemu teman saya yang berkuliah di FH, FMIPA, hingga FT di kantin Fasilkom. Di kantin Fasilkom juga ada penjual &lt;em&gt;yakitori with peanut sauce&lt;/em&gt; yang cukup legendaris, hanya 10.000! Selain menawarkan jajanan murah, di Fasilkom juga terdapat Yoshinoya yang bisa dijadikan tempat hedon 😜. Jika makan di Fasilkom, jangan lupa menaruh piringnya di meja biru setelah selesai!&lt;/p&gt;
 &lt;p&gt;&lt;a
@@ -1545,34 +1520,16 @@ window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;analytics&lt
 &lt;figcaption class=&quot;img-caption&quot;&gt;Yakitori with peanut sauce.&lt;/figcaption&gt;
 &lt;h3&gt;Homogen&lt;/h3&gt;
 &lt;p&gt;Ya, mahasiswa Fasilkom itu… homogen. Ga macem-macem. Kalau kamu pergi ke fakultas lain, kamu akan melihat berbagai macam mahasiswa mulai dari penampilannya, sifatnya, dll. Mahasiswa Fasilkom? Paling wibu.&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9ba3d5dbb84092067c941e963f6678be/b84d7/wibu.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 621px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 104.83091787439614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB34oBAUH/xAAUEAEAAAAAAAAAAAAAAAAAAAAw/9oACAEBAAEFAh//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAUEAEAAAAAAAAAAAAAAAAAAAAw/9oACAEBAAY/Ah//xAAZEAADAQEBAAAAAAAAAAAAAAABEBEAIWH/2gAIAQEAAT8hwEqrPmPCv//aAAwDAQACAAMAAAAQo88A/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAGxABAQADAAMAAAAAAAAAAAAAAREAITEQQaH/2gAIAQEAAT8QxlTa3nhAWmu4NdSe8G8ywFBveu5AM2swEu/mf//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Fasilkom wibu&quot;
-        title=&quot;&quot;
-        src=&quot;/static/9ba3d5dbb84092067c941e963f6678be/b84d7/wibu.jpg&quot;
-        srcset=&quot;/static/9ba3d5dbb84092067c941e963f6678be/bb385/wibu.jpg 256w,
+&lt;div class=&quot;img-potrait&quot;&gt;
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/9ba3d5dbb84092067c941e963f6678be/b84d7/wibu.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 621px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 104.83091787439614%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB34oBAUH/xAAUEAEAAAAAAAAAAAAAAAAAAAAw/9oACAEBAAEFAh//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAUEAEAAAAAAAAAAAAAAAAAAAAw/9oACAEBAAY/Ah//xAAZEAADAQEBAAAAAAAAAAAAAAABEBEAIWH/2gAIAQEAAT8hwEqrPmPCv//aAAwDAQACAAMAAAAQo88A/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAGxABAQADAAMAAAAAAAAAAAAAAREAITEQQaH/2gAIAQEAAT8QxlTa3nhAWmu4NdSe8G8ywFBveu5AM2swEu/mf//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;Fasilkom wibu&quot; title=&quot;&quot; src=&quot;/static/9ba3d5dbb84092067c941e963f6678be/b84d7/wibu.jpg&quot; srcset=&quot;/static/9ba3d5dbb84092067c941e963f6678be/bb385/wibu.jpg 256w,
 /static/9ba3d5dbb84092067c941e963f6678be/ab422/wibu.jpg 512w,
-/static/9ba3d5dbb84092067c941e963f6678be/b84d7/wibu.jpg 621w&quot;
-        sizes=&quot;(max-width: 621px) 100vw, 621px&quot;
-      /&gt;
+/static/9ba3d5dbb84092067c941e963f6678be/b84d7/wibu.jpg 621w&quot; sizes=&quot;(max-width: 621px) 100vw, 621px&quot;&gt;
   &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
 &lt;h3&gt;Mata Kuliah&lt;/h3&gt;
 &lt;p&gt;Mata kuliah Fasilkom kayak apa sih? Ya.. gitu. Mungkin perlu pos baru untuk menjelaskannya 😜. Yang cukup unik adalah kita bisa survive tanpa buku (setidaknya saya setahun ini) thanks to &lt;a href=&quot;https://scele.cs.ui.ac.id&quot;&gt;Scele CS&lt;/a&gt;. Scele ini forum belajarnya anak Fasilkom yang salah satu fungsinya adalah tempat dikumpulkannya slide-slide dosen, jadi kalau dirasa cukup tidak perlu membeli buku &lt;del&gt;dan mencatat di kelas&lt;/del&gt;.&lt;/p&gt;
 &lt;h3&gt;Makalah&lt;/h3&gt;
@@ -1610,41 +1567,28 @@ window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;analytics&lt
 &lt;figcaption class=&quot;img-caption&quot;&gt;Kondisi lab Fasilkom.&lt;/figcaption&gt;
 &lt;h3&gt;Lift&lt;/h3&gt;
 &lt;p&gt;Pengalaman unik lain yang akan kamu dapatkan di Fasilkom adalah liftnya. Liftnya. Sangat. Cepat. Tertutup. Siap-siap menjadi orang aneh saat menaiki lift di gedung lain 😜. Sayangnya, lift unik ini tidak dapat dipastikan nasibnya di gedung baru 😟&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d871854608941c5732e0ad6340a0d64d/b4133/lift.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1024px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 172.12962962962962%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAiABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBQIE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAfTOhZZmNRFPUWLIIBIP/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERFAIQISD/2gAIAQEAAQUCpplJFMjvdPKBZS/f/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwFf/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAg/9oACAECAQE/AWc//8QAGxAAAgIDAQAAAAAAAAAAAAAAADEBMhCRoSD/2gAIAQEABj8CsX4X4LKnQp1hz6//xAAeEAACAgICAwAAAAAAAAAAAAABEQAQIVExYXGBwf/aAAgBAQABPyEMZD1OxC7wzfUGHArYcqMYnylMM7YxR5gr/9oADAMBAAIAAwAAABBk+Tzzz//EABYRAQEBAAAAAAAAAAAAAAAAABEAIP/aAAgBAwEBPxAjP//EABYRAQEBAAAAAAAAAAAAAAAAABEAIP/aAAgBAgEBPxBSz//EACIQAQACAQIGAwAAAAAAAAAAAAEAETEhQRAgYYGh0VGR8P/aAAgBAQABPxCoLBS6uO8CbPq+4u/h5jeCLXUrcVVg9WF1rmWLEbSe+cTfkwoMHvw8KvkWiJvt0hUawRLOQf/Z&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Lift Fasilkom&quot;
-        title=&quot;&quot;
-        src=&quot;/static/d871854608941c5732e0ad6340a0d64d/1f853/lift.jpg&quot;
-        srcset=&quot;/static/d871854608941c5732e0ad6340a0d64d/bb385/lift.jpg 256w,
+&lt;div class=&quot;img-potrait&quot;&gt;
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/d871854608941c5732e0ad6340a0d64d/b4133/lift.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 1024px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 172.12962962962962%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAiABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBQIE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAfTOhZZmNRFPUWLIIBIP/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERFAIQISD/2gAIAQEAAQUCpplJFMjvdPKBZS/f/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwFf/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAg/9oACAECAQE/AWc//8QAGxAAAgIDAQAAAAAAAAAAAAAAADEBMhCRoSD/2gAIAQEABj8CsX4X4LKnQp1hz6//xAAeEAACAgICAwAAAAAAAAAAAAABEQAQIVExYXGBwf/aAAgBAQABPyEMZD1OxC7wzfUGHArYcqMYnylMM7YxR5gr/9oADAMBAAIAAwAAABBk+Tzzz//EABYRAQEBAAAAAAAAAAAAAAAAABEAIP/aAAgBAwEBPxAjP//EABYRAQEBAAAAAAAAAAAAAAAAABEAIP/aAAgBAgEBPxBSz//EACIQAQACAQIGAwAAAAAAAAAAAAEAETEhQRAgYYGh0VGR8P/aAAgBAQABPxCoLBS6uO8CbPq+4u/h5jeCLXUrcVVg9WF1rmWLEbSe+cTfkwoMHvw8KvkWiJvt0hUawRLOQf/Z&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;Lift Fasilkom&quot; title=&quot;&quot; src=&quot;/static/d871854608941c5732e0ad6340a0d64d/1f853/lift.jpg&quot; srcset=&quot;/static/d871854608941c5732e0ad6340a0d64d/bb385/lift.jpg 256w,
 /static/d871854608941c5732e0ad6340a0d64d/ab422/lift.jpg 512w,
 /static/d871854608941c5732e0ad6340a0d64d/1f853/lift.jpg 1024w,
-/static/d871854608941c5732e0ad6340a0d64d/b4133/lift.jpg 1080w&quot;
-        sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
-      /&gt;
+/static/d871854608941c5732e0ad6340a0d64d/b4133/lift.jpg 1080w&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;&gt;
   &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
 &lt;h3&gt;Organisasi&lt;/h3&gt;
 &lt;p&gt;Saya ga bisa cerita banyak soal ini &lt;del&gt;karena saya pasif&lt;/del&gt;. Biasanya, anak Fasilkom aktifnya di organisasi internal Fasilkom, bukan tingkat UI. Kamu akan merasakannya ketika demo UKM saat Kamaba, sedikit sekali yang berasal dari Fasilkom. Selain itu, jika teman-temanmu dari fakultas lain ikut organisasi tingkat departemen, Fasilkom tidak ada departemen karena jurusannya aja cuma ada dua 😜. Oh ya, di Fasilkom juga tidak ada himpunan.&lt;/p&gt;
 &lt;h3&gt;Magang&lt;/h3&gt;
 &lt;p&gt;Dibandingkan fakultas lain, magang anak Fasilkom sepertinya lebih menyenangkan 😆. Magang ini sepertinya sedang menjadi tren baru mahasiswa Fasilkom. Sebenarnya, ada mata kuliah kerja praktik (magang) yang wajib diambil pada semester 7 namun banyak mahasiswa yang mengambil kesempatan magang sebelum itu, bahkan saat liburan menuju semester 2. Dengan magang, kamu bisa mendapat pengalaman dan pengetahuan yang tidak didapat saat kuliah dan tentunya uang jajan tambahan 😄.&lt;/p&gt;
 &lt;h2&gt;Penutup&lt;/h2&gt;
-&lt;p&gt;Menjadi mahasiswa Fasilkom memang merupakan pengalaman tersendiri &lt;del&gt;(ngga sih, homogen)&lt;/del&gt;. Tentu banyak hal lain yang tidak saya sebutkan di sini karena satu dan lain hal. Namun dengan tulisan ini, diharapkan dapat memberikan gambaran mengenai kehidupan di Fasilkom UI setidaknya yang saya alami 😄.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cara Mencari Kata yang Baku Sesuai PUEBI]]></title><description><![CDATA[Apa pun atau apapun? Dimana atau di mana? Satu per satu atau satu persatu? Sering bingung menentukan mana yang baku? Inilah beberapa cara yang dapat digunakan untuk mencari kata yang baku.]]></description><link>https://fairuzi10.com/blog/cara-mencari-kata-yang-baku-sesuai-puebi/</link><guid isPermaLink="false">https://fairuzi10.com/blog/cara-mencari-kata-yang-baku-sesuai-puebi/</guid><pubDate>Sun, 08 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Sewaktu saya semester dua dulu (sok-sok lama padahal baru kemarin 😜), saya mengambil mata kuliah wajib UI yaitu MPKT A. MPKT A ini pelajaran yang bukan main pentingnya, 6 SKS! Pelajarannya sendiri tentang sosial, berbeda dengan MPKT B yang saya ambil pada semester 1 yang membahas tentang ilmu alam dan teknologi. Dosennya pun berasal dari berbagai fakultas, dan kebetulan saya mendapat dosen dari Fakultas Ilmu Pengetahuan Budaya UI. Materi yang dibahas beragam, seperti pembangunan karakter, filsafat, logika, etika, dll. Namun mungkin karena latar belakang dosen saya, materi yang sebenarnya dibahas yaitu&lt;/p&gt;
+&lt;p&gt;Menjadi mahasiswa Fasilkom memang merupakan pengalaman tersendiri &lt;del&gt;(ngga sih, homogen)&lt;/del&gt;. Tentu banyak hal lain yang tidak saya sebutkan di sini karena satu dan lain hal. Namun dengan tulisan ini, diharapkan dapat memberikan gambaran mengenai kehidupan di Fasilkom UI setidaknya yang saya alami 😄.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Baca juga pengalaman semesteran saya:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/blog/semester-tiga-fasilkom/&quot;&gt;Serunya Menjalani Semester Tiga di Fasilkom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/blog/semester-empat-fasilkom/&quot;&gt;Semester Empat Ilmu Komputer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Cara Mencari Kata yang Baku Sesuai PUEBI]]></title><description><![CDATA[Apa pun atau apapun? Dimana atau di mana? Satu per satu atau satu persatu? Sering bingung menentukan mana yang baku? Inilah beberapa cara yang dapat digunakan untuk mencari kata yang baku.]]></description><link>https://fairuzi10.com/blog/cara-mencari-kata-yang-baku-sesuai-puebi/</link><guid isPermaLink="false">https://fairuzi10.com/blog/cara-mencari-kata-yang-baku-sesuai-puebi/</guid><pubDate>Sun, 08 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Sewaktu saya semester dua dulu (sok-sok lama padahal baru kemarin 😜), saya mengambil mata kuliah wajib UI yaitu MPKT A. MPKT A ini pelajaran yang bukan main pentingnya, 6 SKS! Pelajarannya sendiri tentang sosial, berbeda dengan MPKT B yang saya ambil pada semester 1 yang membahas tentang ilmu alam dan teknologi. Dosennya pun berasal dari berbagai fakultas, dan kebetulan saya mendapat dosen dari Fakultas Ilmu Pengetahuan Budaya UI. Materi yang dibahas beragam, seperti pembangunan karakter, filsafat, logika, etika, dll. Namun mungkin karena latar belakang dosen saya, materi yang sebenarnya dibahas yaitu&lt;/p&gt;
 &lt;p&gt;10. Semua&lt;br&gt;
 9. Materi&lt;br&gt;
 8. Dibahas&lt;br&gt;
