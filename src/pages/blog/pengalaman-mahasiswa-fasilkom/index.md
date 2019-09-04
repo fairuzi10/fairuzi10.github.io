@@ -12,9 +12,6 @@ Apa sih bedanya Fasilkom dengan fakultas lain? Bagaimana dengan fakultas ilmu ko
 ### Pembinaan Mahasiswa Baru (PMB)
 Acara Fasilkom yang pertama diikuti maba tentu saja PMB. PMB ini adalah ospek tingkat fakultas yang dimulai dari PSAF hingga bulan November, berarti kira-kira satu semester. Jika dibandingkan fakultas lain yang hanya beberapa bulan atau bahkan hingga satu tahun, durasi PMB Fasilkom bisa dibilang menengah. Berbeda dengan ospek fakultas lain, di PMB ini tidak ada yang namanya perpeloncoan yeay! Saat PMB ini, kamu akan membuat nametag untuk dipakai di lingkungan Fasilkom. Saran saya, nametag ini dipakai mulai masuk UI ketika PSAF agar kamu tidak disangka mahasiswa fakultas lain dan berujung diteriakin 😆. Tugas PMB sendiri cukup banyak mulai dari mengenal angkatan, mengenal elemen (dosen, janitor, pedagang kantin, dll) hingga mengenal kating.
 
-![Mengenal mahasiswa Fasilkom](kating.jpg)
-<figcaption class="img-caption">Mengenal kating.</figcaption>
-
 ### Kantin
 Katanya, kantin Fasilkom adalah salah satu kantin termurah di UI. Saya sendiri sering bertemu teman saya yang berkuliah di FH, FMIPA, hingga FT di kantin Fasilkom. Di kantin Fasilkom juga ada penjual *yakitori with peanut sauce* yang cukup legendaris, hanya 10.000! Selain menawarkan jajanan murah, di Fasilkom juga terdapat Yoshinoya yang bisa dijadikan tempat hedon 😜. Jika makan di Fasilkom, jangan lupa menaruh piringnya di meja biru setelah selesai!
 
@@ -24,7 +21,9 @@ Katanya, kantin Fasilkom adalah salah satu kantin termurah di UI. Saya sendiri s
 ### Homogen
 Ya, mahasiswa Fasilkom itu.... homogen. Ga macem-macem. Kalau kamu pergi ke fakultas lain, kamu akan melihat berbagai macam mahasiswa mulai dari penampilannya, sifatnya, dll. Mahasiswa Fasilkom? Paling wibu.
 
-![Fasilkom wibu](meme/wibu.jpg)
+<div class="img-potrait">
+  <img src="meme/wibu.jpg" alt="Fasilkom wibu" />
+</div>
 
 ### Mata Kuliah
 Mata kuliah Fasilkom kayak apa sih? Ya.. gitu. Mungkin perlu pos baru untuk menjelaskannya 😜. Yang cukup unik adalah kita bisa survive tanpa buku (setidaknya saya setahun ini) thanks to [Scele CS](https://scele.cs.ui.ac.id). Scele ini forum belajarnya anak Fasilkom yang salah satu fungsinya adalah tempat dikumpulkannya slide-slide dosen, jadi kalau dirasa cukup tidak perlu membeli buku ~~dan mencatat di kelas~~.
@@ -41,7 +40,9 @@ Lab di Fasilkom bagus, cukup nyaman digunakan dalam mengerjakan tugas. Kalau tad
 ### Lift
 Pengalaman unik lain yang akan kamu dapatkan di Fasilkom adalah liftnya. Liftnya. Sangat. Cepat. Tertutup. Siap-siap menjadi orang aneh saat menaiki lift di gedung lain 😜. Sayangnya, lift unik ini tidak dapat dipastikan nasibnya di gedung baru 😟
 
-![Lift Fasilkom](lift.jpg)
+<div class="img-potrait">
+  <img src="lift.jpg" alt="Lift Fasilkom" />
+</div>
 
 ### Organisasi
 Saya ga bisa cerita banyak soal ini ~~karena saya pasif~~. Biasanya, anak Fasilkom aktifnya di organisasi internal Fasilkom, bukan tingkat UI. Kamu akan merasakannya ketika demo UKM saat Kamaba, sedikit sekali yang berasal dari Fasilkom. Selain itu, jika teman-temanmu dari fakultas lain ikut organisasi tingkat departemen, Fasilkom tidak ada departemen karena jurusannya aja cuma ada dua 😜. Oh ya, di Fasilkom juga tidak ada himpunan.
@@ -51,3 +52,7 @@ Dibandingkan fakultas lain, magang anak Fasilkom sepertinya lebih menyenangkan �
 
 ## Penutup
 Menjadi mahasiswa Fasilkom memang merupakan pengalaman tersendiri ~~(ngga sih, homogen)~~. Tentu banyak hal lain yang tidak saya sebutkan di sini karena satu dan lain hal. Namun dengan tulisan ini, diharapkan dapat memberikan gambaran mengenai kehidupan di Fasilkom UI setidaknya yang saya alami 😄.
+
+**Baca juga pengalaman semesteran saya:**
+- [Serunya Menjalani Semester Tiga di Fasilkom](/blog/semester-tiga-fasilkom/)
+- [Semester Empat Ilmu Komputer](/blog/semester-empat-fasilkom/)
