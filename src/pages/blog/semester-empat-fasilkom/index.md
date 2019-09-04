@@ -198,7 +198,10 @@ bareng temen ya, cuma saya kalah war di satu matkul ini, padahal anak tarung ban
 Matkul ini terkenal **sangat susah** di kalangan kating, tapi mungkin karena tahun ini ada Kak Raja, sepertinya jadi **lebih mudah**.
 Kalau kata Fata, anum lebih mudah dari pada matdas 2. Menurutku yang paling membantu PR sih, karena seperti SC, matkul ini rasanya di kelas paham,
 tapi pas ngerjain ternyata ga paham-paham banget 😟. Kalau mau liat-liat soalnya, bisa kunjungi
-[blog Kak Raja](https://nivotko.wordpress.com/teaching/numerical-analysis-2018-2019/). Selain itu, sebelum ujian juga biasanya saya liat soal-soal tahun
+[blog Kak Raja](https://nivotko.wordpress.com/teaching/numerical-analysis-2018-2019/).
+Untuk belajar materinya, bisa dari slide di sana atau menggunakan buku legenda anum Fasilkom,
+"Komputasi Numerik" karya Prof. Basaruddin yang dapat dibeli di Perpustakaan Fasilkom.
+Selain itu, sebelum ujian juga biasanya saya liat soal-soal tahun
 sebelumnya di [bit.ly/anumzki](http://bit.ly/anumzki) terima kasih kepada Nida.
 
 <hr class="section-divider" />
