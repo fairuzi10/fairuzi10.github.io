@@ -65,18 +65,12 @@ Matkul lanjutan dari Pengantar Sistem Dijital (PSD) ini kebanyakan membahas kode
 
 Pada saat UAS, terdapat kejadian unik yaitu perbedaan pendapat di antara mahasiswa karena yang diajarkan dosen lain berbeda (atau mungkin otak kami yang tidak sampai, maaf pak, bu). Dari sekian banyak pertanyaan, akhirnya ada juga pertanyaan yang memiliki jawaban yang sama di antara mahasiswa sehingga dijadikan meme.
 
-<<<<<<< HEAD:content/posts/semester-tiga-fasilkom/index.mdx
-
-![Persetujuan POK](meme/setuju-pok.jpg)
-<figcaption class="img-caption">Sumber: Gagah.</figcaption>
-=======
 <div class="row justify-content-center">
     <div class="col-9 col-lg-6">
         <img src="meme/setuju-pok.jpg"/>
         <div class="img-caption">Sumber: Gagah.</div>
     </div>
 </div>
->>>>>>> parent of 61ad6f3... Migrate to MDX:src/pages/blog/semester-tiga-fasilkom/index.md
 
 ## Matematika Dasar 2
 Matkul yang menjadi momok bagi mahasiswa ilmu komputer ini bukan tanpa alasan. Matkulnya abstrak dan materinya cukup banyak, sehingga pada akhirnya saya hanya mengimani kebenarannya tanpa membuktikan/bermain-main dengan teorinya terlebih dahulu. Materi yang dicakup antara lain infinite series, conics and polar coordinates, multivariable functions, dan multiple integrals.
@@ -96,7 +90,11 @@ Matkul ini mirip sama matdas yang saya imani saja kebenarannya. Bedanya, teori-t
 ## Perancangan & Pemrograman Web (PPW)
 Nah, inilah matkul yang paling seru untuk dibahas. *Save the best for the last.* Matkul ini adalah matkul yang bisa dibilang full ngoding, ngoding web lebih tepatnya. Tiap minggunya, diberikan tugas berupa story dan challenge. Story dikeluarkan tiap hari Senin dan Challenge dikeluarkan tiap hari Kamis, ketika sesi lab. Untuk mengerjakan Challenge, harus mengerjakan Story sehingga kira-kira ada waktu tiga hari untuk mengerjakan story. Selesai mengerjakan challenge, kita diharuskan mengumpulkan laporan yang disebut *reflection*. Apakah story dapat dikerjakan dalam 1-2 jam seperti tugas-tugas mingguan lainnya? Mari kita lihat asumsinya.
 
-![Alokasi waktu PPW](alokasi-ppw.png)
+<div class="row justify-content-center">
+    <div class="col-9 col-lg-6">
+        <img src="alokasi-ppw.png" alt="Alokasi waktu PPW"/>
+    </div>
+</div>
 
 Ya, kami diminta untuk mengalokasikan waktu 5 jam untuk belajar mandiri. Belum tahu anehnya? Story dikeluarkan saat hari Senin (tidak menutup kemungkinan malam) sehingga 5 jam itu dialokasikan saat hari kerja. Mengapa tidak dikeluarkan saja saat Jumat/Sabtu? Entah, hanya Kak Pewe dan Tuhan yang tahu. Jika belum merasa sulit, bayangkan kamu kuliah hingga jam 6, belum lagi ada urusan malamnya (sangat wajar). Bagaimana cara membagi waktunya? Ini belum membahas apakah waktu 5 jam itu cukup untuk mengerjakan story yang diberikan karena tentu pekerjaan-pekerjaan ngoding seperti ini banyak menghasilkan hal tidak terduga. Akhirnya, banyak mahasiswa yang bermalam di Fasilkom saat malam kamis hanya untuk mengerjakan PPW.
 
