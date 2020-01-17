@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fairuzi10]]></title><description><![CDATA[Fairuzi's Personal Website]]></description><link>https://fairuzi10.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 04 Sep 2019 13:49:09 GMT</lastBuildDate><item><title><![CDATA[Semester Empat Ilmu Komputer]]></title><description><![CDATA[Semester baru, pos baru! Seperti apa rasanya semester empat di Ilmu Komputer UI?]]></description><link>https://fairuzi10.com/blog/semester-empat-fasilkom/</link><guid isPermaLink="false">https://fairuzi10.com/blog/semester-empat-fasilkom/</guid><pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;* bersih-bersih debu *&lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fairuzi10]]></title><description><![CDATA[Fairuzi's Personal Website]]></description><link>https://fairuzi10.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 17 Jan 2020 09:07:59 GMT</lastBuildDate><item><title><![CDATA[Semester Empat Ilmu Komputer]]></title><description><![CDATA[Semester baru, pos baru! Seperti apa rasanya semester empat di Ilmu Komputer UI?]]></description><link>https://fairuzi10.com/blog/semester-empat-fasilkom/</link><guid isPermaLink="false">https://fairuzi10.com/blog/semester-empat-fasilkom/</guid><pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;* bersih-bersih debu *&lt;br&gt;
 Akhirnya menambah konten blog ini tidak sebatas wacana. Rasanya sudah &lt;strike&gt;malas&lt;/strike&gt; tidak sempat mengurus blog ini, namun karena Rey minta dan ada yang nanya secara pribadi ke saya, rasanya mungkin akan lebih berguna untuk orang banyak jika dijadikan blog. Oh ya, maaf jika di pos ini kurang banyak memenya. Kalau mau nyari meme, follow saja Instagram &lt;a href=&quot;http://instagram.com/kesegaran.fasilkom&quot;&gt;@kesegaran.fasilkom&lt;/a&gt; buatan CS UI 2019. Sepertinya kalau &lt;a href=&quot;https://twitter.com/JangkarAngkatan&quot;&gt;JangkarAngkatan&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/tarung2017&quot;&gt;Tarung&lt;/a&gt;, dan &lt;a href=&quot;https://twitter.com/quanta_anak&quot;&gt;out of context quanta&lt;/a&gt; digabung tetep kalah. Rasanya mereka lebih baik kamaba terus aja ga perlu kuliah biar ada meme tiap hari 😜. Oke langsung saja ya kita bahas matkulnya satu per satu.&lt;/p&gt;
 &lt;h2&gt;Basis Data (Basdat)&lt;/h2&gt;
 &lt;p&gt;Matkul ini mempelajari &lt;em&gt;database&lt;/em&gt;, lebih tepatnya SQL dan pada prakteknya menggunakan &lt;strong&gt;PostgreSQL&lt;/strong&gt;. Walau begitu, isi matkulnya &lt;strong&gt;tidak hanya SQL&lt;/strong&gt;.
@@ -743,36 +743,6 @@ Alin 1 - 1 JS.&lt;/p&gt;
 &lt;h2&gt;Pengantar Organisasi Komputer (POK)&lt;/h2&gt;
 &lt;p&gt;Matkul lanjutan dari Pengantar Sistem Dijital (PSD) ini kebanyakan membahas kode-kode assembly. Saya merasa matkul ini lebih jelas dibanding PSD yang abstrak, namun entah mengapa nilai POK saya jauh di bawah PSD 😞. Matkulnya cukup mirip dengan PSD, sehingga tidak ada yang jauh berbeda kecuali proyek akhirnya. Proyek akhirnya menggunakan AVR dan saat tugas proyek akhir ini keluar, bahkan kami belum pernah menyentuh AVR 😲. Akhirnya saya bertanya-tanya kepada kating dan menerka-nerka kira-kira apa yang dapat dibuat dengan AVR ini.&lt;/p&gt;
 &lt;p&gt;Pada saat UAS, terdapat kejadian unik yaitu perbedaan pendapat di antara mahasiswa karena yang diajarkan dosen lain berbeda (atau mungkin otak kami yang tidak sampai, maaf pak, bu). Dari sekian banyak pertanyaan, akhirnya ada juga pertanyaan yang memiliki jawaban yang sama di antara mahasiswa sehingga dijadikan meme.&lt;/p&gt;
-&lt;p&gt;&amp;#x3C;&amp;#x3C;&amp;#x3C;&amp;#x3C;&amp;#x3C;&amp;#x3C;&amp;#x3C; HEAD:content/posts/semester-tiga-fasilkom/index.mdx&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7a2611dc80f73e9e48f1a43d4d01823b/3b53c/setuju-pok.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 855px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 149.70760233918128%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAeABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABx0J7MrZEIzMnmo0SH//EABsQAAMBAAMBAAAAAAAAAAAAAAABAhEDEBIT/9oACAEBAAEFAuOdIhb8xPEqSPdkyqKhLrTTT//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABsQAAIDAAMAAAAAAAAAAAAAAAARASExICKh/9oACAEBAAY/Asgo0qTrJonY37x//8QAHRAAAwACAgMAAAAAAAAAAAAAAAERITEQkUFRcf/aAAgBAQABPyGWP7QR00WO3Yjzs9jydrHRvNvLjJ2JtNuCaF2HKVob28P/2gAMAwEAAgADAAAAEDg0/wD/xAAWEQADAAAAAAAAAAAAAAAAAAAAECH/2gAIAQMBAT8QI//EABcRAAMBAAAAAAAAAAAAAAAAAAABERD/2gAIAQIBAT8QdIyZ/8QAIBABAAIBBAIDAAAAAAAAAAAAAQARITFBUXFhgZGhsf/aAAgBAQABPxAMq1QAJ3iFCnSoaSwOfeCKQwojGdvUautW32Xp+S1AmwAv5jSlGAB28R4TadDXgL++oRSxgQ8opjC8RVz/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Persetujuan POK&quot;
-        title=&quot;&quot;
-        src=&quot;/static/7a2611dc80f73e9e48f1a43d4d01823b/3b53c/setuju-pok.jpg&quot;
-        srcset=&quot;/static/7a2611dc80f73e9e48f1a43d4d01823b/bb385/setuju-pok.jpg 256w,
-/static/7a2611dc80f73e9e48f1a43d4d01823b/ab422/setuju-pok.jpg 512w,
-/static/7a2611dc80f73e9e48f1a43d4d01823b/3b53c/setuju-pok.jpg 855w&quot;
-        sizes=&quot;(max-width: 855px) 100vw, 855px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;&lt;figcaption class=&quot;img-caption&quot;&gt;Sumber: Gagah.&lt;/figcaption&gt;&lt;/h1&gt;
 &lt;div class=&quot;row justify-content-center&quot;&gt;
     &lt;div class=&quot;col-9 col-lg-6&quot;&gt;
         &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/7a2611dc80f73e9e48f1a43d4d01823b/3b53c/setuju-pok.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
@@ -786,7 +756,6 @@ Alin 1 - 1 JS.&lt;/p&gt;
         &lt;div class=&quot;img-caption&quot;&gt;Sumber: Gagah.&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; parent of 61ad6f3... Migrate to MDX:src/pages/blog/semester-tiga-fasilkom/index.md
 &lt;h2&gt;Matematika Dasar 2&lt;/h2&gt;
 &lt;p&gt;Matkul yang menjadi momok bagi mahasiswa ilmu komputer ini bukan tanpa alasan. Matkulnya abstrak dan materinya cukup banyak, sehingga pada akhirnya saya hanya mengimani kebenarannya tanpa membuktikan/bermain-main dengan teorinya terlebih dahulu. Materi yang dicakup antara lain infinite series, conics and polar coordinates, multivariable functions, dan multiple integrals.&lt;/p&gt;
 &lt;p&gt;&lt;a
@@ -851,34 +820,18 @@ Alin 1 - 1 JS.&lt;/p&gt;
 &lt;p&gt;Matkul ini mirip sama matdas yang saya imani saja kebenarannya. Bedanya, teori-teori di matkul ini memang sepertinya kesepakatan karena bukti empiris, jadi ya sud 😆. Banyak materinya pun oke, sehingga cukup sering latihan soal dibanding matkul lain. Sayangnya, di kelas saya ini mahasiswanya cukup banyak, 70-an sehingga jika duduk di belakang nyaris tidak dapat apa-apa di kelas itu. Untuk memahami matkul ini, sebenarnya cukup mendengarkan dengan baik di kelas karena cukup jelas. Hanya materi kombinasi-permutasi yang mungkin perlu waktu tambahan belajar karena cukup sulit menjawab pertanyaan-pertanyaannya jika tidak sering berlatih, jadi silakan dipersiapkan mulai dari sekarang 😜. Oh iya, matkul ini seharusnya disebut Probabilitas dan Statistika, bukan sebaliknya. Ga paham? Makanya nyodok 😜.&lt;/p&gt;
 &lt;h2&gt;Perancangan &amp;#x26; Pemrograman Web (PPW)&lt;/h2&gt;
 &lt;p&gt;Nah, inilah matkul yang paling seru untuk dibahas. &lt;em&gt;Save the best for the last.&lt;/em&gt; Matkul ini adalah matkul yang bisa dibilang full ngoding, ngoding web lebih tepatnya. Tiap minggunya, diberikan tugas berupa story dan challenge. Story dikeluarkan tiap hari Senin dan Challenge dikeluarkan tiap hari Kamis, ketika sesi lab. Untuk mengerjakan Challenge, harus mengerjakan Story sehingga kira-kira ada waktu tiga hari untuk mengerjakan story. Selesai mengerjakan challenge, kita diharuskan mengumpulkan laporan yang disebut &lt;em&gt;reflection&lt;/em&gt;. Apakah story dapat dikerjakan dalam 1-2 jam seperti tugas-tugas mingguan lainnya? Mari kita lihat asumsinya.&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5ab9657d9dadd46e4e15dc382abc86ed/08b0d/alokasi-ppw.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 709px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 60.93088857545838%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABrElEQVQoz3VR2ZKbMBD0/3/del3xYiSEDoTEDQZz2Ya0ZFKpPGQKVFPSdE/3zIkx9v19DoKAsYhzfrlcrtefr/O5bpp937dt2/8fJ50kPI6jKAK4LMtUa8biMAyrqsbz+/1+vV5vHxu+P/G5P4G5H/r7/T5Nc57nyOZ57vt713W4xLEsS9u2j+Fx3LRtXVXjOLnO674DA9lxHJs0VYmC+F/XnyC4GWMIIcakzOlihIQ6TUFhrR2GhwPjb+paCKGkBAvnIkkSwExq+mGo6xpemqZF06Io5nn5x/O87W3XSeUaghgB/1JJrfU4jjD2/MS6fvJpHOELno/OiPX5REOloFoB7ElSaw0YYQf3QnAaMR7ziFIhJVgO8LI+x2lCKwBwohQJdOdFbo3xhAoucFJKvSEDIQ48bXtZVZQQ6UL4nTGAY2zM94QiZIkfZJZln1Udnt3AmgY47gOTE1yAPsssiMqiwBOlkbUZRIEdFfD8F/zanHIg0bAoS2BQin1wvwI49zCldYIEclCG4R1gDG5eFvgBsTbmdruhCAqglhAYIuBVSsIHFg79oVu+gfjf2pyXmnvPSN4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Alokasi waktu PPW&quot;
-        title=&quot;&quot;
-        src=&quot;/static/5ab9657d9dadd46e4e15dc382abc86ed/08b0d/alokasi-ppw.png&quot;
-        srcset=&quot;/static/5ab9657d9dadd46e4e15dc382abc86ed/00397/alokasi-ppw.png 256w,
+&lt;div class=&quot;row justify-content-center&quot;&gt;
+    &lt;div class=&quot;col-9 col-lg-6&quot;&gt;
+        &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/5ab9657d9dadd46e4e15dc382abc86ed/08b0d/alokasi-ppw.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 709px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 60.93088857545838%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABrElEQVQoz3VR2ZKbMBD0/3/del3xYiSEDoTEDQZz2Ya0ZFKpPGQKVFPSdE/3zIkx9v19DoKAsYhzfrlcrtefr/O5bpp937dt2/8fJ50kPI6jKAK4LMtUa8biMAyrqsbz+/1+vV5vHxu+P/G5P4G5H/r7/T5Nc57nyOZ57vt713W4xLEsS9u2j+Fx3LRtXVXjOLnO674DA9lxHJs0VYmC+F/XnyC4GWMIIcakzOlihIQ6TUFhrR2GhwPjb+paCKGkBAvnIkkSwExq+mGo6xpemqZF06Io5nn5x/O87W3XSeUaghgB/1JJrfU4jjD2/MS6fvJpHOELno/OiPX5REOloFoB7ElSaw0YYQf3QnAaMR7ziFIhJVgO8LI+x2lCKwBwohQJdOdFbo3xhAoucFJKvSEDIQ48bXtZVZQQ6UL4nTGAY2zM94QiZIkfZJZln1Udnt3AmgY47gOTE1yAPsssiMqiwBOlkbUZRIEdFfD8F/zanHIg0bAoS2BQin1wvwI49zCldYIEclCG4R1gDG5eFvgBsTbmdruhCAqglhAYIuBVSsIHFg79oVu+gfjf2pyXmnvPSN4AAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;Alokasi waktu PPW&quot; title=&quot;&quot; src=&quot;/static/5ab9657d9dadd46e4e15dc382abc86ed/08b0d/alokasi-ppw.png&quot; srcset=&quot;/static/5ab9657d9dadd46e4e15dc382abc86ed/00397/alokasi-ppw.png 256w,
 /static/5ab9657d9dadd46e4e15dc382abc86ed/c5a17/alokasi-ppw.png 512w,
-/static/5ab9657d9dadd46e4e15dc382abc86ed/08b0d/alokasi-ppw.png 709w&quot;
-        sizes=&quot;(max-width: 709px) 100vw, 709px&quot;
-      /&gt;
+/static/5ab9657d9dadd46e4e15dc382abc86ed/08b0d/alokasi-ppw.png 709w&quot; sizes=&quot;(max-width: 709px) 100vw, 709px&quot;&gt;
   &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Ya, kami diminta untuk mengalokasikan waktu 5 jam untuk belajar mandiri. Belum tahu anehnya? Story dikeluarkan saat hari Senin (tidak menutup kemungkinan malam) sehingga 5 jam itu dialokasikan saat hari kerja. Mengapa tidak dikeluarkan saja saat Jumat/Sabtu? Entah, hanya Kak Pewe dan Tuhan yang tahu. Jika belum merasa sulit, bayangkan kamu kuliah hingga jam 6, belum lagi ada urusan malamnya (sangat wajar). Bagaimana cara membagi waktunya? Ini belum membahas apakah waktu 5 jam itu cukup untuk mengerjakan story yang diberikan karena tentu pekerjaan-pekerjaan ngoding seperti ini banyak menghasilkan hal tidak terduga. Akhirnya, banyak mahasiswa yang bermalam di Fasilkom saat malam kamis hanya untuk mengerjakan PPW.&lt;/p&gt;
 &lt;p&gt;Tak hanya itu, permintaan story pun kadang tidak jelas. Hal ini diperparah dengan ketidakkonsistenan jawaban yang diberikan, sebagian besar dari Official Account Line Kak Pewe. Bahkan tidak jarang challenge yang diberikan tidak dimengerti oleh asisten yang bertugas di lab, koordinasi antarpengajar PPW dirasa sangat kurang.&lt;/p&gt;
 &lt;p&gt;&lt;a
