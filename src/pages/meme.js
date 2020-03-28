@@ -29,7 +29,8 @@ const MemePage = ({
   const images = memes.map(nodeObject => {
     const img = nodeObject.node.childImageSharp.fluid
     const path = nodeObject.node.relativePath
-    const postUrl = `/blog/${path.slice(0, path.indexOf('/'))}/`
+    const blogPrefixIndex = 5
+    const postUrl = path.slice(0, path.indexOf('/', blogPrefixIndex))
     return (
       <div className="py-4" key={path}>
         <Link to={postUrl}>
