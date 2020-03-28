@@ -1,16 +1,13 @@
 import Button from '@/components/button'
-import { Card } from '@/components/card'
 import DarkLink from '@/components/dark-link'
-import Featured from '@/components/featured'
 import SectionDivider from '@/components/section-divider'
 import Wrapper from '@/components/wrapper'
 import { blogListUrl } from '@/utils/urls.js'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import React from 'react'
-
+import { Card } from '../components/card'
 import { blogTagUrl } from '../utils/urls.js'
-import { projectsMetaData } from './project/index.js'
 
 const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
@@ -39,30 +36,20 @@ export default ({ data }) => {
     <Post node={node} key={node.fields.slug} />
   ))
 
-  const projectList = projectsMetaData.map(metaData => (
-    <div key={metaData.url}>
-      <h4 className="mb-2">
-        <DarkLink to={metaData.url}>{metaData.name}</DarkLink>
-      </h4>
-      <div>{metaData.description}</div>
-      <SectionDivider />
-    </div>
-  ))
-
   return (
     <Wrapper>
-      <Card className="my-3 mx-0 mx-lg-3">
-        <h1 className="text-center">Fairuzi10</h1>
-        <h6 className="text-center">
-          <i>I explain with words and memes</i>
-        </h6>
-      </Card>
       <div className="row no-gutters">
-        <div className="col-12 col-lg-7">
+        <div className="col-12 col-md-8 offset-md-2">
+          <Card className="my-3 mx-0 mx-lg-3">
+            <h1 className="text-center">Fairuzi10</h1>
+            <h6 className="text-center">
+              <i>I explain with words and memes</i>
+            </h6>
+          </Card>
           <div className="py-3 px-lg-3">
             <Card>
               <h4 className="text-center">
-                <DarkLink to="/blog/">Latest Blogs</DarkLink>
+                <DarkLink to="/blog/">Latest Blog</DarkLink>
               </h4>
               <SectionDivider />
               {postList}
@@ -81,20 +68,6 @@ export default ({ data }) => {
             </Card>
           </div>
         </div>{' '}
-        <div className="col-12 col-lg-5">
-          <div className="py-3 px-lg-3">
-            <Card>
-              <h4 className="text-center">
-                <DarkLink to="/project/">Cool Projects</DarkLink>
-              </h4>
-              <SectionDivider />
-              {projectList}
-            </Card>
-          </div>
-          <div className="py-3 px-lg-3">
-            <Featured />
-          </div>
-        </div>
       </div>
     </Wrapper>
   )

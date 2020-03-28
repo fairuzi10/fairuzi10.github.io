@@ -52,7 +52,6 @@ export default class Example extends React.Component {
         <Collapse isOpen={this.state.isOpen} navbar aria-label="Toggle navbar">
           <Nav className="ml-auto" navbar>
             <LinkNav to="/blog/">Blog</LinkNav>
-            <LinkNav to="/project/">Project</LinkNav>
             <LinkNav to="/meme/">Meme</LinkNav>
           </Nav>
         </Collapse>
