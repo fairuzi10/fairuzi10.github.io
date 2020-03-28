@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { COLOR } from '@/utils/theme'
+import { COLOR } from '../utils/theme'
 
 export const Button = styled.button(
   {

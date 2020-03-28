@@ -11,6 +11,13 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#007bff`,
+        showSpinner: false
+      }
+    },
+    {
       resolve: 'gatsby-plugin-feed',
       options: {
         // this base query will be merged with any queries in each feed
