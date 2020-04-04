@@ -22,9 +22,19 @@ export default css`
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 1em;
-  }
-  p + figcaption.img-caption {
+    font-size: 0.9rem;
     margin-top: -1em;
+  }
+  iframe {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+  figcaption.iframe-caption {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em;
+    font-size: 0.9rem;
   }
 
   h1 {

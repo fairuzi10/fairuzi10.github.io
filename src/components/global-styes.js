@@ -2,8 +2,6 @@ import { css } from '@emotion/core'
 import { COLOR } from '@/utils/theme'
 
 export default css`
-  @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.2.0/css/bootstrap.min.css');
-
   body {
     background-color: ${COLOR.blueFade};
     color: ${COLOR.dark};
@@ -63,4 +61,11 @@ export default css`
   h4 {
     font-weight: bold;
   }
+
+  ${[50, 100, 150, 200, 250, 300, 350, 400, 450, 500].map(
+    breakpoint => `.img-${breakpoint} {
+        max-width: ${breakpoint}px;
+        margin: auto;
+      }`
+  )}
 `
