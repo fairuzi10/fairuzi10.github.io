@@ -11,4 +11,6 @@ const Footer = styled.footer({
   backgroundColor: COLOR.white
 })
 
-export default () => <Footer>Muhammad Fairuzi Teguh © 2019</Footer>
+export default () => (
+  <Footer>Muhammad Fairuzi Teguh © 2018 - {new Date().getFullYear()}</Footer>
+)
