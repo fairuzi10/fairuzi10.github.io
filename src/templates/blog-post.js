@@ -15,7 +15,7 @@ import { blogTagUrl, blogUrl } from 'utils/urls'
 
 export default ({ data }) => {
   const post = data.post
-  const { title, description, date, tags, thumbnail } = post.frontmatter
+  const { title, description, date, tags, thumbnail, lang } = post.frontmatter
   const disqusConfig = {
     url: `http://fairuzi10.github.io/blog${post.fields.slug}`,
     identifier: `blog${post.fields.slug}`,
@@ -44,7 +44,11 @@ export default ({ data }) => {
   return (
     <Wrapper single>
       <Global styles={blogStyles} />
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: lang || 'id'
+        }}
+      >
         <title>{title}</title>
         <meta name="og:title" content={title} />
         <meta name="description" content={description} />
@@ -93,6 +97,7 @@ export const query = graphql`
         thumbnail {
           publicURL
         }
+        lang
       }
       fields {
         slug

@@ -1,37 +1,37 @@
-import Card from "@/components/card";
-import { graphql } from "gatsby";
-import Link from "gatsby-link";
-import React from "react";
-import Helmet from "react-helmet";
+import Card from '@/components/card'
+import { graphql } from 'gatsby'
+import Link from 'gatsby-link'
+import React from 'react'
+import Helmet from 'react-helmet'
 
-import { HoverableImage } from "../components/HoverableImage";
-import Pagination from "../components/pagination";
-import Wrapper from "../components/wrapper";
-import { blogUrl, blogTagUrl } from "../utils/urls";
+import { HoverableImage } from '../components/HoverableImage'
+import Pagination from '../components/pagination'
+import Wrapper from '../components/wrapper'
+import { blogUrl, blogTagUrl } from '../utils/urls'
 
 export const Post = ({ node }) => {
-  const { date, title, description, tags } = node.frontmatter;
-  const tagsText = tags.map((tag) => (
+  const { date, title, description, tags } = node.frontmatter
+  const tagsText = tags.map(tag => (
     <Link to={blogTagUrl(tag)} key={tag} className="mx-1">
-      #{tag}{" "}
+      #{tag}{' '}
     </Link>
-  ));
+  ))
   const thumbnail = node.frontmatter.thumbnail
     ? node.frontmatter.thumbnail.childImageSharp.fluid
-    : "";
+    : ''
 
   return (
     <div key={node.id}>
       <div>{date}</div>
       <h2>
-        <Link to={node.fields.slug} className="black-link">
+        <Link to={blogUrl(node.fields.slug)} className="black-link">
           {title}
         </Link>
       </h2>
       {thumbnail && (
         <div className="text-center row">
           <div className="col-12 col-md-8 offset-md-2">
-            <Link to={node.fields.slug}>
+            <Link to={blogUrl(node.fields.slug)}>
               <HoverableImage fluid={thumbnail} />
             </Link>
           </div>
@@ -41,15 +41,15 @@ export const Post = ({ node }) => {
       {tagsText}
       <hr className="my-4" />
     </div>
-  );
-};
+  )
+}
 
 const IndexPage = ({ data, pageContext }) => {
-  const edges = data.allMarkdownRemark.edges;
+  const edges = data.allMarkdownRemark.edges
   const postList = edges.map(({ node }) => (
     <Post node={node} key={node.fields.slug} />
-  ));
-  const { page, pageCount } = pageContext;
+  ))
+  const { page, pageCount } = pageContext
 
   return (
     <Wrapper single>
@@ -70,8 +70,8 @@ const IndexPage = ({ data, pageContext }) => {
         <Pagination index={page} pageCount={pageCount} />
       </div>
     </Wrapper>
-  );
-};
+  )
+}
 
 export const query = graphql`
   query blogListQuery($skip: Int!, $limit: Int!) {
@@ -102,6 +102,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default IndexPage;
+export default IndexPage
