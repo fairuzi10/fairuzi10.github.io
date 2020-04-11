@@ -56,7 +56,7 @@ export default ({ data }) => {
         {thumbnail && <meta name="og:image" content={thumbnail.publicURL} />}
       </Helmet>
       <Card className="mb-4">
-        {date}
+        {date} · {`${post.timeToRead} min read`}
         <SectionDivider />
         <h1>{title}</h1>
         <div
@@ -89,6 +89,7 @@ export const query = graphql`
   query BlogPostQuery($slug: String!, $tags: [String]!) {
     post: markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      timeToRead
       frontmatter {
         title
         date(formatString: "DD MMMM YYYY")
