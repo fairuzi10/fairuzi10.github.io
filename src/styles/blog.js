@@ -59,4 +59,8 @@ export default css`
   h6 {
     font-size: 1rem;
   }
+
+  code.language-text {
+    color: #dd4a68;
+  }
 `
