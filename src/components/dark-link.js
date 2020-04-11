@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { COLOR } from '../utils/theme'
+import { COLOR } from '../styles/theme'
 import { Link } from 'gatsby'
 
 const DarkGatsbyLink = styled(Link)({

@@ -7,7 +7,27 @@ import Helmet from 'react-helmet'
 import { HoverableImage } from '../components/HoverableImage'
 import Pagination from '../components/pagination'
 import Wrapper from '../components/wrapper'
-import { blogUrl, blogTagUrl } from '../utils/urls'
+import { COLOR } from '../styles/theme'
+import { blogTagUrl, blogUrl } from '../utils/urls'
+import styled from '@emotion/styled'
+
+export const Title = styled(Link)`
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  padding: 8px 16px 8px 64px;
+  border-radius: 16px;
+  margin-left: -64px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  background: ${COLOR.gradGreenBlue};
+  color: ${COLOR.dark};
+  &:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    color: ${COLOR.dark};
+  }
+`
 
 export const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
@@ -22,12 +42,12 @@ export const Post = ({ node }) => {
 
   return (
     <div key={node.id}>
-      <div>{date}</div>
-      <h2>
-        <Link to={blogUrl(node.fields.slug)} className="black-link">
-          {title}
-        </Link>
-      </h2>
+      <div>
+        {date} · {`${node.timeToRead} min read`}
+      </div>
+      <div>
+        <Title to={blogUrl(node.fields.slug)}>{title}</Title>
+      </div>
       {thumbnail && (
         <div className="text-center row">
           <div className="col-12 col-md-8 offset-md-2">
@@ -82,6 +102,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          timeToRead
           frontmatter {
             title
             date(formatString: "DD MMMM YYYY")

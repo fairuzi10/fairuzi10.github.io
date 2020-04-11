@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { COLOR } from '@/utils/theme'
+import { COLOR } from '../styles/theme'
 
 export const Card = styled.div({
   backgroundColor: COLOR.white,

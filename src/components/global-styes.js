@@ -1,5 +1,5 @@
 import { css } from '@emotion/core'
-import { COLOR } from '@/utils/theme'
+import { COLOR } from '../styles/theme'
 
 export default css`
   body {

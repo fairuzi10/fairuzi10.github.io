@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { COLOR } from '@/utils/theme'
+import { COLOR } from '../styles/theme'
 
 const Footer = styled.footer({
   marginTop: '1rem',

@@ -8,6 +8,7 @@ import Link from 'gatsby-link'
 import React from 'react'
 import { Card } from '../components/card'
 import { blogTagUrl } from '../utils/urls.js'
+import { Title } from '../templates/blog-list'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Post = ({ node }) => {
@@ -20,10 +21,12 @@ const Post = ({ node }) => {
 
   return (
     <div key={node.id}>
-      <div>{date}</div>
-      <h4 className="mt-2">
-        <DarkLink to={node.fields.slug}>{title}</DarkLink>
-      </h4>
+      <div>
+        {date} · {`${node.timeToRead} min read`}
+      </div>
+      <div>
+        <Title to={node.fields.slug}>{title}</Title>
+      </div>
       <div className="mb-2">{description}</div>
       {tagsText}
       <SectionDivider />
@@ -82,6 +85,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          timeToRead
           frontmatter {
             title
             date(formatString: "DD MMMM YYYY")

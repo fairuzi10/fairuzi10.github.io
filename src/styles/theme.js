@@ -7,5 +7,6 @@ export const COLOR = {
   white: '#ffffff',
   yellow: '#f1c40f',
   gray: '#34495e',
-  orange: '#F79F1F'
+  orange: '#F79F1F',
+  gradGreenBlue: 'linear-gradient(120deg, #58f2ae, #48dbfb)'
 }

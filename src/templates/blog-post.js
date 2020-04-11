@@ -12,6 +12,21 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import blogStyles from 'styles/blog'
 import { blogTagUrl, blogUrl } from 'utils/urls'
+import styled from '@emotion/styled'
+import { COLOR } from '../styles/theme'
+
+const Title = styled.span`
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  padding: 8px 16px 8px 64px;
+  border-radius: 16px;
+  margin-left: -64px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  background: ${COLOR.gradGreenBlue};
+  color: ${COLOR.dark};
+`
 
 export default ({ data }) => {
   const post = data.post
@@ -56,9 +71,12 @@ export default ({ data }) => {
         {thumbnail && <meta name="og:image" content={thumbnail.publicURL} />}
       </Helmet>
       <Card className="mb-4">
-        {date} · {`${post.timeToRead} min read`}
-        <SectionDivider />
-        <h1>{title}</h1>
+        <div>
+          {date} · {`${post.timeToRead} min read`}
+        </div>
+        <div>
+          <Title>{title}</Title>
+        </div>
         <div
           dangerouslySetInnerHTML={{ __html: post.html }}
           className="blog-post"

@@ -1,22 +1,22 @@
 import styled from '@emotion/styled'
-import { COLOR } from '../utils/theme'
+import { COLOR } from '../styles/theme'
 
 export const Button = styled.button(
   {
-    backgroundImage: 'linear-gradient(120deg, rgb(88,242,174), rgb(0,130,240))',
+    backgroundImage: COLOR.gradGreenBlue,
     padding: '0.5rem 1rem',
     border: 0,
     borderRadius: '2rem',
     cursor: 'pointer',
-    color: COLOR.white,
+    color: COLOR.dark,
     transition: 'all 0.15s ease-in-out',
 
     '&:hover, &:focus': {
       outline: 0
     },
     '&:hover': {
-      backgroundImage:
-        'linear-gradient(120deg, rgb(67, 186, 134), rgb(0, 95, 176))'
+      backgroundImage: COLOR.gradGreenBlue,
+      opacity: 0.9
     }
   },
   ({ block }) =>
@@ -28,7 +28,8 @@ export const Button = styled.button(
     switch (size) {
       case 'lg':
         return {
-          padding: '0.75rem 1rem'
+          padding: '0.75rem 1rem',
+          fontWeight: 'bold'
         }
       default:
         return {}
