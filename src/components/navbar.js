@@ -4,15 +4,21 @@ import React from 'react'
 import {
   Collapse,
   Nav,
-  Navbar,
-  NavbarBrand,
+  Navbar as BNavbar,
   NavbarToggler,
   NavItem
 } from 'reactstrap'
 
-const CustomNavbar = styled(Navbar)({
+import { LinkButton } from './button'
+
+const CustomNavbar = styled(BNavbar)({
   boxShadow: '0px 10px 20px -10px rgba(0,64,128,0.2)'
 })
+
+const Brand = styled(LinkButton)`
+  font-size: 1.2rem;
+  font-weight: bold;
+`
 
 const LinkNav = ({ to, children }) => (
   <NavItem>
@@ -22,7 +28,7 @@ const LinkNav = ({ to, children }) => (
   </NavItem>
 )
 
-export default class Example extends React.Component {
+export default class Navbar extends React.Component {
   constructor(props) {
     super(props)
 
@@ -45,9 +51,7 @@ export default class Example extends React.Component {
         className="py-3"
         fixed="top"
       >
-        <NavbarBrand href="/">
-          <b>Fairuzi10</b>
-        </NavbarBrand>
+        <Brand>Fairuzi10</Brand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar aria-label="Toggle navbar">
           <Nav className="ml-auto" navbar>

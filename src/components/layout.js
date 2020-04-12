@@ -3,6 +3,7 @@ import styled from '@emotion/styled'
 import React from 'react'
 import Helmet from 'react-helmet'
 
+import logo from '../assets/logo.svg'
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import { StretchContainer } from '../components/stretch'
@@ -36,7 +37,7 @@ const Layout = ({ children }) => {
           name="og:description"
           content="Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita mengenai hidup seperti perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika."
         />
-        <meta name="og:image" content={require('@/favicon.png')} />
+        <meta name="og:image" content={logo} />
         <meta
           name="google-site-verification"
           content="uu3IRN8Av5aq9r0lEKhIJjoLFIi1T8TFKymt0f-68bk"

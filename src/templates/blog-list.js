@@ -1,17 +1,17 @@
 import Card from '@/components/card'
+import styled from '@emotion/styled'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import React from 'react'
 import Helmet from 'react-helmet'
 
+import { LinkButton } from '../components/button'
 import { HoverableImage } from '../components/HoverableImage'
 import Pagination from '../components/pagination'
 import Wrapper from '../components/wrapper'
-import { COLOR } from '../styles/theme'
 import { blogTagUrl, blogUrl } from '../utils/urls'
-import styled from '@emotion/styled'
 
-export const Title = styled(Link)`
+export const Title = styled(LinkButton)`
   font-size: 1.5rem;
   font-weight: bold;
   display: inline-block;
@@ -20,13 +20,6 @@ export const Title = styled(Link)`
   margin-left: -64px;
   margin-top: 8px;
   margin-bottom: 16px;
-  background: ${COLOR.gradGreenBlue};
-  color: ${COLOR.dark};
-  &:hover {
-    opacity: 0.9;
-    text-decoration: none;
-    color: ${COLOR.dark};
-  }
 `
 
 export const Post = ({ node }) => {
