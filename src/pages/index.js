@@ -9,7 +9,6 @@ import React from 'react'
 import { Card } from '../components/card'
 import { blogTagUrl } from '../utils/urls.js'
 import { Title } from '../templates/blog-list'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
