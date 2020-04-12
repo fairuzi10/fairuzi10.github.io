@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "fairuzi10-website",
+  "description": null,
+  "icons": {
+    "60": "/icons-753028c05fe04fcb78aae6a63c5c4cbf/firefox_app_60x60.png",
+    "128": "/icons-753028c05fe04fcb78aae6a63c5c4cbf/firefox_app_128x128.png",
+    "512": "/icons-753028c05fe04fcb78aae6a63c5c4cbf/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": null,
+    "url": null
+  }
+}
