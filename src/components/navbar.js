@@ -51,7 +51,7 @@ export default class Navbar extends React.Component {
         className="py-3"
         fixed="top"
       >
-        <Brand>Fairuzi10</Brand>
+        <Brand to="/">Fairuzi10</Brand>
         <NavbarToggler onClick={this.toggle} aria-label="Toggle navbar" />
         <Collapse isOpen={this.state.isOpen} navbar aria-label="Toggle navbar">
           <Nav className="ml-auto" navbar>

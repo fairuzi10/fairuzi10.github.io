@@ -2,7 +2,6 @@ import { css } from '@emotion/core'
 import { COLOR } from '../styles/theme'
 
 export default css`
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
   body {
     background-color: ${COLOR.blueFade};
     color: ${COLOR.dark};

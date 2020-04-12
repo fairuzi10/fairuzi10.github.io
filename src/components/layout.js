@@ -8,6 +8,7 @@ import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import { StretchContainer } from '../components/stretch'
 import globalStyles from './global-styes'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const FullPage = styled.div({
   minHeight: '100vh',
@@ -42,6 +43,10 @@ const Layout = ({ children }) => {
           name="google-site-verification"
           content="uu3IRN8Av5aq9r0lEKhIJjoLFIi1T8TFKymt0f-68bk"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap"
+          rel="stylesheet"
+        ></link>
       </Helmet>
       <Global styles={globalStyles} />
       <StretchContainer>
