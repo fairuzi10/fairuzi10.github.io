@@ -79,7 +79,7 @@ module.exports = {
         background_color: 'white',
         theme_color: '#f8f9fa',
         display: 'minimal-ui',
-        icon: 'src/favicon.png' // This path is relative to the root of the site.
+        icon: 'src/assets/logo.svg' // This path is relative to the root of the site.
       }
     },
     'gatsby-plugin-remove-serviceworker',
@@ -142,7 +142,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-favicon',
       options: {
-        logo: './src/favicon.png',
+        logo: './src/assets/logo.svg',
         injectHTML: true,
         icons: {
           android: true,
