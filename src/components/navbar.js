@@ -52,7 +52,7 @@ export default class Navbar extends React.Component {
         fixed="top"
       >
         <Brand>Fairuzi10</Brand>
-        <NavbarToggler onClick={this.toggle} />
+        <NavbarToggler onClick={this.toggle} aria-label="Toggle navbar" />
         <Collapse isOpen={this.state.isOpen} navbar aria-label="Toggle navbar">
           <Nav className="ml-auto" navbar>
             <LinkNav to="/blog/">Blog</LinkNav>
