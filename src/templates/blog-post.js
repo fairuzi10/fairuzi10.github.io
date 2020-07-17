@@ -32,8 +32,8 @@ export default ({ data }) => {
   const post = data.post
   const { title, description, date, tags, thumbnail, lang } = post.frontmatter
   const disqusConfig = {
-    url: `http://fairuzi10.github.io/blog${post.fields.slug}`,
-    identifier: `blog${post.fields.slug}`,
+    url: `http://fairuzi10.github.io${post.fields.slug}`,
+    identifier: post.fields.slug,
     title: post.frontmatter.title
   }
 
