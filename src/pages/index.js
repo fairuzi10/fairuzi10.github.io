@@ -13,7 +13,7 @@ import { Title } from '../templates/blog-list'
 const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
   const tagsText = tags.map(tag => (
-    <Link to={blogTagUrl(tag)} key={tag} className="mx-1">
+    <Link to={blogTagUrl(tag)(1)} key={tag} className="mx-1">
       #{tag}{' '}
     </Link>
   ))

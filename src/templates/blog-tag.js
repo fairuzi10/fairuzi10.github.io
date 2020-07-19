@@ -5,6 +5,7 @@ import React from 'react'
 import Pagination from '../components/pagination'
 import Wrapper from '../components/wrapper'
 import { FilterTag, Post } from './blog-list'
+import { blogTagUrl } from 'utils/urls'
 
 const Page = ({ data, pageContext }) => {
   const edges = data.filteredPostList.edges
@@ -18,7 +19,11 @@ const Page = ({ data, pageContext }) => {
       <FilterTag.Component tagList={data.allPostList.tagList} active={tag} />
       <Card className="mb-3">{postList}</Card>
       <div className="d-flex justify-content-center">
-        <Pagination index={page} pageCount={pageCount} />
+        <Pagination
+          index={page}
+          pageCount={pageCount}
+          urlBuilder={blogTagUrl(tag)}
+        />
       </div>
     </Wrapper>
   )

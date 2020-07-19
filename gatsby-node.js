@@ -95,7 +95,7 @@ const createTagPages = async (createPage, graphql, posts) => {
     const pageCount = Math.ceil(postsCount / postsPerPage)
     Array.from({ length: pageCount }).forEach((_, i) => {
       createPage({
-        path: `blog/tag/${tag}/`,
+        path: i === 0 ? `/blog/tag/${tag}` : `/blog/tag/${tag}/${i + 1}/`,
         component: path.resolve('./src/templates/blog-tag.js'),
         context: {
           limit: postsPerPage,

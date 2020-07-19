@@ -15,7 +15,7 @@ import { LinkButton } from '../components/button'
 import { HoverableImage } from '../components/HoverableImage'
 import Pagination from '../components/pagination'
 import Wrapper from '../components/wrapper'
-import { blogTagUrl, blogUrl } from '../utils/urls'
+import { blogTagUrl, blogUrl, blogListUrl } from '../utils/urls'
 import { COLOR } from 'styles/theme'
 
 export const Title = styled(LinkButton)`
@@ -32,7 +32,7 @@ export const Title = styled(LinkButton)`
 export const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
   const tagsText = tags.map(tag => (
-    <Link to={blogTagUrl(tag)} key={tag} className="mx-1">
+    <Link to={blogTagUrl(tag)(1)} key={tag} className="mx-1">
       #{tag}{' '}
     </Link>
   ))
@@ -111,11 +111,11 @@ FilterTag.Component = ({ tagList, active }) => {
         </FilterTag.DropdownToggle>
         <FilterTag.Menu right>
           {tagList.map(tag => (
-            <FilterTag.Link to={blogTagUrl(tag.fieldValue)}>
-              <FilterTag.Item
-                key={tag.fieldValue}
-                active={tag.fieldValue === active}
-              >
+            <FilterTag.Link
+              to={blogTagUrl(tag.fieldValue)(1)}
+              key={tag.fieldValue}
+            >
+              <FilterTag.Item active={tag.fieldValue === active}>
                 {tag.fieldValue}
               </FilterTag.Item>
             </FilterTag.Link>
@@ -150,7 +150,11 @@ const IndexPage = ({ data, pageContext }) => {
       <FilterTag.Component tagList={data.allPostList.tagList} />
       <Card>{postList}</Card>
       <div className="d-flex justify-content-center mt-4">
-        <Pagination index={page} pageCount={pageCount} />
+        <Pagination
+          index={page}
+          pageCount={pageCount}
+          urlBuilder={blogListUrl}
+        />
       </div>
     </Wrapper>
   )
