@@ -7,7 +7,7 @@ export default css`
 
   blockquote {
     background: #f8f9fa;
-    border-left: 0.3rem solid #e5e5e5;
+    border-left: 0.3rem solid #58f2ae;
     margin-left: -1rem;
     padding: 0.8rem;
   }
@@ -23,6 +23,8 @@ export default css`
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 1em;
     font-size: 0.9rem;
+  }
+  p + figcaption.img-caption {
     margin-top: -1em;
   }
   iframe {
@@ -33,7 +35,7 @@ export default css`
   figcaption.iframe-caption {
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     font-size: 0.9rem;
   }
 

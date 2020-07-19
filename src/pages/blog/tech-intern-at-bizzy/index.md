@@ -2,7 +2,7 @@
 title: Hari-hari sebagai Tech Intern di Bizzy
 date: "2018-08-27"
 description: Keseharian saya pada saat magang sebagai software development engineer di Bizzy.
-tags: ["MyLife", "SoftwareDevelopment"]
+tags: ["Story", "Coding"]
 thumbnail: "CTO-intern-bizzy.jpeg"
 weight: 5
 ---
@@ -10,6 +10,7 @@ weight: 5
 Setelah saya [mendapatkan kesempatan magang di Bizzy](https://fairuzi10.github.io/blog/mendapatkan-magang-bizzy/), tibalah waktunya untuk saya memulai kehidupan sebagai tech intern di Bizzy. Saya mulai magang pada 25 Juni dan berakhir pada 24 Agustus yang lalu, jadi sekitar dua bulan.
 
 ![bizzy tech team](with-lead.jpg)
+
 <figcaption class="img-caption">Bersama para dev lead setelah presentasi akhir.</figcaption>
 
 ## Mengenal Bizzy
@@ -31,13 +32,15 @@ Pada minggu pertama masuk, kami dikenalkan kepada seluruh karyawan Bizzy, melaku
 Setelah kira-kira seminggu dikenalkan dengan Bizzy, tentu akhirnya kami mendapat tugas. Tugas pertama saya adalah membuat mekanisme upload ke S3 yang saat ini terbatasi oleh body payload API Gateway sebesar 10MB dan Lambda sebesar 6MB. Tugas ini cukup menarik mengingat saya tidak pernah menyentuh produk AWS sebelumnya. Mau nyoba trial aja butuh credit card 😢. Butuh waktu kira-kira sebulan bagi saya untuk menyelesaikan tugas ini. Ya, sebulan. Saya sendiri tidak menyangka akan memakan waktu selama ini. Perjalanan saya menaklukkan AWS ini memang cukup unik. Walaupun AWS merupakan salah satu servis yang banyak digunakan, jumlah artikel yang ada di internet jauh lebih sedikit dibanding hal-hal lain yang pernah saya gunakan sehingga saya harus benar-benar paham sebelum memutuskan mekanisme seperti apa yang saya pakai. Selain itu, AWS sendiri tentu memiliki beberapa pilihan dalam penggunaannya (role, profile, policy, dll) sehingga saya harus mencari tahu apa saja yang telah digunakan Bizzy sebelumnya sehingga apa yang saya buat nantinya tidak akan merusak apa yang telah ada.
 
 Tugas kedua yang saya dapat adalah menyisipkan kode pada website sehingga kita dapat mengetahui page-page apa saja yang dibuka user. Kira-kira seperti Google Analytics lah. Pekerjaannya sebenarnya cukup mudah karena hanya menyisipkan kode yang kira-kira bentuknya:
+
 ```js
 const prop = {
-  page: 'Login',
-  time: '10:00',
+  page: "Login",
+  time: "10:00",
 };
 window.analytics.log(prop);
 ```
+
 Tantangan dari tugas ini adalah saya harus membaca kode orang lain yang tidak saya pahami😆. Walaupun mudah, cukup banyak kode yang harus disisipkan sehingga memakan waktu internship saya hingga selesai.
 
 ## Mengapa Bizzy?
@@ -59,6 +62,7 @@ Di beberapa tempat, tugas yang diberikan kepadamu adalah produk-produk yang belu
 Jika kamu magang di perusahaan yang sudah sangat besar, kemungkinan kamu akan ditaruh di suatu proyek dan tidak mengetahui perusahaan tersebut secara keseluruhan. Di Bizzy, kamu bisa tahu segalanya. Well, setidaknya dalam hal tech jika kamu mengambil tech internship. Saya sendiri mendapat akses AWS yang cukup besar yang bisa saya gunakan untuk bermain-main (di dev tentunya). Selain itu, aturan-aturan yang ada dalam ngoding belum terlalu strict sehingga kamu dapat bebas berekspresi sehingga jika kamu melakukan kesalahan, kamu dapat membenarkannya dan tahu mengapa kodingan yang ini lebih baik dari pada yang lainnya, bukan hanya sekadar aturan.
 
 #### Pekerjaan yang Fleksibel
+
 Tech Bizzy memiliki kelebihan dapat kerja dengan cukup bebas. Kamu dapat datang dan pulang kapan saja. Bahkan, kamu dapat mengambil remote (kerja di rumah). Saya sendiri memanfaatkan ini untuk datang lebih siang, untuk ~~mengantar anak saya sekolah~~ menunggu kereta arah Jakarta Kota lebih manusiawi.
 
 #### Rekan Kerja yang Menyenangkan
@@ -72,9 +76,11 @@ Sebelum magang, saya membayangkan akan bekerja dengan orang-orang yang serius, t
 Selain menjadi layaknya karyawan biasa, kami juga diberikan beberapa hal spesial sebagai intern. Dari tingkat Bizzy (bukan hanya tech), mereka mengadakan Bizzy Interns Day yang merupakan ajang para intern berkenalan, bercerita tentang internshipnya, dan berbincang-bincang dengan para C-level. Sebagai tech intern, kami tentu juga mendapat hal khusus dari bidang tech. Kami dapat belajar langsung dengan para pimpinan di bidangnya dan dapat ngobrol bersama Pak Norman (CTO) setiap dua minggu sekali. Saya rasa mereka sebenarnya tidak begitu mendapat keuntungan dengan melakukan hal ini karena toh hanya dua bulan kami di sana. Namun dari apa yang pernah Pak Norman sampaikan, sepertinya dia ingin membuat pengalaman internship kami ini menjadi pengalaman yang berharga dan tak terlupakan. Oh ya, Bizzy juga menawarkan beasiswa dengan kontrak kerja setelah kami lulus nanti (iya, lulus, ga DO kok).
 
 ![bizzy Norman Sasono](CTO-intern-bizzy.jpeg)
+
 <figcaption class="img-caption">Bersama Pak Norman.</figcaption>
 
 ![bizzy interns day](bizzy-interns-day.jpeg)
+
 <figcaption class="img-caption">Bizzy interns day.</figcaption>
 
 ## Apa yang Saya Pelajari Selama Magang
@@ -108,14 +114,18 @@ Berbeda dengan backend yang menggunakan microservice, frontend Bizzy saat itu ma
 
 Setelah saya menyadari hal ini, secara kebetulan Bizzy mulai memecah repo frontendnya. Walaupun harus menyesuaikan sedikit kode saya pasca pemecahan ini, saya merasa cukup senang. Seperti keunggulan yang saya sebutkan sebelumnya, saya dapat melihat seperti apa kode yang baik dan yang lebih penting, saya tahu mengapa yang sebelumnya lebih buruk tentu karena saya merasakannya. Oh ya, saya juga mendapat pengetahuan baru dari Mas Irfan mengenai micro frontend yang cukup menarik karena selain dapat memecah repo frontend sesuai servicenya, ia juga dapat menyatukan tiga agama besar yaitu Angular, React, dan Vue dalam satu page bersamaan😆.
 
+<blockquote>
+  <strong>Update 19 Juli 2020:</strong> Seiring berjalannya waktu dan bertambahnya pengalaman saya, opini ini tidak sepenuhnya benar. Monorepo tetap bisa digunakan oleh tim besar dan mungkin lebih baik, tergantung kondisi dan kebutuhan.
+</blockquote>
+
 #### Pentingnya Abstraksi
 
 Apa itu abstraksi? Mudahnya, abstraksi adalah penyembunyian implementasi pada kode. Misalnya, kode untuk mendapatkan data user:
 
 ```js
 const response = await axios.get(USER_ENDPOINT_HERE, {
-  header: 'apalah',
-  dan: 'lain-lain',
+  header: "apalah",
+  dan: "lain-lain",
 });
 const user = response.data.user;
 ```
@@ -150,14 +160,14 @@ export const log = (params) => {
   if (window && window.analytics) {
     window.analytics.log(params);
   }
-}
+};
 
 // in other file
-import { log } from 'utils/analytics';
+import { log } from "utils/analytics";
 
 const params = {
-  isi: 'sesukamu',
-}
+  isi: "sesukamu",
+};
 log(params);
 ```
 
@@ -170,15 +180,19 @@ Dengan abstraksi ini, perubahan-perubahan baik fitur maupun bug fix yang pastiny
 Magang selama dua bulan di Bizzy tentu membuahkan beberapa pengalaman unik bagi saya. Berikut ini beberapa di antaranya.
 
 ![SIAK War down](meme/ferro-siak.png)
+
 <figcaption class="img-caption">Ferro yang memiliki ide cemerlang.</figcaption>
 
 ![KFC](meme/kfc.png)
+
 <figcaption class="img-caption">Jadi siapa yang ngebet ke KFC?</figcaption>
 
 ![Indra Bizzy Intern](meme/indra-mentor.png)
+
 <figcaption class="img-caption">Indra dan tangan ajaibnya.</figcaption>
 
 ![Abstraction](meme/abstraction.png)
+
 <figcaption class="img-caption">Menghilangkan kompleksitas.</figcaption>
 
 <hr class="section-divider" />

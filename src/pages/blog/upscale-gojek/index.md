@@ -2,7 +2,7 @@
 title: "Gojek Upscale 3.0: Ready to Upscale Yourself?"
 date: "2020-04-10"
 description: Want to learn best practices of software engineering from experts in the industry? Gojek Upscale is for you. Find out what will you get by joining this great event.
-tags: ["SoftwareEngineering"]
+tags: ["Story", "Coding"]
 thumbnail: "last-day-photo.jpg"
 lang: en
 ---

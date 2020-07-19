@@ -2,7 +2,7 @@
 title: Perjalanan di Semester Lima Fasilkom UI
 date: "2020-04-05"
 description: Sebuah kisah perjalanan awal di tingkat tiga Fasilkom UI.
-tags: ["Fasilkom", "UI", "TipsAndTrick"]
+tags: ["Story", "Fasilkom"]
 thumbnail: "jogging.jpg"
 ---
 
@@ -31,7 +31,7 @@ Di matkul ini kita belajar bagaimana merancang sebuah perangkat lunak. Isi matku
 
 Matkul ini membahas bagaimana internet bekerja. Ada pembagian 5 layer pada jaringan yaitu _application layer_, _transport layer_, _network layer_, _link layer_, dan _physical layer_. Jarkom ini kurang lebih membahas masing-masing layer secara mendalam kecuali _physical layer_. Sebagai gambaran, kita akan belajar bagaimana komputer mendapat IP address, bagaimana data yang kita kirim mendapatkan jalannya ke komputer tujuan, bagaimana jika ada komputer baru yang ditambahkan ke jaringan, dan lain-lain.
 
-<div class="img-500">
+<div class="img-400">
     <img src="chat-jarkom.png" alt="Chat secara jarkom" />
     <figcaption class="img-caption">Chat secara jarkom.</figcaption>
 </div>
@@ -43,7 +43,7 @@ Ada lima tugas individu ditambah 1 tugas di lab secara berkelompok. Tugasnya keb
 <figcaption class="img-caption">Norman the <i>cool kids</i>.</figcaption>
 
 <div class="img-450">
-    <img src="norman-diomongin.png" alt="Norman Diomongin" alt="Norman diomongin"/>
+    <img src="norman-diomongin.png" alt="Norman diomongin"/>
     <figcaption class="img-caption">Maaf man.</figcaption>
 </div>
 
@@ -127,7 +127,7 @@ Kelas IR ini diajar oleh Bu Mirna, Dekan Fasilkom. "Menarik juga ini matkul" pik
 
 Ada empat tugas ngoding di matkul ini. Menurut saya, tugas matkul ini paling bisa dinikmati di antara tugas lainnya. Nilai tugasnya juga bagus-bagus, penolong nilai ujian yang hancur karena susahnya bukan main. Tapi santai saja jika ingin mengambil matkul ini, karena yang kita cari adalah ilmu, bukan nilai, kan? Ga juga sih, saya penasaran aja gimana rasanya diajar Bu Dekan hehehe.
 
-<div class="img-450">
+<div class="img-400">
     <img src="nilai-oriented.png" alt="Jangan nilai oriented">
     <figcaption class="img-caption">Aku bijak bgtt,,,,</figcaption>
 </div>
@@ -137,6 +137,10 @@ Matkul ini juga erat kaitannya dengan _Natural Language Processing_ (NLP). Kira-
 <blockquote>
     “IR itu lo cuma ekstrak-ekstrak doang, kalo NLP lo paham konteksnya”
     <footer class="blockquote-footer"><cite title="Degoldie Sonny">Degoldie Sonny, sering cabut kelas</cite></footer>
+</blockquote>
+
+<blockquote>
+  <strong>Update 19 Juli 2020:</strong> Tak disangka kelas IR tahun ajaran 2019/2020 ganjil ini adalah kelas IR <a href="https://www.cs.ui.ac.id/index.php/berita-duka-dekan-mirna-adriani/">terakhir</a> yang Bu Mirna ajar. Semoga ilmu beliau selalu dapat bermanfaat dan beliau mendapat tempat terbaik di sisi-Nya.
 </blockquote>
 
 <hr class="section-divider" />

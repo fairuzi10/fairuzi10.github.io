@@ -2,7 +2,7 @@
 title: "Inheritance Tanpa OOP"
 date: "2020-04-11"
 description: Masih berpikir bahwa inheritance hanya dapat dilakukan dengan OOP? Baca pos ini dan ubah pemikiran tersebut.
-tags: ["SoftwareEngineering", "RandomFact"]
+tags: ["Knowledge", "Coding"]
 thumbnail: "cover.png"
 lang: id
 ---

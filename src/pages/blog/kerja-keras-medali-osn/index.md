@@ -2,7 +2,7 @@
 title: "Apakah Kerja Keras Cukup untuk Meraih Medali OSN?"
 date: "2018-06-07"
 description: "Rahasia sederhana yang dimiliki para medalis OSN namun jarang terungkap."
-tags: ["OSN", "CompetitiveProgramming", "MyThought"]
+tags: ["Story", "OSN"]
 thumbnail: "kunjungan.png"
 weight: 3
 ---
@@ -18,9 +18,10 @@ Sebelumnya, saya ingin flashback sebentar di saat saya mengikuti acara pelatihan
 Lalu apa hubungannya dengan OSN? Sebenarnya, jika kamu ingin menjadi medalis, sedikit saingannya! Tidak percaya? mari kita lihat data kunjungan [https://osn.toki.id](https://osn.toki.id) menjelang OSK.
 
 ![](kunjungan.png)
+
 <figcaption class="img-caption">Kunjungan meningkat sangat tajam.</figcaption>
 
-Dari data tersebut, dapat dilihat bahwa banyak sekali peserta OSK yang deadliner! Alasannya tentu beragam, salah satu yang mungkin dan sangat disayangkan adalah baru diberitahu guru menjelang OSK. Artinya, untuk menjadi juara OSK sebenarnya lawanmu bukan saja sedikit (hanya beberapa siswa per sekolah), namun juga sedikit yang melakukan persiapan. Bagi saya, siswa-siswa deadliner ini tidak layak untuk lolos sehingga biasanya saya hanya mempertimbangkan siswa-siswa yang memiliki persiapan, mari kita sebut mereka sebagai "lawan sebenarnya". Dari mereka yang memiliki persiapan, berapa banyak yang telah mencoba soal-soal setidaknya 3 tahun ke belakang? Coba kamu data di daerahmu dan buktikan sendiri bahwa sainganmu sedikit 😄. Itu kan OSK, bagaimana dengan OSN? Tidak jauh berbeda! Mari lihat data dari [https://kawal-pjj.herokuapp.com](https://kawal-pjj.herokuapp.com).
+Dari data tersebut, dapat dilihat bahwa banyak sekali peserta OSK yang deadliner! Alasannya tentu beragam, salah satu yang mungkin dan sangat disayangkan adalah baru diberitahu guru menjelang OSK. Artinya, untuk menjadi juara OSK sebenarnya lawanmu bukan saja sedikit (hanya beberapa siswa per sekolah), namun juga sedikit yang melakukan persiapan. Anggaplah siswa-siswa deadliner ini tidak akan lolos sehingga hanya pertimbangkan siswa-siswa yang memiliki persiapan, mari kita sebut mereka sebagai "lawan sebenarnya". Dari mereka yang memiliki persiapan, berapa banyak yang telah mencoba soal-soal setidaknya 3 tahun ke belakang? Coba kamu data di daerahmu dan buktikan sendiri bahwa sainganmu sedikit 😄. Itu kan OSK, bagaimana dengan OSN? Tidak jauh berbeda! Mari lihat data dari [https://kawal-pjj.herokuapp.com](https://kawal-pjj.herokuapp.com).
 
 ![](pjj.png)
 
@@ -28,7 +29,9 @@ Sebenarnya cukup sulit menentukan batas "memiliki persiapan" pada PJJ ini namun 
 
 Selain kurangnya persiapan, banyak juga siswa dengan persiapan (biasanya mendapat pelatihan) yang sebenarnya tidak tertarik dengan OSN. Dari beberapa alumni TOKI, mungkin saya termasuk yang tidak begitu tertarik untuk "menarik" adik-adik kelas kenalan saya untuk menjadi medalis OSN. Alasannya sederhana, saya tidak ingin capek-capek berusaha menjadikan seseorang medalis jika dia sendiri "tidak ingin" menjadi medalis. Terdengar konyol? Faktanya, banyak teman-teman saya yang melatih adik kelasnya mengeluh bahwa sebenarnya malah mereka yang lebih semangat belajar OSN dibanding adik kelasnya yang sebenarnya "dibantu". Oh ya, jangan salah kaprah, dengan tidak tertarik mengajar adik kelas bukan berarti saya tidak peduli dengan siswa-siswa OSN. Saya sendiri tergabung dalam tim konten TLX karena saya ingin membantu mereka yang walaupun tidak memiliki guru namun ingin menjadi jawara di OSN. Selain itu, tulisan ini sebenarnya merupakan buah kekhawatiran terhadap minat belajar siswa OSN yang masih sedikit 😄.
 
-![OSN mengkhawatirkan](khawatir.jpg)
+<div class="img-potrait">
+  <img src="khawatir.jpg" alt="OSN mengkhawatirkan" />
+</div>
 
 Oke, lawanmu sebenarnya sedikit, lalu apakah mudah memenangkan OSN? Tidak juga. Sebenarnya, dari lawanmu yang sedikit itu, sebagian besar adalah orang-orang super yang sulit dikalahkan. Kalau melihat contoh juara bulu tangkis dunia sebelumnya, tentu yang menjadi lawan walaupun sedikit adalah atlet-atlet terbaik di negaranya. Namun dengan mengetahui sedikitnya lawan yang harus dikalahkan, setidaknya membuka sudut pandang baru bahwa kita hanya perlu melawan sedikit orang hebat, bukan banyak orang hebat 😜.
 
@@ -36,8 +39,10 @@ Lalu bagaimana dengan sifat para medalis? Apakah mereka bekerja keras untuk mend
 
 Kembali ke pertanyaan awal, apakah kerja keras cukup untuk meraih medali OSN? Tentu tidak. Selain bekerja keras, kamu tentu harus memiliki sarana yang memadai seperti komputer, internet, serta sumber materi. Untungnya, komputer merupakan salah satu bidang yang peduli terhadap penyebaran materi salah satu contohnya dengan membuat buku Pemrograman Kompetitif Dasar yang dapat diunduh secara gratis [di sini](https://osn.toki.id/arsip/download-pkd).
 
-![Dr. Strange Belajar CP](meme/dr-strange-pkd.png)
-<figcaption class="img-caption">Belajar PKD.</figcaption>
+<div class="img-potrait">
+  <img src="meme/dr-strange-pkd.png" alt="Dr. Strange Belajar CP" />
+  <figcaption class="img-caption">Belajar PKD.</figcaption>
+</div>
 
 Oke, cukup promosinya. Jawaban yang serius adalah, seharusnya iya. Saya rasa, asalkan kamu memiliki komputer, internet, dan tentunya semangat yang membara, insyaAllah medali OSN bisa diraih. Mungkin akan ada pemikiran "Bagaimana jika tidak memiliki komputer dan internet? Bukankah sama saja kondisinya seperti komik tadi?" Ya, itu benar. Tapi berdasarkan pengalaman, sebagian besar siswa yang gagal pada OSN disebabkan kurangnya kerja keras mereka sendiri, bukan karena tidak memiliki sarana di atas. Sebagai tambahan, silakan tonton video TED yang cukup baik berkaitan tentang tekad berikut ini. Akhir kata, selamat belajar dan berjuang menjadi yang terbaik!
 

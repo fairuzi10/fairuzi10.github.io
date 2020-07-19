@@ -2,7 +2,7 @@
 title: "Halo Dunia"
 date: "2018-01-12"
 description: "Proses pembuatan website ini yang menggunakan GatsbyJS (React) dan mengapa saya membuat website ini."
-tags: ["Coding", "SoftwareDevelopment"]
+tags: ["Story", "Coding"]
 thumbnail: "meme/drake-toki.png"
 weight: 1
 ---

@@ -1,29 +1,21 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Link from 'gatsby-link'
-import Wrapper from '../components/wrapper'
-import Pagination from '../components/pagination'
-import { Post } from './blog-list'
 import Card from '@/components/card'
+import { graphql } from 'gatsby'
+import React from 'react'
+
+import Pagination from '../components/pagination'
+import Wrapper from '../components/wrapper'
+import { FilterTag, Post } from './blog-list'
 
 const Page = ({ data, pageContext }) => {
-  const edges = data.allMarkdownRemark.edges
+  const edges = data.filteredPostList.edges
   const postList = edges.map(({ node }) => (
     <Post node={node} key={node.fields.slug} />
   ))
   const { page, pageCount, tag } = pageContext
-  const postCount = data.allMarkdownRemark.totalCount
 
   return (
     <Wrapper single>
-      <Card className="mb-3">
-        <h4>
-          {postCount} pos dilabeli dengan #{tag}
-        </h4>
-        <h6>
-          Lihat <Link to="/blog/tag/">semua label</Link>
-        </h6>
-      </Card>
+      <FilterTag.Component tagList={data.allPostList.tagList} active={tag} />
       <Card className="mb-3">{postList}</Card>
       <div className="d-flex justify-content-center">
         <Pagination index={page} pageCount={pageCount} />
@@ -34,15 +26,15 @@ const Page = ({ data, pageContext }) => {
 
 export const query = graphql`
   query blogTagQuery($skip: Int!, $limit: Int!, $tag: String!) {
-    allMarkdownRemark(
+    filteredPostList: allMarkdownRemark(
       filter: { frontmatter: { tags: { in: [$tag] } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
     ) {
-      totalCount
       edges {
         node {
+          timeToRead
           frontmatter {
             title
             date(formatString: "DD MMMM YYYY")
@@ -60,6 +52,12 @@ export const query = graphql`
             slug
           }
         }
+      }
+    }
+    allPostList: allMarkdownRemark {
+      tagList: group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
       }
     }
   }
