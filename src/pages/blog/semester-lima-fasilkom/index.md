@@ -141,6 +141,9 @@ Matkul ini juga erat kaitannya dengan _Natural Language Processing_ (NLP). Kira-
 
 <blockquote>
   <strong>Update 19 Juli 2020:</strong> Tak disangka kelas IR tahun ajaran 2019/2020 ganjil ini adalah kelas IR <a href="https://www.cs.ui.ac.id/index.php/berita-duka-dekan-mirna-adriani/">terakhir</a> yang Bu Mirna ajar. Semoga ilmu beliau selalu dapat bermanfaat dan beliau mendapat tempat terbaik di sisi-Nya.
+  <div class="img-400">
+    <img src="bu-mirna-wafat.jpeg" alt="Bu Mirna wafat" />
+  </div>
 </blockquote>
 
 <hr class="section-divider" />
