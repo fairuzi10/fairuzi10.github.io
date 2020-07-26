@@ -6,7 +6,6 @@ import { blogListUrl } from '@/utils/urls.js'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import React from 'react'
-import Helmet from 'react-helmet'
 
 import { Card } from '../components/card'
 import { Title } from '../templates/blog-list'
