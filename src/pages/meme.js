@@ -1,46 +1,28 @@
 import Card from '@/components/card'
-import { graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { graphql } from 'gatsby'
 import React from 'react'
+import Gallery from 'react-grid-gallery'
 import Helmet from 'react-helmet'
 
 import Wrapper from '../components/wrapper.js'
+import styled from '@emotion/styled'
 
-const shuffle = array => {
-  array = array.slice()
-  let counter = array.length
-
-  while (counter > 0) {
-    const index = Math.floor(Math.random() * counter)
-    counter--
-    const temp = array[counter]
-    array[counter] = array[index]
-    array[index] = temp
-  }
-  return array
-}
+const GalleryCard = styled(Card)`
+  overflow: auto;
+  padding: 2rem;
+`
 
 const MemePage = ({
   data: {
-    allFile: { edges }
+    allFile: { edges: memes }
   }
 }) => {
-  const memes = shuffle(edges)
-  const images = memes.map(nodeObject => {
-    const img = nodeObject.node.childImageSharp.fluid
-    const path = nodeObject.node.relativePath
-    const blogPrefixIndex = 5
-    const postUrl = path.slice(0, path.indexOf('/', blogPrefixIndex))
-    return (
-      <div className="py-4" key={path}>
-        <Link to={postUrl}>
-          <Img fluid={img} />
-        </Link>
-      </div>
-    )
-  })
-  const evenImages = images.filter((el, idx) => idx % 2 === 0)
-  const oddImages = images.filter((el, idx) => idx % 2 === 1)
+  const imageUrlList = memes.map(nodeObject => ({
+    src: nodeObject.node.full.fluid.src,
+    thumbnail: nodeObject.node.thumbnail.fluid.src,
+    thumbnailWidth: nodeObject.node.thumbnail.fluid.presentationWidth,
+    thumbnailHeight: nodeObject.node.thumbnail.fluid.presentationHeight
+  }))
   return (
     <Wrapper>
       <Helmet>
@@ -55,15 +37,14 @@ const MemePage = ({
           content="Kumpulan meme yang ada pada blog ini"
         />
       </Helmet>
-      <Card>
-        <h5 className="text-center">
-          Klik gambar untuk membaca pos dan mendapatkan konteksnya :)
-        </h5>
-        <div className="row justify-content-center">
-          <div className="col-12 col-lg-6">{evenImages}</div>{' '}
-          <div className="col-12 col-lg-6">{oddImages}</div>
-        </div>
-      </Card>
+      <GalleryCard>
+        <h4 className="text-center mb-3">Kumpulan meme yang ada di blog ini</h4>
+        <Gallery
+          images={imageUrlList}
+          enableImageSelection={false}
+          backdropClosesModal
+        />
+      </GalleryCard>
     </Wrapper>
   )
 }
@@ -73,9 +54,16 @@ export const pageQuery = graphql`
     allFile(filter: { absolutePath: { regex: "/meme//" } }) {
       edges {
         node {
-          childImageSharp {
+          full: childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              src
+            }
+          }
+          thumbnail: childImageSharp {
+            fluid(maxWidth: 300) {
+              src
+              presentationWidth
+              presentationHeight
             }
           }
           relativePath
