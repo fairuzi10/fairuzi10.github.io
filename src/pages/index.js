@@ -97,6 +97,7 @@ export default ({ data }) => {
                   className="form-control"
                   id="suggestion"
                   name="suggestion"
+                  required
                   placeholder="Saran konten, penyuntingan, atau apa pun"
                   rows="4"
                 />
