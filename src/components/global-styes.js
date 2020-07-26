@@ -72,4 +72,8 @@ export default css`
         margin: auto;
       }`
   )}
+
+  .bg-grad-green-blue {
+    background: ${COLOR.gradGreenBlue};
+  }
 `
