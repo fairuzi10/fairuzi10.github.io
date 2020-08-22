@@ -1,4 +1,9 @@
+import 'katex/dist/katex.min.css'
+import 'prismjs/themes/prism.css'
+
 import { Global } from '@emotion/core'
+import styled from '@emotion/styled'
+import axios from 'axios'
 import Card from 'components/card'
 import DarkLink from 'components/dark-link'
 import SectionDivider from 'components/section-divider'
@@ -6,13 +11,11 @@ import Wrapper from 'components/wrapper'
 import { DiscussionEmbed } from 'disqus-react'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
-import 'katex/dist/katex.min.css'
-import 'prismjs/themes/prism.css'
-import React from 'react'
+import React, { useEffect } from 'react'
 import Helmet from 'react-helmet'
 import blogStyles from 'styles/blog'
 import { blogTagUrl, blogUrl } from 'utils/urls'
-import styled from '@emotion/styled'
+
 import { COLOR } from '../styles/theme'
 
 const Title = styled.span`
@@ -36,6 +39,14 @@ export default ({ data }) => {
     identifier: post.fields.slug,
     title: post.frontmatter.title
   }
+  useEffect(() => {
+    const analyticsUrl =
+      'https://us-central1-fairuzi10.cloudfunctions.net/Fairuzi10Analytics'
+    axios.post(analyticsUrl, {
+      post_url: post.fields.slug,
+      post_title: title
+    })
+  }, [data.slug, data.title, post.fields.slug, title])
 
   const tagsText = tags.map(tag => (
     <Link to={blogTagUrl(tag)(1)} key={tag} className="mx-1">
