@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -10,80 +8,110 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="69.547623mm"
-   height="69.547623mm"
-   viewBox="0 0 69.547623 69.547623"
-   version="1.1"
-   id="svg8"
+   inkscape:export-ydpi="608"
+   inkscape:export-xdpi="608"
+   inkscape:export-filename="/home/fairuzi/Pictures/logo-fairuzi10.png"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    sodipodi:docname="logo.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 69.547623 69.547623"
+   height="69.547623mm"
+   width="69.547623mm">
   <defs
      id="defs2">
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4614">
+       id="linearGradient4614"
+       inkscape:collect="always">
       <stop
-         style="stop-color:#58f2ae;stop-opacity:1;"
+         id="stop4610"
          offset="0"
-         id="stop4610" />
+         style="stop-color:#58f2ae;stop-opacity:1;" />
       <stop
-         style="stop-color:#48dbfb;stop-opacity:0"
+         id="stop4612"
          offset="1"
-         id="stop4612" />
+         style="stop-color:#48dbfb;stop-opacity:0" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4543">
+       id="linearGradient4543"
+       inkscape:collect="always">
       <stop
-         style="stop-color:#48dbfb;stop-opacity:1;"
+         id="stop4539"
          offset="0"
-         id="stop4539" />
+         style="stop-color:#48dbfb;stop-opacity:1;" />
       <stop
-         style="stop-color:#48dbfb;stop-opacity:0;"
+         id="stop4541"
          offset="1"
-         id="stop4541" />
+         style="stop-color:#48dbfb;stop-opacity:0;" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4543"
-       id="linearGradient4545"
-       x1="30.21109"
-       y1="53.583332"
-       x2="72.598434"
-       y2="53.583332"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4614"
-       id="linearGradient4618"
        gradientUnits="userSpaceOnUse"
-       x1="21.166664"
-       y1="20.321426"
+       y2="53.583332"
+       x2="72.598434"
+       y1="53.583332"
+       x1="30.21109"
+       id="linearGradient4545"
+       xlink:href="#linearGradient4543"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="107.25595"
        x2="103.56548"
-       y2="107.25595" />
+       y1="20.321426"
+       x1="21.166664"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4618"
+       xlink:href="#linearGradient4614"
+       inkscape:collect="always" />
+    <filter
+       height="1.0018203"
+       y="-0.00091015264"
+       width="1.0027962"
+       x="-0.00139809"
+       id="filter1229"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur1231"
+         stdDeviation="0.015965777"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       height="1.0011019"
+       y="-0.00055095867"
+       width="1.0011019"
+       x="-0.00055095867"
+       id="filter1233"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur1235"
+         stdDeviation="0.015965777"
+         inkscape:collect="always" />
+    </filter>
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-175.14571"
-     inkscape:cy="-228.57142"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="715"
-     inkscape:window-x="0"
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-x="0"
+     inkscape:window-height="715"
+     inkscape:window-width="1366"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="134.28305"
+     inkscape:cx="131.42858"
+     inkscape:zoom="1.6758151"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -92,31 +120,46 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     transform="translate(-16.63095,-18.80952)"
      id="layer1"
-     transform="translate(-16.63095,-18.80952)">
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
     <circle
-       style="opacity:1;fill:url(#linearGradient4618);fill-opacity:1;stroke:#99ff55;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path4524"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#99ff55;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter1233)"
+       id="circle1237"
        cx="51.404762"
        cy="53.583332"
-       r="34.773811" />
+       r="34.773811"
+       inkscape:export-filename="/home/fairuzi/Pictures/logo-fairuzi10.png"
+       inkscape:export-xdpi="607.79999"
+       inkscape:export-ydpi="607.79999" />
+    <circle
+       inkscape:export-ydpi="607.79999"
+       inkscape:export-xdpi="607.79999"
+       inkscape:export-filename="/home/fairuzi/Pictures/logo-fairuzi10.png"
+       r="34.773811"
+       cy="53.583332"
+       cx="51.404762"
+       id="path4524"
+       style="opacity:1;fill:url(#linearGradient4618);fill-opacity:1;stroke:#99ff55;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter1233)" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.91666794px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:Poppins;letter-spacing:0px;word-spacing:0px;fill:#48dbfb;fill-opacity:1;stroke:none;stroke-width:0.98434913"
-       x="39.911366"
+       inkscape:export-ydpi="607.79999"
+       inkscape:export-xdpi="607.79999"
+       inkscape:export-filename="/home/fairuzi/Pictures/logo-fairuzi10.png"
+       id="text4537"
        y="77.038986"
-       id="text4537"><tspan
-         sodipodi:role="line"
-         x="39.911366"
+       x="39.911366"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.9167px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:Poppins;letter-spacing:0px;word-spacing:0px;fill:#48dbfb;fill-opacity:1;stroke:none;stroke-width:0.984349;filter:url(#filter1229)"
+       xml:space="preserve"><tspan
+         id="tspan4620"
+         style="font-weight:bold;font-size:59.9722px;fill:#263646;fill-opacity:1;stroke-width:0.984349"
          y="77.038986"
-         style="font-weight:bold;font-size:59.97222137px;fill:#263646;fill-opacity:1;stroke-width:0.98434913"
-         id="tspan4620">F</tspan></text>
+         x="39.911366"
+         sodipodi:role="line">F</tspan></text>
   </g>
 </svg>
