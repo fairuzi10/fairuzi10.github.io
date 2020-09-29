@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fairuzi10 RSS Feed]]></title><description><![CDATA[Fairuzi's Personal Website]]></description><link>https://fairuzi10.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 22 Aug 2020 11:21:35 GMT</lastBuildDate><item><title><![CDATA[Inheritance Tanpa OOP]]></title><description><![CDATA[Masih berpikir bahwa inheritance hanya dapat dilakukan dengan OOP? Baca pos ini dan ubah pemikiran tersebut.]]></description><link>https://fairuzi10.com/blog/inheritance-tanpa-oop/</link><guid isPermaLink="false">https://fairuzi10.com/blog/inheritance-tanpa-oop/</guid><pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Minggu ini, DDP 2 yang merupakan matkul asdosan saya memasuki materi &lt;em&gt;inheritance&lt;/em&gt; dan &lt;em&gt;polymorphism&lt;/em&gt;.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fairuzi10 RSS Feed]]></title><description><![CDATA[Fairuzi's Personal Website]]></description><link>https://fairuzi10.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 29 Sep 2020 03:15:53 GMT</lastBuildDate><item><title><![CDATA[Inheritance Tanpa OOP]]></title><description><![CDATA[Masih berpikir bahwa inheritance hanya dapat dilakukan dengan OOP? Baca pos ini dan ubah pemikiran tersebut.]]></description><link>https://fairuzi10.com/blog/inheritance-tanpa-oop/</link><guid isPermaLink="false">https://fairuzi10.com/blog/inheritance-tanpa-oop/</guid><pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Minggu ini, DDP 2 yang merupakan matkul asdosan saya memasuki materi &lt;em&gt;inheritance&lt;/em&gt; dan &lt;em&gt;polymorphism&lt;/em&gt;.
 Materi ini membuat saya teringat akan fakta unik yang saya baca dari buku &lt;a href=&quot;https://www.goodreads.com/book/show/18043011-clean-architecture&quot;&gt;Clean Architecture karya Robert C. Marthin “Uncle Bob”&lt;/a&gt;.
 &lt;em&gt;Inheritance&lt;/em&gt; yang merupakan salah satu pilar &lt;em&gt;Object Oriented Programming (OOP)&lt;/em&gt; rupanya bukan merupakan monopoli oleh OOP itu sendiri.
 Hal ini menarik bagi saya karena bahkan saya baru tahu &lt;em&gt;inheritance&lt;/em&gt; ketika belajar OOP.
@@ -2785,66 +2785,4 @@ window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;analytics&lt
 &lt;li&gt;&lt;a href=&quot;/blog/semester-lima-fasilkom/&quot;&gt;Perjalanan di Semester Lima Fasilkom UI&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Halo Dunia]]></title><description><![CDATA[Proses pembuatan website ini yang menggunakan GatsbyJS (React) dan mengapa saya membuat website ini.]]></description><link>https://fairuzi10.com/blog/halo-dunia/</link><guid isPermaLink="false">https://fairuzi10.com/blog/halo-dunia/</guid><pubDate>Fri, 12 Jan 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Akhirnya setelah berhari-hari website ini jadi juga 😆. Padahal mau dipublish tanggal 10 tapi karena malas jadi tanggal 12 deh 😢.&lt;/p&gt;
 &lt;p&gt;Oke, kenapa aku buat website ini? Jadi di Facebook aku melihat Albert-kun share library menarik (bener ga sih library) untuk membuat static web menggunakan React, namanya Gatsby. Karena aku malas belajar Jekyll yang aku ga familiar sama environmentnya (Ruby) maka aku coba-coba saja pakai Gatsby biar rambutku keren #salah. Tujuan dibuatnya website ini adalah agar aku punya web sendiri (ga numpang blogspot) dan aku ada rencana bikin project yang pakai REST dihubungin ke frontend (aku gatau itu namanya apa) yang seperti kita tahu, aku malas bikin design jadi dengan web ini diharapkan setiap aku bikin project tinggal bikin formnya aja yeay.&lt;/p&gt;
-&lt;p&gt;Apa yang aku dapat setelah membuat web ini? Pada awalnya aku menganggap frontend dan backend itu sama saja (dalam artian aku ga prefer salah satunya). Setelah menyelesaikan web ini, aku benci frontend 😡.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6f21ac6b896ec5229bbb1032d1a46f14/69c15/drake-toki.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEmklEQVQ4y4WUe1BUZRjGz6TLrqCLK0IqbLteECRv0UimRE5kk1lRjlkNqY1jF/UPE5wJw6aSwgtoOCaKoQglhsKSXGQmQkBdQgRWhgXxBqusLIjiwi4XWeDXYReNZrS+mWfOOTPP+3zP977Pd4T8ZG+K03w5dWAqmn2TKcnwoVIzg0u/i/hzJuU5Shp0YQyu/v5++voHHouBgQE7Ryg+4cPRaBXhy9zY8uF4EtYqiQ9Us32ekqIIP/Q5agxV4TjWAP+1BkVFQV8iQz0IW+zGdys82P76RBKCVWx7VslvAdPR7RYd1jkEa4wWTlaYOaW3kF3bSVaN1f6u0Zkx3e9xODyb7kv6zslELB5P1NtPszXYnZQ1SpKWqDnkP42/tippvLLZTj5d2Up8YRvHSts4UniLhKJWks7fY3/BXbSX7zkEz2l8ydvrTXiQO58tGMub6jEcXa0iec0z/DR/GiXvetGY6ujhVUMzd1uaOJ2l4crlavoeWOm4b8ZsbqfBdP8fwYI4b76f48kbqtG85TGWhBAVse9NYLuvF8lz3KmM3mgn1xnuUF6h49Dhw+gLCrhSoSfrbD6NjXoMdzqHBE/5oI2ZTtILamL9lez1VxMz25Md83xIei2IXb6e5EdscPTwRhPXb9TT0tJCs6GB24Ym2lqq6DAbqW+2OASLfp1O7sqpnAyewpEFkzkgCm7x9iR7VSipaz9lnXIC2WHr7GT9DRNNLfewdnZj6X6AtbsHa5cN010L12+3OQTzE3xIW6zmyEIVP8xQEuU3iXVTJ/H1iwHEBcxky0Q5Jzett5PNli6MrR12NIkit0U8/O5+YBvKYYYfuZHe7JnrxZ75SsLUk9ig8mCXKLzHdwrfeCr4ZcPnD4P2/zksy1NwUUTRz3LOJruSvllO4trRaKLkZO9UkBYpUHJi9dBN6bMXPQl2h9WFTlQVSKg+L6Eo1YmMCCeOrZdwfJuU0rxRFGsEastCHYJ9NgbE6zfc0fCnQ7BIJgrKqD7nRHG8jIPvy9i/XEr6V1K0WS6cSRXQa0P/dbTezk76bbahTYa5FjcT9IVSqrUyyuNd2PfOKDa+PJJNgRLilsk4Ezea4gzR4YWV9uJbudmY6uu5ptFg0uke20ehutyJ6kwpFfPlxMx15tVZI1jiN4JItTPfOrmR9olATdFSWmvrMZScx9TQQFNNDa11dTQYjRi0WmxdXfT19mK5eRPh6gkptSucSZEriPKXsWOJhC9njyRzrgsHFONJfUnCpcwgrmXkPHJhKCzEeOECg7+DmpQUMeQGqkpLqUtMRKgNHkW+1ziiVa7sWCYQFyLw4/Myjrm7keXlzh/LBa7qVzM4ipuXdPS2t9Pe1kZjeTmd3d109PRgsVrpFR3aj1wWIEbE042dIRIq9y6i4OA8El+RE/vUODSzxpHznDiUxA/sZGNuLsaLZTSLfWzMyaFncCAiHk19cChVgc6UzB5DSogHWbErOR4dROZSV3KDXEgLdCXZTaAifNWTwzwUm4cQLga4UOCjIHuhnP0xUjJF5H0kQfOF2MdFY0lVjEC78WNHsc2RQ3vxsLgMz+LfNNKpyugvp3kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Say no to TKinter&quot;
-        title=&quot;Say no to TKinter&quot;
-        src=&quot;/static/6f21ac6b896ec5229bbb1032d1a46f14/28895/drake-toki.png&quot;
-        srcset=&quot;/static/6f21ac6b896ec5229bbb1032d1a46f14/c649e/drake-toki.png 163w,
-/static/6f21ac6b896ec5229bbb1032d1a46f14/3a76f/drake-toki.png 325w,
-/static/6f21ac6b896ec5229bbb1032d1a46f14/28895/drake-toki.png 650w,
-/static/6f21ac6b896ec5229bbb1032d1a46f14/69c15/drake-toki.png 717w&quot;
-        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;figcaption class=&quot;img-caption&quot;&gt;Keheranan Pak Fariz terhadap anak TOKI.&lt;/figcaption&gt;
-&lt;p&gt;Kadang suka heran juga sama anak-anak yang nanya ke aku ngerjain TP GUI berapa lama, dikira hapal librarynya apa.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 485px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b39ea29445fa930ce2456f116fe091fd/cef21/tidak-tahu-toki.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 108.58895705521472%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFPElEQVQ4y12SW2wcdxXG55kHHlBKpYi2ArU0bWI2l/qS2s3N9W19353ZmZ3Zmdld27WV0OAah6RKGggiNwkpUHgDiYcglAJqq0ZAW8Xem/fqvdnOEinmhfShUZPHRLGffpyZIHEZ6dOZyznf+b7vP0qxWKJULlMoFFhZWSGXy5HNZqXm5bng11zu6fv/YMVHPr9CsZgXFCiVSj4Ub6BQKJGX4Ww2RyaTFWTISs1mV3zCfL4oKPwX8Yq/zBNRFpJKqUylXKFSqaCkUt6wNGRFUa7gk2QyOdLyfulWilu3lkmnsz5SqTSZdMZfXiqUKYu7amX1KVYF1SrK0lJKGooUvYbyqo9CoShLcpSKZdbXN7h7d5PNzX9w+3aL1dWqv9BzteoTValXa9RrNRq1Ooq3uVwUuULkbfWs1OTD/fv32d7e5v+vJ0+e8PDhQ+r1hlisSm/Dv280GjSlKstLabEi2aXFavppPo8fPxZl69Jc486dO6Lsth/4xsaGf2D37t3ze7zF9XpTyDys0RQoqeWMn11+pSS5ZUVhnu2tbZrNptgv+7VYLNJqtSTHtB+8d21tbflEdY+o6WGdNYGS8w5BTvfjmzf566efkZN8GiL9y/tfytATf3h7e+t/bD969Ii1tXUqqzWfqLm2xpo48hwo1VqT5Ml3OBgc5te/+S01CXh5eZlGs8GNP37E9esf8NVXDyhX6ty48SGXr1zj93/4EznJuir5rW+0uN36O607LVoSjWKfSPBix+s8F+ji/JWfc3dzk0p1VepdTs6f4+VXDtDe0cGu3W10dB1meFTn0tVfCGGRjET10SefUyzXWJc/4It/foHyUmeAF/a+xvOBdg4ODDK3uMCSRPDgwQPOnrvEjmd2sPOZr/PNHV9j53PPEg6bLJ75CR9+/Cl/+VuK8xevceHKLzlx6jwL711AeSEQYOcre/nW7n18Z/9+2g528v3Fdzn948vMzczTHXgVtWcP/a+9xLd3Pkv/wCjBSRXTncNx5jg2FOTN4AiHhgZo7z2MsuuAEH0vwIuBvbR1HkAbn2DWnGEqMo0zafNDrY/5/m5OjXdxPDKCoU3Tc6SHV/fto6O7h46eN2g/1M3Bw0foHRpEOTYUoH/kAANjnQyO7SdqCsHxOLNJk4g6yA9m9vBeooPr73dw9kdjGGI57oxhmuMY9ih6bBzLGWfm7SneOXsaJSYErj1Awh1iKjnCzPQwx2dHOfHWKHNTIyzOP8/7V78hp3+I+fkRXH2AucSgLBxidkrqdJBpmUnMDmPNjKHoaq8o6UWP9GHovYI3saIDxASG1k/y9ATvXurmk1SUEwvj6OpRbKcPzTjKpPYGYeMwWqwH3e3CmupC6R1t41iwjaPBPYJd9IV2M2wEGLb2EtS+i3bhJPE/Zzhz8zqLPzsm315GTbYRSexDtdvRnE7MRA/m1Os4b/WhBNX9jEe7GDM6GZMadrpR44eIuEeIOEcZDx0hdukC9tWfokWGCKkjhMJj4igsTgwsw8SJOlgRFzuaRAlNGKgh04eu2tKUwLaSxGMzxIwkCSfOxV+FuPY7ncvXptEmHJxYHNt0fSLbtHEsh4Tt4sZclHBIIzSpoYYjsjWKZcbk/3KJu0khd3l7weLcRZeFMzHmT1moIiCqRzG93ogpCi1RZouAOElHFE5OqISF0CPWNGmOWsRiosJO+JujESGZjIoDXcgiclA6hip9QmZ6hALHsH21cSv+lDA0qf5bpTTr0mTZxIQsZnoRWJiSk0egqzoR6dHDhtwbmJrpw9ZjuKZH6PIvtMV4y9saaJoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Mana saya tahu, saya kan TOKI&quot;
-        title=&quot;Mana saya tahu, saya kan TOKI&quot;
-        src=&quot;/static/b39ea29445fa930ce2456f116fe091fd/cef21/tidak-tahu-toki.png&quot;
-        srcset=&quot;/static/b39ea29445fa930ce2456f116fe091fd/c649e/tidak-tahu-toki.png 163w,
-/static/b39ea29445fa930ce2456f116fe091fd/3a76f/tidak-tahu-toki.png 325w,
-/static/b39ea29445fa930ce2456f116fe091fd/cef21/tidak-tahu-toki.png 485w&quot;
-        sizes=&quot;(max-width: 485px) 100vw, 485px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Oke sekian saja post kali ini, semoga akan ada post selanjutnya 😆.&lt;/p&gt;</content:encoded></item></channel></rss>
