@@ -39,14 +39,6 @@ export default ({ data }) => {
     identifier: post.fields.slug,
     title: post.frontmatter.title
   }
-  useEffect(() => {
-    const analyticsUrl =
-      'https://us-central1-fairuzi10.cloudfunctions.net/Fairuzi10Analytics'
-    axios.post(analyticsUrl, {
-      post_url: post.fields.slug,
-      post_title: title
-    })
-  }, [post.fields.slug, title])
 
   const tagsText = tags.map(tag => (
     <Link to={blogTagUrl(tag)(1)} key={tag} className="mx-1">
