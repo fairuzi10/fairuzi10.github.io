@@ -9,15 +9,42 @@ import React from 'react'
 
 import { Card } from '../components/card'
 import { Title } from '../templates/blog-list'
-import { blogTagUrl } from '../utils/urls.js'
+import { HoverableImage } from '../components/HoverableImage'
+import { blogTagUrl, blogUrl } from '../utils/urls.js'
 
-const Post = ({ node }) => {
+// const Post = ({ node }) => {
+//   const { date, title, description, tags } = node.frontmatter
+//   const tagsText = tags.map(tag => (
+//     <Link to={blogTagUrl(tag)(1)} key={tag} className="mx-1">
+//       #{tag}{' '}
+//     </Link>
+//   ))
+
+//   return (
+//     <div key={node.id}>
+//       <div>
+//         {date} · {`${node.timeToRead} min read`}
+//       </div>
+//       <div>
+//         <Title to={node.fields.slug}>{title}</Title>
+//       </div>
+//       <div className="mb-2">{description}</div>
+//       {tagsText}
+//       <SectionDivider />
+//     </div>
+//   )
+// }
+
+export const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
   const tagsText = tags.map(tag => (
     <Link to={blogTagUrl(tag)(1)} key={tag} className="mx-1">
       #{tag}{' '}
     </Link>
   ))
+  const thumbnail = node.frontmatter.thumbnail
+    ? node.frontmatter.thumbnail.childImageSharp.fluid
+    : ''
 
   return (
     <div key={node.id}>
@@ -25,11 +52,20 @@ const Post = ({ node }) => {
         {date} · {`${node.timeToRead} min read`}
       </div>
       <div>
-        <Title to={node.fields.slug}>{title}</Title>
+        <Title to={blogUrl(node.fields.slug)}>{title}</Title>
       </div>
-      <div className="mb-2">{description}</div>
+      {thumbnail && (
+        <div className="text-center row">
+          <div className="col-12 col-md-8 offset-md-2 col-lg-6 offset-md-3">
+            <Link to={blogUrl(node.fields.slug)}>
+              <HoverableImage fluid={thumbnail} />
+            </Link>
+          </div>
+        </div>
+      )}
+      <div>{description}</div>
       {tagsText}
-      <SectionDivider />
+      <hr className="my-4" />
     </div>
   )
 }
@@ -130,6 +166,13 @@ export const query = graphql`
             date(formatString: "DD MMMM YYYY")
             tags
             description
+            thumbnail {
+              childImageSharp {
+                fluid(quality: 90) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           fields {
             slug
