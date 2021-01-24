@@ -104,6 +104,7 @@ module.exports = {
           'gatsby-remark-smartypants',
           'gatsby-remark-katex',
           'gatsby-remark-prismjs',
+          'gatsby-remark-external-links',
           {
             resolve: 'gatsby-remark-images',
             options: {
