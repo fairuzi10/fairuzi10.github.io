@@ -15,6 +15,7 @@ import React, { useEffect } from 'react'
 import Helmet from 'react-helmet'
 import blogStyles from 'styles/blog'
 import { blogTagUrl, blogUrl } from 'utils/urls'
+import { siteMetadata } from 'settings'
 
 import { COLOR } from '../styles/theme'
 
@@ -71,7 +72,12 @@ export default ({ data }) => {
         <meta name="og:title" content={title} />
         <meta name="description" content={description} />
         <meta name="og:description" content={description} />
-        {thumbnail && <meta name="og:image" content={thumbnail.publicURL} />}
+        {thumbnail && (
+          <meta
+            name="og:image"
+            content={siteMetadata.siteUrl + thumbnail.publicURL}
+          />
+        )}
       </Helmet>
       <Card className="mb-4">
         <div>
