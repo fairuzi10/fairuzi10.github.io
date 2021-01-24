@@ -1,6 +1,6 @@
 ---
 title: Semester Enam Sang Puncak Semester
-date: "2021-01-21"
+date: "2021-01-24"
 description: Pengalaman saya menjalani semester yang katanya merupakan semester terberat di Fasilkom.
 tags: ["Story", "Fasilkom"]
 thumbnail: "meme/pusing-karena-ppl.png"
