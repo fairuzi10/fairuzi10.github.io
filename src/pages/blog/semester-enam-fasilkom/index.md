@@ -170,7 +170,8 @@ Namun karena menurut saya kedua matkul ini lumayan berat, saya hanya berani ambi
 Ternyata, sebagian besar mahasiswa yang mengambil NLP ini juga mengambil ML.
 Setahu saya, hanya saya dan FwP yang mengambil NLP namun tidak mengambil ML.
 Mungkin karena niat saya hanya mengeksplor ya belum yakin untuk fokus di bidang ini sehingga masih mengambil matkul di bidang lain yang tidak mudah juga seperti LAW.
-Tapi kalau dipikir-pikir saat ini, memang sepertinya jika mengambil NLP sebaiknya juga mengambil ML jika sudah yakin ingin menekuni bidang ini.
+Tapi selama saya mengeksplor NLP di luar kelas, kesulitan saya ketika mencoba deep learning pada NLP sih.
+Karena ML juga tidak belajar deep learning, ya sudah no regret 😆 .
 
 Alasan lain saya mengambil mata kuliah ini karena sepertinya cukup mirip dengan matkul information retrieval yang saya ambil semester lima lalu.
 Lalu apa sih perbedaan IR dan NLP?
