@@ -84,6 +84,7 @@ export default ({ data }) => {
             content={siteMetadata.siteUrl + thumbnail.publicURL}
           />
         )}
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta

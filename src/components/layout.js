@@ -39,6 +39,7 @@ const Layout = ({ children }) => {
           name="google-site-verification"
           content="uu3IRN8Av5aq9r0lEKhIJjoLFIi1T8TFKymt0f-68bk"
         />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Fairuzi10" />
         <meta
           name="twitter:description"
