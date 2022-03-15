@@ -11,33 +11,7 @@ import { Card } from '../components/card'
 import { Title } from '../templates/blog-list'
 import { HoverableImage } from '../components/HoverableImage'
 import { blogTagUrl, blogUrl } from '../utils/urls.js'
-import {
-  GoogleReCaptchaProvider,
-  GoogleReCaptcha
-} from 'react-google-recaptcha-v3'
-
-// const Post = ({ node }) => {
-//   const { date, title, description, tags } = node.frontmatter
-//   const tagsText = tags.map(tag => (
-//     <Link to={blogTagUrl(tag)(1)} key={tag} className="mx-1">
-//       #{tag}{' '}
-//     </Link>
-//   ))
-
-//   return (
-//     <div key={node.id}>
-//       <div>
-//         {date} · {`${node.timeToRead} min read`}
-//       </div>
-//       <div>
-//         <Title to={node.fields.slug}>{title}</Title>
-//       </div>
-//       <div className="mb-2">{description}</div>
-//       {tagsText}
-//       <SectionDivider />
-//     </div>
-//   )
-// }
+import { GoogleReCaptcha } from 'react-google-recaptcha-v3'
 
 export const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
@@ -118,49 +92,47 @@ export default ({ data }) => {
         </div>
         <div className="col-12 col-lg-4 mt-5 mt-lg-0">
           <Card className="bg-grad-green-blue mx-3">
-            <GoogleReCaptchaProvider reCaptchaKey="6LdhrcAaAAAAACwXRuV7VsScbpimAxlTdUam_2Xq">
-              <form
-                method="POST"
-                action="https://getform.io/f/7d498883-1801-4258-acb1-9d58cebf7eac"
-              >
-                <h4>Kotak Saran</h4>
-                <div className="form-group">
-                  <label htmlFor="name">Nama</label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="name"
-                    name="name"
-                    placeholder="Nama (opsional)"
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="suggestion">Saran</label>
-                  <textarea
-                    className="form-control"
-                    id="suggestion"
-                    name="suggestion"
-                    required
-                    placeholder="Saran konten, penyuntingan, atau apa pun"
-                    rows="4"
-                  />
-                </div>
+            <form
+              method="POST"
+              action="https://getform.io/f/7d498883-1801-4258-acb1-9d58cebf7eac"
+            >
+              <h4>Kotak Saran</h4>
+              <div className="form-group">
+                <label htmlFor="name">Nama</label>
                 <input
-                  type="hidden"
-                  id="captchaResponse"
-                  name="g-recaptcha-response"
-                  value={recaptchaToken}
+                  type="text"
+                  className="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Nama (opsional)"
                 />
-                <GoogleReCaptcha
-                  onVerify={token => {
-                    setRecaptchaToken(token)
-                  }}
+              </div>
+              <div className="form-group">
+                <label htmlFor="suggestion">Saran</label>
+                <textarea
+                  className="form-control"
+                  id="suggestion"
+                  name="suggestion"
+                  required
+                  placeholder="Saran konten, penyuntingan, atau apa pun"
+                  rows="4"
                 />
-                <button type="submit" className="d-block ml-auto btn btn-light">
-                  Kirim
-                </button>
-              </form>
-            </GoogleReCaptchaProvider>
+              </div>
+              <input
+                type="hidden"
+                id="captchaResponse"
+                name="g-recaptcha-response"
+                value={recaptchaToken}
+              />
+              <GoogleReCaptcha
+                onVerify={token => {
+                  setRecaptchaToken(token)
+                }}
+              />
+              <button type="submit" className="d-block ml-auto btn btn-light">
+                Kirim
+              </button>
+            </form>
           </Card>
         </div>
       </div>

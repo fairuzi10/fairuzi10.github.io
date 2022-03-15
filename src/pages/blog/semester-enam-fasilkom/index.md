@@ -18,7 +18,7 @@ Pasca semester enam, saya mencoba berbagai kegiatan mulai dari kerja praktik, lo
 Semua kegiatan tersebut mulai menyita waktu saya sejak liburan, alhasil saya tak sempat menulis pos semesteran seperti yang biasanya saya lakukan 😅 .
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lFyNqRNHkt0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<figcaption class="img-caption">Kondisi yang sebenarnya.</figcaption>
+<figcaption class="iframe-caption">Kondisi yang sebenarnya.</figcaption>
 
 Terima kasih juga atas dukungan teman-teman untuk meneruskan blog ini, terharu ada yang tertarik membaca blog ini 🥺 .
 Padahal awalnya, blog ini saya buat hanya untuk menuliskan pikiran-pikiran aneh saya 🤯 .
@@ -428,7 +428,7 @@ Saya juga mulai mencari hiburan lain, misalnya langganan Netflix dengan teman-te
 Emang dah dikasih tugas banyak ngeluh dikasih kebebasan ngelunjak 😫 .
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mui8Em65hl0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<figcaption class="img-caption">Akibat langganan Netflix di kala PJJ.</figcaption>
+<figcaption class="iframe-caption">Akibat langganan Netflix di kala PJJ.</figcaption>
 
 Ngga deh bercanda, tetep ngerjain PPL kok pak/bu 🙏 .
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
 
 const unmountInitialLoading = () => {
   if (typeof document !== 'undefined') {
@@ -13,5 +14,11 @@ const unmountInitialLoading = () => {
 
 export const wrapRootElement = ({ element }) => {
   unmountInitialLoading()
-  return <React.StrictMode>{element}</React.StrictMode>
+  return (
+    <React.StrictMode>
+      <GoogleReCaptchaProvider reCaptchaKey="6LdhrcAaAAAAACwXRuV7VsScbpimAxlTdUam_2Xq">
+        {element}
+      </GoogleReCaptchaProvider>
+    </React.StrictMode>
+  )
 }

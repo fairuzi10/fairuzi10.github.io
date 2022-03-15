@@ -18,13 +18,14 @@ export default css`
     margin-bottom: 1rem;
   }
 
+  .gatsby-resp-image-background-image {
+    margin-bottom: 1em;
+  }
   figcaption.img-caption {
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 1em;
     font-size: 0.9rem;
-  }
-  p + figcaption.img-caption {
     margin-top: -1em;
   }
   iframe {
