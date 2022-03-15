@@ -14,6 +14,14 @@ Salah satu hal yang paling berbeda di semester tiga ini tentu mata kuliahnya. An
 
 ## Fisika Dasar
 
+**Kelompok:** MK Wajib Rumpun  
+**Jumlah SKS:** 3  
+**Prasyarat:** -  
+
+<blockquote>
+  <strong>Update 15 Maret 2022:</strong> Mata kuliah ini tidak lagi menjadi mata kuliah wajib rumpun sains dan teknologi.
+</blockquote>
+
 Sebenarnya matkul ini mirip fisika di SMA, namun mungkin karena faktor umur (baca: lupa), matkul ini tidak semudah kelihatannya. Kurikulumnya pun berganti cukup sering. Pada kali ini, mekanika mengisi 2 bulan sebelum UTS dan listrik & magnet mengisi 2 bulan selanjutnya. Mekanikanya cukup mudah menurut saya karena benar-benar mengulang SMA. Nilai UTS saya pun cukup baik. Semua berubah ketika Listrik dan Magnet menyerang. Saya nyaris tidak paham apa pun yang diajarkan 😢. Saat itu yang saya bisa ingat dari materi SMA hanya hukum Coulomb dan hukum loop Kirchhoff. Sisanya, hukum Gauss, induksi magnetik, dsb bahkan tidak pernah saya dengar. Entah tidak diajarkan di SMA atau memang saya sudah skip sejak SMA 😅. Pada akhirnya, saya belajar dari buku Halliday yang bisa saya mengerti walaupun cukup lama karena bukunya tebal sekali. Tipikal buku rujukan. Kadang saya berpikir, mungkin kalau usaha saya di Fisika ini diarahkan ke bisnis, mungkin saya sudah menjadi 10 orang terkaya di bawah 20 tahun.
 
 Sialnya, UTS dan UAS Fisika ini berbarengan dengan StatProb, mata kuliah yang saya sodok semester ini. Saat H-1 UAS, bodohnya saya hanya belajar StatProb. Ketika UAS StatProb selesai, saya dengan panik dan buru-buru pergi ke kafe sekre untuk belajar Fisika. Saya yang panik itu akhirnya menjumpai beberapa mahasiswa angkatan saya (yang juga akan UAS Fisika) malah sedang melakukan wawancara kepanitiaan. Luar biasa, untung mereka ga nyodok.
@@ -25,6 +33,10 @@ Sialnya, UTS dan UAS Fisika ini berbarengan dengan StatProb, mata kuliah yang sa
 Saya sendiri diajar oleh Prof. Wisnu. Beliau pernah berkata bahwa ini adalah pertama kalinya beliau mengajar fisika karena penasaran dengan isu anak Fasilkom buruk fisikanya. Walau baru pertama kali, menurut saya beliau adalah dosen yang cukup enak dalam mengajar. Tentu saya merokemendasikan beliau walaupun beliau pernah berkata kapok mengajar fisika 😆.
 
 ## Aljabar Linier
+
+**Kelompok:** MK Wajib Fakultas  
+**Jumlah SKS:** 3  
+**Prasyarat:** -  
 
 Mata kuliah yang sebenarnya bisa diambil pada semester dua ini baru saya ambil sekarang karena saat semester dua yang lalu, saya mengambil mata kuliah TK TPL. Matkul ini inti isinya adalah sistem persamaan linier dan vektor. Matkul ini dianggap _magic_ oleh anak-anak yang sudah nyodok semester lalu, namun bagi saya tidak terlalu _magic_ tentu karena saya punya mereka yang sudah tau magicnya 😄. Mengapa magic? Karena ternyata semuanya vektor!\*
 
@@ -57,6 +69,10 @@ Baiknya, slide alin cukup bagus buat belajar mandiri. Matkul ini salah satu matk
 
 ## Struktur Data dan Algoritma
 
+**Kelompok:** MK Wajib Fakultas  
+**Jumlah SKS:** 4  
+**Prasyarat:** -  
+
 Di matkul yang menyerupai Competitive Programming ini kita diajarkan cukup banyak hal, mulai dari dynamic programming; struktur data seperti queue, stack, heap, binary search tree; hingga Graph Traversal. Bahkan menurut saya, terlalu banyak materinya dan jatuhnya hanya paham sekilas lalu saat ngoding copy-paste kodingan dari slide. Matkul ini pernah memiliki citra buruk semester lalu karena soal-soal yang tidak benar (test case salah, constraint salah, dsb). Pada semester ini, menurut saya cukup baik terima kasih kepada asdos-asdos pengguna tcframe. Hanya ada beberapa (dua atau tiga) lab yang kurang oke dan hanya satu yang saya tinggalkan tanpa nilai 100 karena sudah malas mencoba-coba magic apa yang bisa membuat nilai 100 😪. Selain itu, matkul ini cukup populer karena kesulitannya. Apa benar sesulit itu? Coba saja dan nilai sendiri apakah opini tersebut benar 😜.
 
 Dari materi-materi yang diajarkan, yang saya belum pernah pelajari adalah B+ Tree. Ketika mau UAS, saya, FwP, Tan, dan Cahya panik sendiri mengenai B+ Tree sampai Bu Naya heran. Jadi teringat Pak Fariz yang heran saat panik GUI 😆. Tentu saja belajar B+ Tree hanya ketika Bu Naya mendekat. Ketika sudah jauh, Cahya langsung mengganti workspace laptopnya dan kami kembali membaca blog-blog dosen.
@@ -66,6 +82,10 @@ Dari materi-materi yang diajarkan, yang saya belum pernah pelajari adalah B+ Tre
 <figcaption class="img-caption">Hanya bercanda, Cahya ga punya cewe.</figcaption>
 
 ## Pengantar Organisasi Komputer (POK)
+
+**Kelompok:** MK Wajib Program Studi Ilkom  
+**Jumlah SKS:** 3  
+**Prasyarat:** Pengantar Sistem Digital  
 
 Matkul lanjutan dari Pengantar Sistem Dijital (PSD) ini kebanyakan membahas kode-kode assembly. Saya merasa matkul ini lebih konkret dibanding PSD yang abstrak, namun entah mengapa nilai POK saya jauh di bawah PSD 😞. Matkulnya cukup mirip dengan PSD, sehingga tidak ada yang jauh berbeda kecuali proyek akhirnya. Proyek akhirnya menggunakan AVR dan saat tugas proyek akhir ini keluar, bahkan kami belum pernah menyentuh AVR 😲. Akhirnya saya bertanya-tanya kepada kating dan menerka-nerka kira-kira apa yang dapat dibuat dengan AVR ini.
 
@@ -78,6 +98,14 @@ Pada saat UAS, terdapat kejadian unik yaitu perbedaan pendapat di antara mahasis
 
 ## Matematika Dasar 2
 
+**Kelompok:** MK Wajib Program Studi Ilkom  
+**Jumlah SKS:** 3  
+**Prasyarat:** Matematika Dasar 1  
+
+<blockquote>
+  <strong>Update 15 Maret 2022:</strong> Mata kuliah ini berubah nama menjadi Kalkulus 2.
+</blockquote>
+
 Matkul yang menjadi momok bagi mahasiswa ilmu komputer ini bukan tanpa alasan. Matkulnya abstrak dan materinya cukup banyak, sehingga pada akhirnya saya hanya mengimani kebenarannya tanpa membuktikan/bermain-main dengan teorinya terlebih dahulu. Materi yang dicakup antara lain infinite series, conics and polar coordinates, multivariable functions, dan multiple integrals.
 
 ![Multiple Integral](meme/integral.jpg)
@@ -85,6 +113,10 @@ Matkul yang menjadi momok bagi mahasiswa ilmu komputer ini bukan tanpa alasan. M
 Untuk survive di matkul ini, saya menggunakan buku [Calculus oleh Gilbert Strang](https://ocw.mit.edu/ans7870/resources/Strang/Edited/Calculus/Calculus.pdf). Bukunya sangat bagus, jelas dan **singkat**. Buku yang singkat sangat penting bagi saya karena percayalah, kalian tidak akan punya waktu sebanyak itu untuk belajar 😆.
 
 ## Statistika dan Probabilitas
+
+**Kelompok:** MK Wajib Fakultas  
+**Jumlah SKS:** 3  
+**Prasyarat:** Matematika Dasar 1, Matematika Diskret 1  
 
 Matkul ini seharusnya diambil pada semester 4, namun saya sodok. Kenapa saya sodok? Karena teman-teman saya begitu hehe.
 
@@ -95,6 +127,14 @@ Matkul ini seharusnya diambil pada semester 4, namun saya sodok. Kenapa saya sod
 Matkul ini mirip sama matdas yang saya imani saja kebenarannya. Bedanya, teori-teori di matkul ini memang sepertinya kesepakatan karena bukti empiris, jadi ya sudah 😆. Banyak materinya pun oke, sehingga cukup sering latihan soal dibanding matkul lain. Sayangnya, di kelas saya ini mahasiswanya cukup banyak, 70-an sehingga jika duduk di belakang nyaris tidak dapat apa-apa di kelas itu. Untuk memahami matkul ini, sebenarnya cukup mendengarkan dengan baik di kelas karena cukup jelas. Hanya materi kombinasi-permutasi yang mungkin perlu waktu tambahan belajar karena cukup sulit menjawab pertanyaan-pertanyaannya jika tidak sering berlatih, jadi silakan dipersiapkan mulai dari sekarang 😜. Oh iya, matkul ini seharusnya disebut Probabilitas dan Statistika, bukan sebaliknya. Ga paham? Makanya nyodok 😜.
 
 ## Perancangan & Pemrograman Web (PPW)
+
+**Kelompok:** MK Wajib Fakultas  
+**Jumlah SKS:** 3 <span class="bg-green">(Update: menjadi 4 SKS)</span>  
+**Prasyarat:** Dasar-dasar Pemrograman 1  
+
+<blockquote>
+  <strong>Update 15 Maret 2022:</strong> Mata kuliah ini berubah nama menjadi Pemrograman Berbasis Platform dan menjadi 4 SKS.
+</blockquote>
 
 Nah, inilah matkul yang paling seru untuk dibahas. _Save the best for the last._ Matkul ini adalah matkul yang bisa dibilang full ngoding, ngoding web lebih tepatnya. Tiap minggunya, diberikan tugas berupa story dan challenge. Story dikeluarkan tiap hari Senin dan Challenge dikeluarkan tiap hari Kamis, ketika sesi lab. Untuk mengerjakan Challenge, harus mengerjakan Story sehingga kira-kira ada waktu tiga hari untuk mengerjakan story. Selesai mengerjakan challenge, kita diharuskan mengumpulkan laporan yang disebut _reflection_. PPW ini cukup terkenal berat karena _story_-nya. Apakah story dapat dikerjakan dengan cepat selama 1-2 jam seperti tugas-tugas mingguan lainnya? Mari kita lihat asumsinya.
 

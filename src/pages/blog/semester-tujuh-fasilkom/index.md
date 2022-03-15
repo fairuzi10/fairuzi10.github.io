@@ -305,8 +305,13 @@ Setelah lulus, akan seperti apa nasib blog ini?
 Saya juga tidak tahu 🤪.
 Awalnya, saya membuat blog ini juga hasil iseng-iseng aja.
 Tapi ternyata ada beberapa yang merasa terbantu 🥲.
-Mungkin akan saya isi dengan topik non-kuliah.
+Asik juga sih melihat tulisan-tulisan lawas saya tentang perkuliahan.
+Kadang heran juga kok bisa ya cringe begitu 🤣.
+Tapi tak apa lah, no regret bisa menulis perjalanan kuliah lengkap mulai dari semester 3 🥲.
+
+Selanjutnya, mungkin blog ini akan saya isi dengan topik non-kuliah.
 Atau masih ada kah topik kuliah yang bisa dibahas?
-Jika iya, bisa disampaikan di kotak saran ini, terima kasih! 😁
+Jika iya, bisa disampaikan di kotak saran ini dan nantikan namamu terpampang di post baru sebagai kontributor ide 🤩.
+Terima kasih! 😁
 
 <suggestion-form placeholder="Saran konten" rows="3"></suggestion-form>

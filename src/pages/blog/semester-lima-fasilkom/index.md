@@ -17,7 +17,7 @@ Langsung saja, mari kita bahas semester yang sudah _sangat ilkom_ ini. Di semest
 
 ## Rekayasa Perangkat Lunak (RPL)
 
-**Kelompok:** Mata Kuliah Wajib Program Studi Ilmu Komputer  
+**Kelompok:** MK Wajib Program Studi Ilkom  
 **Jumlah SKS:** 3  
 **Prasyarat:** DDP 2, Basis Data
 
@@ -25,7 +25,7 @@ Di matkul ini kita belajar bagaimana merancang sebuah perangkat lunak. Isi matku
 
 ## Jaringan Komputer (Jarkom)
 
-**Kelompok:** Mata Kuliah Wajib Program Studi Ilmu Komputer  
+**Kelompok:** MK Wajib Program Studi Ilkom  
 **Jumlah SKS:** 4  
 **Prasyarat:** Sistem Operasi, DDP 1
 
@@ -49,7 +49,7 @@ Ada lima tugas individu ditambah 1 tugas di lab secara berkelompok. Tugasnya keb
 
 ## System Programming (Sysprog)
 
-**Kelompok:** Mata Kuliah Wajib Program Studi Ilmu Komputer  
+**Kelompok:** MK Wajib Program Studi Ilkom <span class="bg-green">(Update: menjadi MK Pilihan)</span>  
 **Jumlah SKS:** 3  
 **Prasyarat:** Sistem Operasi, Struktur Data dan Algoritma
 
@@ -69,7 +69,7 @@ Biasanya nilai UTS akan hancur dan dibantu oleh nilai proyek ini, jadi harus dim
 
 ## Desain dan Analisis Algoritma (DAA)
 
-**Kelompok:** Mata Kuliah Wajib Program Studi Ilmu Komputer  
+**Kelompok:** MK Wajib Program Studi Ilkom  
 **Jumlah SKS:** 4  
 **Prasyarat:** Struktur Data dan Algoritma
 
@@ -82,7 +82,7 @@ Matkul ini seharusnya diambil di semester 7, namun saya sodok. Isinya pembuktian
 
 ## Pemrograman Fungsional
 
-**Kelompok:** Mata Kuliah Pilihan Bidang Minat Ilmu Komputer  
+**Kelompok:** MK Pilihan Bidang Minat Ilkom  
 **Jumlah SKS:** 4  
 **Prasyarat:** Struktur Data dan Algoritma
 
@@ -102,7 +102,7 @@ Matkul ini materinya sangat luas, mulai dari belajar Haskell hingga React. Saya 
 
 ## _Information Retrieval_ (IR)
 
-**Kelompok:** Mata Kuliah Pilihan Bidang Minat Ilmu Komputer  
+**Kelompok:** MK Pilihan Bidang Minat Ilkom  
 **Jumlah SKS:** 3  
 **Prasyarat:** Struktur Data dan Algoritma
 

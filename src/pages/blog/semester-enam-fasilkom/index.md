@@ -30,7 +30,7 @@ Oke tanpa perlu panjang lebar lagi, berikut ini pengalaman saya selama menjalani
 
 ## Metodologi Penelitian & Penulisan Ilmiah	(MPPI)
 
-**Kelompok:** Mata Kuliah Wajib Fakultas  
+**Kelompok:** MK Wajib Fakultas  
 **Jumlah SKS:** 3  
 **Prasyarat:** MPKT A, MPKT B 
 
@@ -61,9 +61,13 @@ Di saat matkul lain membahas kodingan yang bikin pusing, MPPI ini membahas penul
 
 ## Data Science and Analytics (DSA)
 
-**Kelompok:** Mata Kuliah Wajib Program Studi Ilmu Komputer  
+**Kelompok:** MK Wajib Program Studi Ilkom  
 **Jumlah SKS:** 3  
 **Prasyarat:** Statistika dan Probabilitas, Basis Data  
+
+<blockquote>
+  <strong>Update 15 Maret 2022:</strong> Mata kuliah ini digabung dengan Sistem Cerdas menjadi mata kuliah Kecerdasan Artifisial & Sains Data Dasar (KASDD).
+</blockquote>
 
 <div class="img-450">
     <img src="persentase-kasus-aktif.jpeg" alt="Bermain data" />
@@ -89,7 +93,7 @@ Sains Data Dasar.
 
 ## Logika Komputasional (Logkom)
 
-**Kelompok:** Mata Kuliah Pilihan Bidang Minat Ilmu Komputer  
+**Kelompok:** MK Pilihan Bidang Minat Ilkom  
 **Jumlah SKS:** 3  
 **Prasyarat:** Sistem Cerdas  
 
@@ -114,7 +118,7 @@ Sayangnya, jam pemlog saat itu bertabrakan dengan MPPI yang tidak saya sodok seb
 
 ## Layanan & Aplikasi Web (LAW)
 
-**Kelompok:** Mata Kuliah Pilihan Bidang Minat Ilmu Komputer  
+**Kelompok:** MK Pilihan Bidang Minat Ilkom  
 **Jumlah SKS:** 3  
 **Prasyarat:** Jaringan Komputer, Perancangan & Pemrograman Web  
 
@@ -154,7 +158,7 @@ Jika tertarik dengan backend development, matkul peminatan ini wajib diambil.
 
 ## Natural Language Processing (NLP)
 
-**Kelompok:** Mata Kuliah Pilihan Bidang Minat Ilmu Komputer  
+**Kelompok:** MK Pilihan Bidang Minat Ilkom  
 **Jumlah SKS:** 3  
 **Prasyarat:** Teori Bahasa & Automata, Sistem Cerdas  
 
@@ -242,7 +246,7 @@ Kalau untuk semester delapan mungkin cocok, tapi malah jadi agak sulit dibuat me
 
 ## Proyek Perangkat Lunak (PPL)
 
-**Kelompok:** Mata Kuliah Wajib Program Studi Ilmu Komputer  
+**Kelompok:** MK Wajib Program Studi Ilkom  
 **Jumlah SKS:** 6  
 **Prasyarat:** Rekayasa Perangkat Lunak, Basis Data  
 

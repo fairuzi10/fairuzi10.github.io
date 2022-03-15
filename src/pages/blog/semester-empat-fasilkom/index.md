@@ -11,6 +11,10 @@ Akhirnya menambah konten blog ini tidak sebatas wacana. Rasanya sudah <strike>ma
 
 ## Basis Data (Basdat)
 
+**Kelompok:** MK Wajib Fakultas  
+**Jumlah SKS:** 4  
+**Prasyarat:** Dasar-dasar Pemrograman 2  
+
 Matkul ini mempelajari _database_, lebih tepatnya SQL dan pada prakteknya menggunakan PostgreSQL. Walau begitu, isi matkulnya tidak hanya SQL.
 Pertama, kita akan diminta mengubah _requirement_ menjadi Entity Relationship Diagram (ERD) atau Enhanced ERD (EERD). Kemudian, ERD tersebut dipetakan menjadi tabel-tabel relasional.
 Barulah dari situ bermain-main dengan SQL. Setelah itu juga ada materi lain seperti indexing, normalisasi, dan diakhiri dengan relational algebra.
@@ -71,6 +75,10 @@ Oh ya, matkul ini terkenal sulit di kalangan kating, namun sepertinya di angkata
 
 ## Advanced Programming (Adpro)
 
+**Kelompok:** MK Wajib Program Studi Ilkom  
+**Jumlah SKS:** 4  
+**Prasyarat:** Dasar-dasar Pemrograman 2, Pemrograman Berbasis Platform 
+
 <blockquote class="blockquote">
   <span class="mb-0">This course will focus on the programming in the large.</span>
   <footer class="blockquote-footer text-right">slide "course overview"</footer>
@@ -101,6 +109,10 @@ untung diangkat UAS. Tips untuk menjawab UAS kira-kira baca buku Head First Desi
 
 ## Operating System (OS)
 
+**Kelompok:** MK Wajib Program Studi Ilkom  
+**Jumlah SKS:** 4  
+**Prasyarat:** Pengantar Organisasi Komputer 
+
 Untuk matkul ini mungkin pendapatku agak beda mengingat dosenku beda sendiri, semua kelas lainnya diajar satu dosen legendaris di matkul ini.
 Matkul ini belajar peran-peran dan cara kerja OS, jadi jangan salah kira membuat OS. Beberapa contohnya adalah bagaimana OS menjalankan beberapa _job_ secara
 _concurrent_, bagaimana OS menyimpan dan mengakses file di disk, bagaimana jika ada dua proses yang mengakses _resource_ secara bersama-sama,
@@ -127,6 +139,10 @@ diperiksa dengan cepat. Katanya sih soal OS memang didesain seperti itu.
 <figcaption class="img-caption">Contoh soal OS lagi.</figcaption>
 
 ## Teori Bahasa dan Automata (TBA)
+
+**Kelompok:** MK Wajib Program Studi Ilkom  
+**Jumlah SKS:** 4  
+**Prasyarat:** Matematika Diskret 1, Matematika Diskret 2 
 
 Waktu PSD dulu, mungkin ingat pernah belajar _state diagram_ seperti ini
 ![State diagram](state-diagram-psd.png)
@@ -163,6 +179,14 @@ dari Firman kalau [slide Stanford](https://web.stanford.edu/class/archive/cs/cs1
 
 ## Sistem Cerdas (SC)
 
+**Kelompok:** MK Wajib Program Studi Ilkom  
+**Jumlah SKS:** 4  
+**Prasyarat:** Statistika & Probabilitas, Struktur Data & Algoritma, Matematika Diskret 1 
+
+<blockquote>
+  <strong>Update 15 Maret 2022:</strong> Mata kuliah ini digabung dengan Data Science and Analytics (DSA) menjadi mata kuliah Kecerdasan Artifisial & Sains Data Dasar (KASDD).
+</blockquote>
+
 Matkul ini salah satu matkul yang saya sodok. Seharusnya, matkul ini diambil di semester 5. Di matkul ini, kita belajar tentang _artificial intelligence_, yang kebanyakan tentang algoritme-algoritme "cerdas".
 ![Contoh algo SC](contoh-algo-sc.png)
 
@@ -191,6 +215,10 @@ Biasanya, ketika mengerjakan WS saya melihat contoh solusi dari kelas SC tahun l
 di kelas hanya untuk mendapati kalau kita tidak tahu apa-apa di ujian.
 
 ## Analisis Numerik (Anum)
+
+**Kelompok:** MK Wajib Program Studi Ilkom  
+**Jumlah SKS:** 3  
+**Prasyarat:** Aljabar Linear, Matematika Dasar 2 
 
 Sama seperti SC, ini juga matkul yang saya sodok. Bedanya, matkul ini seharusnya diambil di semester 6. Matkul ini membahas hal-hal numerik misalnya
 error pada saat melakukan perhitungan floating point, sistem persamaan linear (bisa dibilang algoritmenya alin lah), membuat titik-titik menjadi fungsi
