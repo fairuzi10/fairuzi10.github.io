@@ -3,7 +3,6 @@ import 'prismjs/themes/prism.css'
 
 import { Global } from '@emotion/core'
 import styled from '@emotion/styled'
-import axios from 'axios'
 import Card from 'components/card'
 import DarkLink from 'components/dark-link'
 import SectionDivider from 'components/section-divider'
@@ -11,13 +10,20 @@ import Wrapper from 'components/wrapper'
 import { DiscussionEmbed } from 'disqus-react'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
-import React, { useEffect } from 'react'
+import React from 'react'
 import Helmet from 'react-helmet'
 import blogStyles from 'styles/blog'
 import { blogTagUrl, blogUrl } from 'utils/urls'
 import { siteMetadata } from 'settings'
+import rehypeReact from 'rehype-react'
 
 import { COLOR } from '../styles/theme'
+import SuggestionForm from '../components/suggestion-form'
+
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: { 'suggestion-form': SuggestionForm }
+}).Compiler
 
 const Title = styled.span`
   font-size: 2rem;
@@ -86,10 +92,7 @@ export default ({ data }) => {
         <div>
           <Title>{title}</Title>
         </div>
-        <div
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          className="blog-post"
-        />
+        {renderAst(post.htmlAst)}
         <SectionDivider />
         {tagsText}
         <SectionDivider />
@@ -115,7 +118,7 @@ export default ({ data }) => {
 export const query = graphql`
   query BlogPostQuery($slug: String!, $tags: [String]!) {
     post: markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+      htmlAst
       timeToRead
       frontmatter {
         title

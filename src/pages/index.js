@@ -5,13 +5,13 @@ import Wrapper from '@/components/wrapper'
 import { blogListUrl } from '@/utils/urls.js'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
-import React, { useState } from 'react'
+import React from 'react'
 
 import { Card } from '../components/card'
 import { Title } from '../templates/blog-list'
 import { HoverableImage } from '../components/HoverableImage'
 import { blogTagUrl, blogUrl } from '../utils/urls.js'
-import { GoogleReCaptcha } from 'react-google-recaptcha-v3'
+import SuggestionForm from '../components/suggestion-form'
 
 export const Post = ({ node }) => {
   const { date, title, description, tags } = node.frontmatter
@@ -54,8 +54,6 @@ export default ({ data }) => {
     <Post node={node} key={node.fields.slug} />
   ))
 
-  const [recaptchaToken, setRecaptchaToken] = useState('')
-
   return (
     <Wrapper>
       <div className="row no-gutters py-3">
@@ -91,49 +89,7 @@ export default ({ data }) => {
           </div>
         </div>
         <div className="col-12 col-lg-4 mt-5 mt-lg-0">
-          <Card className="bg-grad-green-blue mx-3">
-            <form
-              method="POST"
-              action="https://getform.io/f/7d498883-1801-4258-acb1-9d58cebf7eac"
-            >
-              <h4>Kotak Saran</h4>
-              <div className="form-group">
-                <label htmlFor="name">Nama</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="name"
-                  name="name"
-                  placeholder="Nama (opsional)"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="suggestion">Saran</label>
-                <textarea
-                  className="form-control"
-                  id="suggestion"
-                  name="suggestion"
-                  required
-                  placeholder="Saran konten, penyuntingan, atau apa pun"
-                  rows="4"
-                />
-              </div>
-              <input
-                type="hidden"
-                id="captchaResponse"
-                name="g-recaptcha-response"
-                value={recaptchaToken}
-              />
-              <GoogleReCaptcha
-                onVerify={token => {
-                  setRecaptchaToken(token)
-                }}
-              />
-              <button type="submit" className="d-block ml-auto btn btn-light">
-                Kirim
-              </button>
-            </form>
-          </Card>
+          <SuggestionForm />
         </div>
       </div>
     </Wrapper>
