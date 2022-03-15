@@ -84,6 +84,13 @@ export default ({ data }) => {
             content={siteMetadata.siteUrl + thumbnail.publicURL}
           />
         )}
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta
+          name="twitter:image:src"
+          content={siteMetadata.siteUrl + thumbnail.publicURL}
+        />
+        <meta name="twitter:site" content={post.fields.slug} />
       </Helmet>
       <Card className="mb-4">
         <div>

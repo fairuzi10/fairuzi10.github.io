@@ -31,10 +31,6 @@ const Layout = ({ children }) => {
           content="Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita mengenai hidup seperti perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika."
         />
         <meta
-          name="description"
-          content="Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita mengenai hidup seperti perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika."
-        />
-        <meta
           name="og:description"
           content="Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita mengenai hidup seperti perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika."
         />
@@ -43,6 +39,13 @@ const Layout = ({ children }) => {
           name="google-site-verification"
           content="uu3IRN8Av5aq9r0lEKhIJjoLFIi1T8TFKymt0f-68bk"
         />
+        <meta name="twitter:title" content="Fairuzi10" />
+        <meta
+          name="twitter:description"
+          content="Website pribadi Muhammad Fairuzi Teguh, berisikan cerita-cerita mengenai hidup seperti perkuliahan di Universitas Indonesia (UI) serta Olimpiade Sains Nasional (OSN) Komputer/Informatika."
+        />
+        <meta name="twitter:image:src" content={logo} />
+        <meta name="twitter:site" content="/" />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap"
           rel="stylesheet"
