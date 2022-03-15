@@ -76,4 +76,8 @@ export default css`
   .bg-grad-green-blue {
     background: ${COLOR.gradGreenBlue};
   }
+
+  .bg-green {
+    background: ${COLOR.green};
+  }
 `

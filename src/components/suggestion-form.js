@@ -3,7 +3,7 @@ import { GoogleReCaptcha } from 'react-google-recaptcha-v3'
 
 import { Card } from '../components/card'
 
-export default () => {
+export default props => {
   const [recaptchaToken, setRecaptchaToken] = useState('')
 
   return (
@@ -30,8 +30,10 @@ export default () => {
             id="suggestion"
             name="suggestion"
             required
-            placeholder="Saran konten, penyuntingan, atau apa pun"
-            rows="4"
+            placeholder={
+              props.placeholder || 'Saran konten, penyuntingan, atau apa pun'
+            }
+            rows={props.rows || '4'}
           />
         </div>
         <input
