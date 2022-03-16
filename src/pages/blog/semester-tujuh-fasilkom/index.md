@@ -42,7 +42,7 @@ Untungnya, tidak ada perbedaan topik KP bagi jurusan sistem informasi atau ilmu 
 Jadi kalau merasa salah jurusan, bisa ambil magang jurusan sebelah 😜.
 Selain itu, magang dilaksanakan selama 6-10 minggu.
 Jadi magang tidak bisa digunakan pada mata kuliah KP jika kurang dari 6 minggu dan jika lebih dari itu, cukup diambil 10 minggu saja.
-Magangnya pun dilakukan secara *full time* (40 jam kerja per hari) atau *part time* dengan durasi menyesuaikan sehingga menyamai *full time* 6-10 minggu.
+Magangnya pun dilakukan secara *full time* (40 jam kerja per minggu) atau *part time* dengan durasi menyesuaikan sehingga menyamai *full time* 6-10 minggu.
 
 Bagaimana dengan perusahaan tempat kita magang?
 Apakah ditetapkan Fasilkom?
@@ -57,7 +57,7 @@ Alhasil, banyak perusahaan yang tidak membuka program magang pada periode ini.
 
 Apakah mata kuliah KP tidak jadi dilaksanakan?
 Untungnya tidak, Fasilkom membantu mahasiwanya menyediakan beberapa program magang dengan bekerja sama dengan beberapa pihak dan berkoordinasi dengan angkatan Tarung.
-Saya sendiri alhamdulillah mendapat kesempatanarung magang di [OY!](https://www.oyindonesia.com/) sehingga tidak mengikuti program magang dari Fakultas.
+Saya sendiri alhamdulillah mendapat kesempatan magang di [OY!](https://www.oyindonesia.com/) sehingga tidak mengikuti program magang dari Fakultas.
 Terima kasih abang-abang OY! yang baik hati 😭.
 Pada angkatan selanjutnya, alhamdulillah kondisinya sudah jauh lebih baik sehingga Fasilkom tidak perlu menyediakan program magang sendiri.
 Atau tidak lebih baik ya tapi karena KP jadi ga wajib aja 🤪.
